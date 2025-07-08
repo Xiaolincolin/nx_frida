@@ -1,0 +1,1 @@
+frida -U -f com.qq.e.union.demo.union -l m12_hook.js -o gdt_m12_5.log

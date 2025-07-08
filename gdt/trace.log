@@ -1,0 +1,13 @@
+🚀 [T1] #1 进入 sub_B484  (codeId=213)
+🚩 [T1] #1 Entered sub_1AD18
+🔁 [T1] typeId = 192 → 跳转地址: 0x70888f2fb4 (offset = 0x31fb4)
+🚩 [T1] #1 Entered sub_1AD18
+🔁 [T1] typeId = 208 → 跳转地址: 0x7088907008 (offset = 0x46008)
+🚩 [T1] #1 Entered sub_1AD18
+🔁 [T1] typeId = 144 → 跳转地址: 0x70888fbe38 (offset = 0x3ae38)
+🚩 [T1] #1 Entered sub_1AD18
+🔁 [T1] typeId = 168 → 跳转地址: 0x70888fa89c (offset = 0x3989c)
+🚪 [T1] Leaving sub_1AD18, start tracing next 100 instructions...
+🚩 [T1] #1 Entered sub_1AD18
+🔁 [T1] typeId = 240 → 跳转地址: 0x70888de240 (offset = 0x1d240)
+🚪 [T1] Leaving sub_1AD18, start tracing next 100 instructions...
