@@ -88,12 +88,12 @@ function hook_235F4(baseAddr) {
             console.log("keystream[] = {\n  " + byteHex.join(', ').replace(/(.{60})/g, '$1\n  ') + "\n}");
 
             // Print as uint32_t word[16]
-            console.log("result[16] = {");
-            for (let i = 0; i < 16; i++) {
-                const word = bytes[i * 4] | (bytes[i * 4 + 1] << 8) | (bytes[i * 4 + 2] << 16) | (bytes[i * 4 + 3] << 24);
-                console.log(`  0x${word.toString(16).padStart(8, '0')},`);
-            }
-            console.log("};");
+            // console.log("result[16] = {");
+            // for (let i = 0; i < 16; i++) {
+            //     const word = bytes[i * 4] | (bytes[i * 4 + 1] << 8) | (bytes[i * 4 + 2] << 16) | (bytes[i * 4 + 3] << 24);
+            //     console.log(`  0x${word.toString(16).padStart(8, '0')},`);
+            // }
+            // console.log("};");
         }
     });
 
@@ -130,7 +130,11 @@ function hook_2349c(baseAddr) {
                 data_str = a4.add(8);
 
             }
+            const keyBytes = Memory.readByteArray(data_str, len);
+            const keyHex = Array.from(new Uint8Array(keyBytes)).map(b => `0x${b.toString(16).padStart(2, '0')}`);
+
             console.log(`[+] sub_2349C a4(${len}) bytes:`, hexdump(data_str, {length: len}));
+            console.log("plaintext[] = {\n  " + keyHex.join(', ').replace(/(.{60})/g, '$1\n  ') + "\n}");
         },
         onLeave(retval) {
             console.log('[+] sub_2349C leave:');
