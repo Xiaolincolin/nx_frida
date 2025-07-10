@@ -28,31 +28,36 @@ function toBase64(ptr, len) {
 
 function hook_235F4_bak(baseAddr) {
     const sub_235F4 = baseAddr.add(0x235F4);
-    Interceptor.attach(sub_235F4, {
-        onEnter(args) {
-            this.a1 = args[0];
-            let a2 = args[1];
-            let a3 = args[2];
-            let a4 = args[3];
-            console.log('enter sub_235F4');
-            console.log('[+] a1->', hexdump(this.a1, {length: 32}));
-            console.log('[+] a2->', hexdump(a2, {length: 32}));
-            console.log('[+] a3->', a3.toString(16));
-            console.log('[+] a4->', a4.toInt32());
-        },
-        onLeave(retval) {
-            const ks = Memory.readByteArray(this.a1, 64);
-            console.log('[*] Keystream Block (sub_235F4):');
-            console.log(hexdump(ks, {offset: 0, length: 64}));
-            console.log('[+] sub_235F4 leave ');
 
-            const ks1 = Memory.readByteArray(retval, 64);
-            console.log('[*] Keystream Block (sub_235F4) retval:');
-            console.log(hexdump(ks, {offset: 0, length: 64}));
-            console.log('[+] sub_235F4 leave retval');
-        }
+    // 准备参数
+    const key = Memory.alloc(32);
+    const resultBuf = Memory.alloc(64); // 16 * 4-byte int
 
-    })
+    // 写入 key 数据
+    const keyBytes = [
+        0xbe, 0x3b, 0x81, 0xf3, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
+        0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
+        0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
+        0x00, 0x00
+    ];
+    for (let i = 0; i < 32; i++) {
+        key.add(i).writeU8(keyBytes[i]);
+    }
+
+    // nonce 和 counter
+    const nonce = ptr("0x65a4e57fef44a2a3");  // 64-bit
+    const counter = ptr(0x0);  // 从 0 开始
+
+    // 调用 native 函数
+    const native_func = new NativeFunction(sub_235F4, 'pointer', ['pointer', 'pointer', 'pointer', 'pointer']);
+    native_func(resultBuf, key, nonce, counter);
+
+    // 打印结果
+    console.log("[*] Salsa20 keystream output:");
+    console.log(hexdump(resultBuf, {
+        length: 64,
+    }));
+
 }
 
 function hook_235F4(baseAddr) {
@@ -107,10 +112,8 @@ function hook_2349c(baseAddr) {
             const a2 = args[1].toInt32(); // a2: key 长度
             const a3 = args[2]; // a3: nonce (你可能需要 ptr(args[3]) if it's a pointer)
             const a4 = args[3]; // a4: struct 包含数据长度与指针
-            // this.a5 = args[4]; // a5
-            this.a5 = this.context.x8;
             console.log('====', args[4])
-
+            this.a5 = this.context.x8;
             console.log('[+] sub_2349C called');
             // key 读取 32 字节
             const key = Memory.readByteArray(a1, a2);
@@ -139,6 +142,23 @@ function hook_2349c(baseAddr) {
         onLeave(retval) {
             console.log('[+] sub_2349C leave:');
             console.log(hexdump(this.a5, {length: 32}))
+            console.log('v27 =>value:', this.a5.readU8());
+
+            console.log('a5 format');
+            const tag = this.a5.readU8();
+            console.log('a5 tag:', tag);
+
+            let len, data_str;
+            if ((tag & 1) !== 0) {
+                len = this.a5.add(8).readU8();
+                data_str = this.a5.add(16);
+            } else {
+                len = tag >> 1;
+                data_str = this.a5.add(8);
+            }
+            const keyBytes = Memory.readByteArray(data_str, len);
+            console.log(hexdump(keyBytes, {length: len}))
+            console.log('a5 format final');
         }
     });
 }
@@ -377,24 +397,16 @@ function hook_tmp(baseAddr) {
     // const sub_22C24 = baseAddr.add(0x22C24);
     // Interceptor.attach(sub_22C24, {
     //     onEnter(args) {
-    //         console.log('[*] Entered sub_22C20');
-    //         const val = this.context.x8;
-    //         console.log('[*] Loaded byte from [X29 - 0x8A] =', val);
+    //         console.log('[+] sub_22C24 enter')
+    //         let x8 = this.context.x8;
+    //         console.log('x8:\n', x8)
+    //
+    //     },
+    //     onLeave(retval) {
+    //         console.log('[+] sub_22C24 leave')
     //     }
-    // });
+    // })
 
-    // const sub_22BB8 = baseAddr.add(0x22BB8);
-    // Interceptor.attach(sub_22BB8, {
-    //     onEnter(args) {
-    //         console.log('[*] Entered sub_22BB8');
-    //         try {
-    //             const val = this.context.x29.sub(0x90).readU8();
-    //             console.log('[*] Read byte from [SP + 0x90]:', val);
-    //         } catch (e) {
-    //             console.warn('[!] Failed to read:', e);
-    //         }
-    //     }
-    // });
 }
 
 function hook_main() {
@@ -407,7 +419,7 @@ function hook_main() {
     // sub_235F4(baseAddr);
     hook_tmp(baseAddr);
     hook_235F4(baseAddr);
-    hook_235F4_bak(baseAddr);
+    // hook_235F4_bak(baseAddr);
     hook_2349c(baseAddr);
     // sign的输出
     hook_sign(baseAddr);
