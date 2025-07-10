@@ -128,14 +128,14 @@ function hook_2349c(baseAddr) {
             if ((tag & 1) !== 0) {
                 len = a4.add(8).readU8();
                 data_str = a4.add(16);
+                console.log('2349c走堆内存')
             } else {
                 len = tag >> 1;
-                data_str = a4.add(8);
-
+                data_str = a4.add(1);
+                console.log('2349c走inline')
             }
             const keyBytes = Memory.readByteArray(data_str, len);
             const keyHex = Array.from(new Uint8Array(keyBytes)).map(b => `0x${b.toString(16).padStart(2, '0')}`);
-
             console.log(`[+] sub_2349C a4(${len}) bytes:`, hexdump(data_str, {length: len}));
             console.log("plaintext[] = {\n  " + keyHex.join(', ').replace(/(.{60})/g, '$1\n  ') + "\n}");
         },
@@ -393,19 +393,47 @@ function hook_body(baseAddr) {
     });
 }
 
+function hook_1d6f0(baseAddr) {
+    const sub_1D6F0 = baseAddr.add(0x1D6F0);
+    Interceptor.attach(sub_1D6F0, {
+        onEnter(args) {
+            console.log("[+] sub_1D6F0 enter");
+
+        },
+        onLeave(retval) {
+            console.log("[+] sub_1D6F0 time returned:");
+            let time_hex = retval.toString();
+            console.log(time_hex);
+            console.log('time:', parseInt(time_hex, 16)); // ✅ 结果: 1715004)
+        }
+    });
+}
+
+function hook_chacha20(baseAddr) {
+    const sub_23594 = baseAddr.add(0x23594);
+    Interceptor.attach(sub_23594, {
+        onEnter(args) {
+            console.log('[+] sub_23594 enter')
+            const X8 = this.context.x8;
+            const X22 = this.context.x22;
+            const X23 = this.context.x23;
+            const X24 = this.context.x24;
+
+            // 打印当前处理的字节索引和值
+            console.log(`Index: ${X8}`);
+            console.log(`Plaintext Byte: ${X22.add(X8).readU8().toString(16)}`);
+            console.log(`KeyStream Byte: ${X23.add(X8).readU8().toString(16)}`);
+        },
+        onLeave(retval) {
+            console.log('[+] sub_23594 leave')
+            // const X8 = this.context.x8;
+            // console.log(hexdump(X8, {length: 32}))
+        }
+    })
+}
+
 function hook_tmp(baseAddr) {
-    // const sub_22C24 = baseAddr.add(0x22C24);
-    // Interceptor.attach(sub_22C24, {
-    //     onEnter(args) {
-    //         console.log('[+] sub_22C24 enter')
-    //         let x8 = this.context.x8;
-    //         console.log('x8:\n', x8)
-    //
-    //     },
-    //     onLeave(retval) {
-    //         console.log('[+] sub_22C24 leave')
-    //     }
-    // })
+
 
 }
 
@@ -418,6 +446,8 @@ function hook_main() {
     console.log('baseadd', baseAddr)
     // sub_235F4(baseAddr);
     hook_tmp(baseAddr);
+    hook_1d6f0(baseAddr);
+    // hook_sasa20(baseAddr);
     hook_235F4(baseAddr);
     // hook_235F4_bak(baseAddr);
     hook_2349c(baseAddr);
