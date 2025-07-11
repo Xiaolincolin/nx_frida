@@ -433,8 +433,52 @@ function hook_chacha20(baseAddr) {
 }
 
 function hook_tmp(baseAddr) {
+    // const sub_22E90 = baseAddr.add(0x22E90);
+    // Interceptor.attach(sub_22E90, {
+    //     onEnter(args) {
+    //         console.log('[+] sub_22E90 result enter')
+    //         let x8 = this.context.x8;
+    //         console.log('x8:\n', x8)
+    //     },
+    //     onLeave(retval) {
+    //         console.log('[+] sub_22E90 result leave')
+    //     }
+    // })
+    // const sub_22E68 = baseAddr.add(0x22E68);
+    // Interceptor.attach(sub_22E68, {
+    //     onEnter(args) {
+    //         console.log('[+] sub_22E68 v42 enter')
+    //         let x8 = this.context.x8;
+    //         console.log('x8:\n', x8)
+    //     },
+    //     onLeave(retval) {
+    //         console.log('[+] sub_22E68 v42 leave')
+    //     }
+    // })
+    //
+    // const sub_22E88 = baseAddr.add(0x22E88);
+    // Interceptor.attach(sub_22E88, {
+    //     onEnter(args) {
+    //         console.log('[+] sub_22E88 v42m2 enter')
+    //         let x9 = this.context.x9;
+    //         console.log('x9:\n', x9)
+    //     },
+    //     onLeave(retval) {
+    //         console.log('[+] sub_22E88 v42m2 leave')
+    //     }
+    // })
 
-
+    // const sub_230D8 = baseAddr.add(0x230D8);
+    // Interceptor.attach(sub_230D8, {
+    //     onEnter(args) {
+    //         console.log('[+] sub_230D8 v36 enter')
+    //         let x0 = this.context.x0;
+    //         console.log('x16:\n', x0)
+    //     },
+    //     onLeave(retval) {
+    //         console.log('[+] sub_230D8 v36 leave')
+    //     }
+    // })
 }
 
 function hook_main() {
