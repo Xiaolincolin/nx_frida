@@ -409,27 +409,67 @@ function hook_1d6f0(baseAddr) {
     });
 }
 
-function hook_chacha20(baseAddr) {
-    const sub_23594 = baseAddr.add(0x23594);
-    Interceptor.attach(sub_23594, {
-        onEnter(args) {
-            console.log('[+] sub_23594 enter')
-            const X8 = this.context.x8;
-            const X22 = this.context.x22;
-            const X23 = this.context.x23;
-            const X24 = this.context.x24;
+function hook_20720(baseAddr) {
 
-            // 打印当前处理的字节索引和值
-            console.log(`Index: ${X8}`);
-            console.log(`Plaintext Byte: ${X22.add(X8).readU8().toString(16)}`);
-            console.log(`KeyStream Byte: ${X23.add(X8).readU8().toString(16)}`);
+    const sub_20720 = baseAddr.add(0x20720);
+    Interceptor.attach(sub_20720, {
+        onEnter(args) {
+            console.log('sub_20720 enter')
+            this.a1 = args[0];
+            this.a2 = args[1];
+            this.a3 = this.context.x8;
+
+            // 打印 a1
+            const flag1 = Memory.readU8(this.a1);
+            if ((flag1 & 1) === 1) {
+                this.len1 = Memory.readU64(this.a1.add(1)).toNumber();
+                this.ptr1 = Memory.readPointer(this.a1.add(2));
+            } else {
+                this.len1 = flag1 >> 1;
+                this.ptr1 = this.a1.add(1);
+            }
+
+            // 打印 a2
+            const flag2 = Memory.readU8(this.a2);
+            if ((flag2 & 1) === 1) {
+                this.len2 = Memory.readU64(this.a2.add(1)).toNumber();
+                this.ptr2 = Memory.readPointer(this.a2.add(2));
+            } else {
+                this.len2 = flag2 >> 1;
+                this.ptr2 = this.a2.add(1);
+            }
+
+            console.log('[sub_20720] Called');
+            console.log(`[+] a1.len = ${this.len1}`);
+            console.log(`[+] a1.data = ${this.ptr1}`);
+            console.log(hexdump(this.ptr1, {length: this.len1}));
+
+            console.log(`[+] a2.len = ${this.len2}`);
+            console.log(`[+] a2.data = ${this.ptr2}`);
+            console.log(hexdump(this.ptr2, {length: this.len2}));
         },
+
         onLeave(retval) {
-            console.log('[+] sub_23594 leave')
-            // const X8 = this.context.x8;
-            // console.log(hexdump(X8, {length: 32}))
+            const flag3 = Memory.readU64(this.a3); // *a3
+            const isHeap = (flag3 & 1) === 1;
+            let len3, data3;
+
+            if (isHeap) {
+                len3 = Memory.readU64(this.a3.add(8)).toNumber();
+                data3 = Memory.readPointer(this.a3.add(16));
+            } else {
+                len3 = flag3 >> 1;
+                data3 = this.a3.add(8);
+            }
+
+            console.log(`[+] a3.len = ${len3}`);
+            console.log(`[+] a3.data = ${data3}`);
+            console.log(hexdump(data3, {length: len3}));
+
+            console.log(`[+] sub_20720 returned: ${retval}`);
         }
-    })
+    });
+
 }
 
 function hook_tmp(baseAddr) {
@@ -468,15 +508,17 @@ function hook_tmp(baseAddr) {
     //     }
     // })
 
-    // const sub_230D8 = baseAddr.add(0x230D8);
-    // Interceptor.attach(sub_230D8, {
+    // const sub_230DC = baseAddr.add(0x230DC);
+    // Interceptor.attach(sub_230DC, {
     //     onEnter(args) {
-    //         console.log('[+] sub_230D8 v36 enter')
+    //         console.log('[+] sub_230DC v36 enter')
     //         let x0 = this.context.x0;
-    //         console.log('x16:\n', x0)
+    //         let x1 = this.context.x1
+    //
+    //         console.log('v36:\n', x0, x1)
     //     },
     //     onLeave(retval) {
-    //         console.log('[+] sub_230D8 v36 leave')
+    //         console.log('[+] sub_230DC v36 leave')
     //     }
     // })
 }
@@ -490,6 +532,8 @@ function hook_main() {
     console.log('baseadd', baseAddr)
     // sub_235F4(baseAddr);
     hook_tmp(baseAddr);
+
+    hook_20720(baseAddr);
     hook_1d6f0(baseAddr);
     // hook_sasa20(baseAddr);
     hook_235F4(baseAddr);
