@@ -372,7 +372,8 @@ function hook_body(baseAddr) {
     Interceptor.attach(sub_1AFD0_ptr, {
         onEnter(args) {
 
-        }, onLeave(retval) {
+        },
+        onLeave(retval) {
             const out = this.context.x0;  // 或 args[1]
             const tag = Memory.readU64(out);
             let ptr, len;
