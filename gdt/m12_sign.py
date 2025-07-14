@@ -118,9 +118,6 @@ class M12Sign:
         md5_result = hashlib.md5(md5_str.encode()).hexdigest()
         return md5_result
 
-    def get_second_flag(self):
-        pass
-
     @staticmethod
     def get_ts_hex(sign_ts):
         sign_ts_hex = hex(int(sign_ts) & 0xFFFFFFFF).replace('0x', '')
@@ -128,10 +125,10 @@ class M12Sign:
 
     def get_sign(self):
 
-        sign_ts = '1740278289132' # 当前时间
+        sign_ts = '1740278289132'  # 当前时间
 
         # 都和params有关
-        params_ts = '1740278289115' # 当前时间
+        params_ts = '1740278289115'  # 当前时间
         key_ras = self.get_key_rsa_tmp()
         params_aes = self.get_params_aes_tmp()
         param_nonce = self.get_nonce_tmp()
