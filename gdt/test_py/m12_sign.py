@@ -126,7 +126,6 @@ class M12Sign:
     def get_sign(self):
 
         sign_ts = '1740278289132'  # 当前时间
-
         # 都和params有关
         params_ts = '1740278289115'  # 当前时间
         key_ras = self.get_key_rsa_tmp()

@@ -39,6 +39,7 @@ class M12:
     def test_key(self):
         # 明文（hex）
         plaintext_hex = self.get_key()
+        print("plaintext_hex:", plaintext_hex)
         plaintext = bytes.fromhex(plaintext_hex)
 
         rsa_key = self.get_rsa_key()

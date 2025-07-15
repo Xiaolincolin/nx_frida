@@ -1,0 +1,44 @@
+syntax = "proto2";
+
+message DefaultInfo {}
+
+message M12Params {
+  optional AppInfo app_info = 1;
+  optional DeviceInfo device_info = 2;
+}
+
+message AppInfo {
+  optional int32 flag = 1;
+  optional string ts_nonce = 2;
+  optional int32 status = 3;
+  optional string unknow_1 = 4;
+  optional string js_version = 5;
+  optional string sdk_version = 6;
+  optional string os_version = 7;
+  optional string model = 8;
+  optional DefaultInfo default_info_1 = 9;
+  optional DefaultInfo default_info_2 = 10;
+  optional string package_name = 11;
+  optional string network = 12;
+  optional int32 network_type = 13;
+}
+
+message DeviceInfo {
+  optional DefaultInfo default_info_3 = 1;
+  optional string unknow_2 = 2;
+  optional string qm_uin = 3;
+  optional string brand = 4;
+  optional string k_list = 5;
+  optional DefaultInfo default_info_4 = 6;
+  optional string unknow_3 = 7;
+  optional DefaultInfo default_info_5 = 8;
+  optional DefaultInfo default_info_6 = 9;
+  optional DefaultInfo default_info_7 = 10;
+  optional DefaultInfo default_info_8 = 11;
+  optional string system_info = 12;
+  optional DefaultInfo default_info_9 = 13;
+  optional string platform = 14;
+  optional string ts = 15;
+  optional DefaultInfo default_info_10 = 16;
+  optional string unknow_4 = 18;
+}
