@@ -3,6 +3,7 @@
 # @Function:
 # @Author:
 # @Time: 2025/7/2 14:12
+import json
 import os
 from base64 import b64decode, b64encode
 from Cryptodome.Cipher import PKCS1_v1_5
@@ -138,7 +139,7 @@ class M12Params:
         return unpad(cipher.decrypt(ciphertext), AES.block_size)
 
     @staticmethod
-    def create_params():
+    def create_params(check_b64):
         m12_params = params_pb2.M12Params()
         app_info = params_pb2.AppInfo()
         device_info = params_pb2.DeviceInfo()
@@ -146,7 +147,7 @@ class M12Params:
 
         # 组装app_info
         app_info.flag = 1
-        app_info.ts_nonce = "1752560312003dc0f57a2b96f07be"
+        app_info.ts_nonce = "1752568612521edd1e00bae86eac0"
         app_info.status = 0
         app_info.unknow_1 = "0AND05YQXE52BNH0"
         app_info.js_version = "2.1.2.17"
@@ -161,11 +162,11 @@ class M12Params:
         # 组装device_info
         device_info.default_info_3.CopyFrom(default_info)
         device_info.unknow_2 = "35"
-        device_info.qm_uin = '{"QmUin":"1752560312003dc0f57a2b96f07be"}'
+        device_info.qm_uin = '{"QmUin":"1752568612521edd1e00bae86eac0"}'
         device_info.brand = "google"
-        device_info.k_list = "k1:2025-06-06173101.558333356+0800;k2:2025-06-06173128.228336013+0800;k3:0000000000000000;k4:8a196b9a3e36b6db;k5:13106683;k6:12786688;k7:215040;k8:2800;k9:e7ce6953-761e-4864-a8f6-ccd87a76a7dc;k11:171;k12:4;k13:2025-06-06173128.228336013+0800;k14:2025-06-26153944.322408685+0800;k15:2954;k16:16;k17:2025-07-15141831.350423890+0800;k18:2025-07-15141831.350423890+0800;k19:605185;k20:4;k21:2025-07-15141831.350423890+0800;k22:2025-07-15141831.350423890+0800;k23:605186;k24:2;k25:2025-07-14141202.741778138+0800;k26:1970-02-19064925.840000631+0800;k27:22042;k28:15;k29:;k30:;k31:;k32:;k33:2025-06-06173128.785002735+0800;k34:2025-06-12191233.638222757+0800;k35:3773;k36:17;k37:2025-06-06173128.785002735+0800;k38:2025-06-06173128.785002735+0800;k39:3772;k40:5;k41:;k42:;k43:;k44:;k45:2025-06-06173123.808335573+0800;k46:2604;k47:2025-06-06173101.478333348+0800;k48:2025-06-06173103.768333576+0800;k49:2025-06-06173123.865002245+0800;k50:2606;k51:;k52:;k53:;k54:2025-06-06173101.478333348+0800;k55:99;k56:2593;k57:2605;k58:2025-06-06173113.881667917+0800;k59:2025-06-06173113.881667917+0800;k60:1990;k61:5582;k62:2025-06-06173124.188335610+0800;k63:2627;k64:2025-06-06173123.511668876+0800;k65:2599;k66:171;k67:2025-06-06173106.721667204+0800;k68:382;k69:;k70:113;k71:2025-06-06173101.478333348+0800;k72:114;k73:2025-06-06173101.481666682+0800;k74:2025-06-06173106.821667214+0800;k75:;k10:1"
+        device_info.k_list = "k1:2025-06-06173101.558333356+0800;k2:2025-06-06173128.228336013+0800;k3:0000000000000000;k4:8a196b9a3e36b6db;k5:13106683;k6:12786688;k7:215040;k8:2800;k9:e7ce6953-761e-4864-a8f6-ccd87a76a7dc;k11:171;k12:4;k13:2025-06-06173128.228336013+0800;k14:2025-06-26153944.322408685+0800;k15:2954;k16:16;k17:2025-07-15163651.947917450+0800;k18:2025-07-15163651.947917450+0800;k19:659358;k20:4;k21:2025-07-15163651.947917450+0800;k22:2025-07-15163651.947917450+0800;k23:659359;k24:2;k25:2025-07-15144420.113911509+0800;k26:1970-02-19064925.840000631+0800;k27:22042;k28:15;k29:;k30:;k31:;k32:;k33:2025-06-06173128.785002735+0800;k34:2025-06-12191233.638222757+0800;k35:3773;k36:17;k37:2025-06-06173128.785002735+0800;k38:2025-06-06173128.785002735+0800;k39:3772;k40:5;k41:;k42:;k43:;k44:;k45:2025-06-06173123.808335573+0800;k46:2604;k47:2025-06-06173101.478333348+0800;k48:2025-06-06173103.768333576+0800;k49:2025-06-06173123.865002245+0800;k50:2606;k51:;k52:;k53:;k54:2025-06-06173101.478333348+0800;k55:99;k56:2593;k57:2605;k58:2025-06-06173113.881667917+0800;k59:2025-06-06173113.881667917+0800;k60:1990;k61:5582;k62:2025-06-06173124.188335610+0800;k63:2627;k64:2025-06-06173123.511668876+0800;k65:2599;k66:171;k67:2025-06-06173106.721667204+0800;k68:382;k69:;k70:113;k71:2025-06-06173101.478333348+0800;k72:114;k73:2025-06-06173101.481666682+0800;k74:2025-06-06173106.821667214+0800;k75:;k10:1"
         device_info.default_info_4.CopyFrom(default_info)
-        device_info.unknow_3 = "b16d03d2f79152af377f756e7fafdfca954b3746db6df7db51aa37afdfdf5f46"
+        device_info.unknow_3 = "df5abd5bc6536767086732bdd03525d05a3dc68e08500870bd9a5b3adb329e22"
         device_info.default_info_5.CopyFrom(default_info)
         device_info.default_info_6.CopyFrom(default_info)
         device_info.default_info_7.CopyFrom(default_info)
@@ -175,7 +176,7 @@ class M12Params:
         device_info.platform = "Phone"
         device_info.ts = "1752459011"
         device_info.default_info_10.CopyFrom(default_info)
-        device_info.unknow_4 = "lLdF9dILb92dOPYBihkbhmiDUF63PIryW83PpKZ1u21q7RFssq6SBYUoJ0Qrj1xs06lFMbjk7DhC6luTb/dTLPRAmmu74ye2DeOT2nrjTCwS/RqfTx7pRZBIPj1yk5kUD5z5eDqLV7AhK7zb9BzIEzvZvRr9fnYhT8Z7O/he0T40JJrm97J5508vIqDjRwQszew6Z7rpc4WGZF424pD3GbXVVGhEKAfPb1AgFiodgMIJVpYwsa4Djich26SDCUMRtUGVvjVcuv6H3tziarhkwQ=="
+        device_info.unknow_4 = check_b64
         m12_params.app_info.CopyFrom(app_info)
         m12_params.device_info.CopyFrom(device_info)
         return m12_params
@@ -223,15 +224,39 @@ class M12Params:
         return m12_sign
 
     @staticmethod
+    def get_check_info():
+        check_info_ori = {
+            "0": 1752569137,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": "",
+            "15": 1,
+            "16": 0,
+            "17": 642918629,
+            "18": "guocao.tencent",
+            "2": [{
+                "2.1": ":\/memfd:frida-agent-64.so",
+                "2.2": 0
+            }],
+            "20": 3,
+            "21": 2,
+            "22": "arm64-v8a",
+            "23": [],
+            "25": 1
+        }
+        return json.dumps(check_info_ori, separators=(',', ':')).replace('\\', '').replace('/', '\/').encode()
+
+    @staticmethod
     def test():
         data = {
             "crypt": "1",
             "extra": "{\"appKey\":\"0AND05YQXE52BNH0\",\"crypt\":\"1\"}",
-            "key": "ni6scW3CcU8Uhzb0jjQZNKaXbSUwLZWHXMBWhA0YYDCrxfn32K13Y6zuNYDb3NEeza\/59XuE8GDyoxQ5HVI2PHV4tzpjgiyTL14t8qQl9qLOvjrNA3hMeVyEhRDzlHoz2RcQxDBr8HBJrArD7MqyJWCQ+cc+X\/BymEIuHNyhTVQgVxrJC\/NWtQw02PPZTMLCZhwHxKmhJv6v0EbUFfWURR9BS4e+K0BWpg63PmxTPwvOqDMjyilschyTvqVQ+l2SHJsgUNyknEwprQr3LKy5xaT+oJpCs3WQ4JQ3HRDjDEYry+RojsL3NOkQJGLC0uXKXIoL\/RNhdH341DuNii9Klg==",
-            "nonce": "ac22249c91a09a12",
-            "params": "iUlietJ+ryOsKucPw7TomWjtWEZWkhyuKPr4Efj3eWHq\/98Je+3tgHiCuRNxCYxGnDrBg78DQrxijQQOreR0bxAZiYtAyTAQLL28whS5K9Bivd6KrfrL\/6ukUF1IEORsJ1eInaS00m5BWxOwyRdGEHlh3+DzbLVMyXhFSsChLQcQ\/KKcOZTOwGml9vfbrAa\/LDRcwk3mH3MXFFh+9sqXjRVHDA+1njvFGhhWZOeuHWn6HG7hnUgSnwul7MtMe5115UNHKwFGusO3aZXrUJE0qjI7O7LLR79Yk2hUXQSZo+AEKvIvbva23Si17IY2uSlYxE8UyCVtaAQ4hsnQEudpMGyPQmlsSP6cJnyjakWFuPKFtRAUujEW74uPBD0yru4oYw5NueyoYYDgTznnsBPdWT6fndl7mdkJilcLWy+yzOeNgg+O8UVeWmY5tFAs8rnFxad+PMxS8lALOQBHNSj2yjYStVUearOnF1wmRI85dyj84sNvqwv\/T6Wvzw44YdRXVAKjj+sw9ZEsez1dRAVMVxzNUTX4HEi6ms\/i53Trs3jldAyhiNzDCqZsWWTyv3Od8pBdXssioZuWTOeSMMHxMtwfv\/HzkChnL8cLpbqh6+1Ly9\/hQvq4RfEvII6i0iN4iINPVK0ZmkdTUfa\/ZCdgxRkoyxvDISEZ3cFJqF3t0ndyBjYEP9tB\/PQYx2lb4\/acYxi0z96kyO4sil6uFRQ+zSrLCheSLTXcr5PeRSiRZ+PH3EORuSONZoxzuRZUqfiv8JLtNE\/Obx\/f+FB9MI4faa0QZrmfigtfh3itGWgcPQSWUC0Cy8APuNjIuwIFJDg5KzfLk8L60d0zeb2KxhuDbeJjMG5gHjHBtcyew6FVsnu81ACkuSfn1\/fRgMKuEy1HuogdcSIhPJsulNzHFXndUptrYKzfsqYtANd\/btXBcsiA8bRC4YSfDdqbjrYAeDq5IB5biP2jhOcqNuDewkZw9N4u56VGhZ\/YSBoZNNyeQxExKkWDao\/q6uI80tsERtfC\/+3qcJx8EnmYxh83tx+OQnmJi69Us6tPuz5s7bYYLf9et3\/bQd+URfSNdyCeL0FBTR621KHJjFl\/eJ8bi0EJdZETzbq7kxsXeflCnw2MSkWl+cu4Ny\/cIUrXar1AKP1+Z3Hj8xbfiuYQ4m9zCCaP0VFrPlaYLoTwflaBcFtbwEwra2lfO8o0acTL8f79XkhMyVY5yn8CJ2UsHdxJHleUL1YN0h308cOrfZ3TqhPR0B3Iw1C8GpU5XfkbOSRLM1fl7G1fluHkHGZTTfnE3J6X5RblRpsd1LN0WjAPwGccMOfbeNKpAWRiK9HTUMYNlx+KMnV7lH77ig64L\/wBnTjXshI7dzib4GgmA+qQX7PN5QfBAhScS2Fga3FlnXh16HTv2YcD4hZuNNPhkKh+VFR9FO9TcXsVkh9AzeLCmbq\/VnS5WIBDp3bBYwhyk3tjCC4bvHyWhF6CcuDfdVZlOn99ZPXbX0K5o4uhjCDs6T8TOtDWb02PJ\/Yxy5mu0DIRYG8HhMZoP8+SN4EWn43tnx3\/qDm4QwLZm2UZzzVeq+L6S6HMpvnYBPO35rYAm6qExChYPloL3X1M9xjb1nLQq4WJM8ZIlD5+dANf9TBQ6oHeAR6SxIghmvhn6npjH0uQCL+sTWM612Loo2elk9Xq6z005e70qoSkZsFoHUvOVKar8dRBnemsaANFtsLa\/vOwSr2gD9oDTmhtHgOOc0FQ2JgwfojH7KMNippMEije0GtAowadR8kBczPioMFqO0dUz+2QHProE1t7GI97aSoZP\/iduyGNvfkEpUKRDcZ\/HVMsNB5yiW7G0TYF6cxTOTvKmq+Hqb1Js3J9jpDxZ4DOOkCzdnb6eBVum6h5Q5lmxQDQ7uVdD9IIKoGpd6oFompD20plZw73ExCizPAE7FIezyrua2L+Wqr8OD1NGOKpCeujcEDc\/KnXRkoMGDRt2Gqo97IFC+X\/dRfavhVjKY8ZE6NC3teJhC7acFhSyVVsYgCcmHLn0Sc0ut2VVNKCS0nVmHyZWY2X7EfE46aOA1ZuyXUU6lunIn6QGRLzhCo+UROk05sVc7aFcDXw0xiBYqnx24iCm6iV6H4vmZ56izwn6GkMw0OROtQ+Dmt0w08guei0v0RE6Gzv8IyaNvBDpo9K1DAc2tufNW68SKTGIKlAXbS08f9ZxjHWiq6HjnBmh5VG62De243TTAtdgW9dJehRzVOGLX2azjti3280O4JTT47keWktEVnO4vooX7IcDOJtpmSKJTt0kfUCh2p47m6ibvHoWYc5oPbV4u2wBQ1KV1zVPqAmb22dgnKs7xHJQHKxEw6gVg+hDWKG2T5e\/YjWU7IrINiZmjfJ4P4vlL\/jEvcFIlxdNzjS5kaV3Musq1sJpXE1Oo1ozygCcb19mmpQd1HY\/WI689AK2lu29jBAarYUKX+oO0XCqfkNrdfNCZSitl8MlKPMGWhWN57zdGQ1h9NLA0XNQ8oarveanfrSzf0cJbb3TUBHwkJ3txqI6zTEPcEQAAzEL52EYlPBjX\/fZAIohN6WXXeaUFfbAl0yRvtJ5OUV481i4h4m\/xI3wdsjd+xTxhUiQNYo2B52+XY3TO0vRLxvIqblcsgP72bAat6Ahh12DDxlDtlegK9bQDuzHLkA7s\/2eufeItdcMSM9E6TiLDSweN+CHgaNJiMap9jx9Wy4SBMb1Mxrj3HE4L+AzVz34X\/3SAacy28CgEG4I3X81Ag\/3tO2lKbgsN19Ab4Vckm5Ptcs0HFbk5vfslnFNxyvltT41MEh74ECAboKcTs2G\/Q\/Kdijid0Q2JH41kjn26e1q9TFOIAsQll1sBQotzUkxFhx3Luxsn+33n2x\/fAEYZSkQLHEAwLkboK4KgmIxVptTfRJtK2lcAOyPK2TMvQQ0lvZLv6IKQItMz2M6gpN+CkW5F687y1h\/cjZpsaHwmnoerDk5o8Vw2kp37MmiH1Hh6SwcX71IWdPVED7+GQbZIvFMzXYupEEsXaF7qoQwuwR872ZkYTzM5lVS3fB6KamZePcXJRHqcsqMxp5Rc2gl34oUyhkxaJ2DUMipvRufq0Q8oE4GiN0UVaF+Um+eg8zzvYVLfbwx\/69V4PCUrcM+\/viCY4Wh3c6KLvE8s9Dyj5OY3LemkBwCuhGQh+tmhRah8dXJF\/3rTPOoct9il1GcZuy4vjbyxSF4rymuqo2yErnLlkwcvfQQZ8CBjp2mpmtQBIa64vj1WjROxlB026XF7vGaZ8gRCdp+9wuHM1kw0tbK4kLT0EW6aoFSJ0LGGdG52AYEeUfkNsxTzKqALbp\/MtF58qqlBKAtgvLC6B3fg==",
-            "sign": "4c4385108ebb0cbc2270bc54088ea84ac729f7bffc73c7b44f0b0000000000000000",
-            "time": "1752560312922"
+            "key": "OS+rKHoN5X5LbCqT6rREr5oUeEfib+Tr7KWFHWjdjhfB5gUlbUUOy1peAsQ9LrH8yHU6WM4Jvdj839mtUWT9k+6HkTg0WH+li\/X8kT5cTwPWDi2VKbqjDyOvlfj2Y7QD0jtoa+yaHYoavf0NleCwJuJaBJ9ZISA6xC3eT4wZJSvUmYDrBW+c5XgcJWLylzuwUJ3Z244CXYZjQESlcyCEXP+SEKeoexaFvj4uWhWDJdBo2iAlbnYyXekXfLrq5cGkUsHt9rG9aITqRkDRhce0T+b4ID09XBArobohKddwmxPasqKnMIyxoojlI3CsABewhRfWXS225kqWB2mFcn1x3A==",
+            "nonce": "1b33c64e0e66b39b",
+            "params": "YabqSC+rhODm6g4Dz0qZOSD53u8Dq54R3vf4H\/FjSzR+TaHRthPPs3DNpadlD+eTmCSEBP4mHMsV9\/huk94NQ1qXtavyo8lkrSff3dCQ\/0KVabu5EZE1tVCx3kZ+BUZS9ltITRdhDMaOyvqHpVSSrFQFu8iTMtn0bXaMNyxBNTd4JAwUAM3GcswepQ6q9WZ5y68eX7R3D08187\/L5hniXtZ2AQna4MbkUVtCGJHcXb0C7Oz+MOZrHLinFBFuzS2Cr5e+0OMVGt7y6Ryr9P\/UUHC67ZP7UJ0IgL3CwYvIeyqFjSQJKTGa6LwSQcFvWmbiKsLGMpvZHVWCaymxUXx9nGSU0qnsARhGMPgE\/cVjZtKFUY2FcHVjTmChZ3xH6hytFsNxY+zdWFWMciapJDcrAALSMtkuis7obp6iwjxdVe0sOq6EehL1H7HNFXXl0td28IzkNSwhVVROmx8N73d2zdOnJqsn4sn85tzLNtX5WdsofyeGjxS\/7PZwtTT8vPNpcKUOZFcEjRkJIJZls3gsk0bgaK3H4hB\/hNZ2mKJNgjHQdpQv1mchNAx+RqRCDExmt2UeKBa6P\/E3+a+UGxzTh7ElvV6Y5o9d85uL9VG\/GwAXFSZORFncdB6IA9TXkWbqUw4O3WF\/M0yQ2EvwxGPwT6DkBHjkEO2tuIzM2cdDC7sg4KNIT7adxn4Vx+ef38BDh34rEUdG7jyDTzJx3WxQ1n1Fgovkr2NLi7k69PGtQObgJvviE1wjvzBzGvy665EtfHdqEGrmkd9xT3AtqH7wHCWqXZv9w1TpaEAsbeuDJF+jXto2R+GTtMz584mFY71HCARfRp4qjmTPICt2WfUApjsMOO9qd4fD8klFpOM+6cmDsWHh3I8H3gjH0i6WhyPKsdoMt4\/0NKskNMj6hJueRgp0QJ1XoNw2NVqzwPIx3zGyIzlwiTqiArXGmD\/t8qYThYtT5d36NhdzVQi4WBdIbMSYG2PECDlEV4YLZLa19iQhkfr3a43T4MyQXs0Mtgw5vGRj5d+1Q7R61x\/XQtJYFiI8YyVtlDCbJ0BK\/izDU1qY8c\/+QVIPVawVU4L\/IfwPCpNj0MbUWLAIZ5hA9LkXsLPSphqulY+KAI\/Do6MtLb03CWRgKMsUmAGgE5bCxe4mTw3h1Y8hGnLSJb5NIn+MY989ye4zMo4P\/9teo7Rl9axCOAeBFZCIA3zUC2wE4UT13kZIe1D5fiNRN7Kwx9VZ\/2QbqyKZtcW7GPws7XINsqrw4z4VcRjR4aemWwQExoxVexmLOTS42L1GItGMZ5XTyIj8S1V8sux9xwBLUR5jH3h5kXwidGc3whNYUtP918\/T28rsGViZk70LzG+IS\/xHEXj31q3NujMa75P1bSG868TDGRwdW790ak4shQKeqOChEARIrsKDRSWMZgiDqdcPnZL8b3uYw68C7hKVp2LpggAKASKUFRnWr3YK4uzxmBuS8JR1eEq8cDW2m5X5DaOWNYjjqt+MJ\/MSfCRPeh5UvtSg58dKUuU1myQlwLZUdfvSo9N5hNhUxv6vy6l\/FyQ4VxH6aN5llv7INsEe\/AQgww3WUJrX+CcHkEWglwLzhVfNw2AiT+US4dqWU+wSEw0QgO8i9JNWacZPixiv3x5eNHT5hzVGxrffUMxaXL7kdlayuJrq7Ly19jj4lDdZXvaX2pT\/cTIQE7s4fCKbjhOsvL1EktFt217XHtLN6BYEyz75tqCs8KnHuBZPrYaAyZ4BslMNGw5EyC61QDKm2CL2aLY6NLrm+kKYUMsE9HAJeH8w59sCvet4P4m5oYEHwQKLlDWFydLdYNRyjubzv\/aXQ1CCnulf7Qb953WQYfJw3W20zuQyijg21ET9NYTbEKONx4sunks2+EhXRIq4hgdBBVqvoPefQ3FQXG4XulVlqN2EhqyUNULE\/V8wKNk4C1NrTlZeud6xdY3IWDceWsxMKhNAXox31pIjN\/Hnr8C8noRF8kSBoT5v6QCah72\/by5HkzLgNphk71Tvb+eNLNaBEc3b4A9mRYnU14dG5rubaLEqX9UYZ3SUDb+6OlzJCMQobIkXmn3i6rPnoOVSJI5nkdRaozlqrbcRNX8dyk1ZKqeSNgzYq5iYclrlieQD+ortusQ6lN1RrJB\/c05Ziy3hdX4f81\/cxbOJ8DN3zjX0zQf+zo9BEQiEp51jBEioFtlveW9dkdgO\/espY+hDOhZpO9vuR+Sff+2\/ccEvoXkJl1NP4ukOmjgV2U3lg3I4JEwbDvYVlo\/0kG7DN6Kx95CztG8MLEjX5KSUno4IpYzmgEQo1bONj7nVyYs6cnwUZexsseKeEV\/rNle4ayiQFvYtXZRwYurp6VJ2LI8wm5GNP4TqdyZoS82m7zwhLLN6MSUCVd4mhO05Rl1\/hO\/aAE7ylI3YTIbFIR7kBoHX0RJxyvXzPWvShuVYNUSGxZoGOY3AlcBeL0UkJipg+P1tF1l975\/Cn0BLedC4Zuw\/ENwwPFXaIXc7+Owj0jvSnDqdE39seG2BQfSrnGvI12QXjEsn7B8SyeirKSLgx62eb8AsQg6cI50dQGgpnh5tuhxR1Csu6M\/oldgzzKIklFExvxNp7b2gbcRzFjysLPnGveMTFgHavv\/mOupA5ZBMxQUw88JJRUqexfSbHdh0KEt2C5SCtpa4HM9vGb2STbwhSjg+N5Mkikv2vFDstxO4lFk3c6NguMMzurh5LFd5fdxS0xWXCEgloVy0kpn3K82BC8CKC+6xQGES00aMtwVy\/SIbgMdbneoFwQjkslcRdC4LMd\/ra0G\/TRTtQBPfwmCCHknnj4DI2nKtodA0qZyQm8UO1f0NY+1pzr9AoVBWYGlJ76pRd1TZ\/IcbbSzNFHbSASmxKbL\/L3do2K9HZMdP65CeMAO6O3yOVuXvbqR6iS5oyL7v5iHXhyLFNR1vwT1FcFFyZGyqGUgoOZUL6yR7By8AidbeJ6gZIa66bNFSmD2PZ3krRx\/y+KN4qplY4zaFA4tuRNAoJNGO1QJJnOvC5b9wH5k\/FL9GCQxLzFmt+YnTlBSyJgZjxyU6lAB80VtolNvP1x2lO4RGoS7cxSGKlprPjK2DSvNE2C\/ZWiQpPk91wlCQBKM2Odcm3B66NqtxRCzUWIlG3jhJbLeCQ+xN4zWT\/j+Vb3TjDAWlwfXqpwyWYKskKEJwkpwVeBj1C45NlriW96+lqdFKLmqksmntNjMv+0CZo6vjlwgjp8KFKTWQQcRANeH5Aq\/MQIEZ8dJRvAhnPpHERvoVPVb0gmunJe+\/gsA82gocN+PKDIMQ0wllnnVHxJ6BILIqyKwetbBRFaxL8XeEEgTNgNnytce2atCcp3A7Jg==",
+            "sign": "4c4385102ccd0d3ac8b0f1c864aa0fb061036abf17d73ce050d50000000000000000",
+            "time": "1752568613022"
         }
         return data
 
@@ -242,13 +267,20 @@ class M12Params:
         second_aes_key = bytes.fromhex(m12_key_ori[0:32])
         second_aes_iv = bytes.fromhex(m12_key_ori[32:])
         # 验证时固定 todo
-        second_aes_key = bytes.fromhex("a3d2b3da6b978edd32fdab291b3508ce")
-        second_aes_iv = bytes.fromhex("e1aaed6d622a8d00df94628270819f8d")
+        second_aes_key = bytes.fromhex("1b7013a5ec217e52bd6bc049f9e8518a")
+        second_aes_iv = bytes.fromhex("0ebe5f888820c93ad63866802440198b")
         # 验证时固定 todo
         print('key:\n', m12_key)
 
         # params计算
-        m12_params_ori = self.create_params()
+        check_info = self.get_check_info()
+        check_aes_key = bytes.fromhex("65626165636665346665343863393235")
+        check_aes_iv = bytes.fromhex("62626633353932366533333231303632")
+        check_bytes = self.aes_encrypt(check_info, check_aes_key, check_aes_iv)
+        check_b64 = b64encode(check_bytes).decode()
+        print('check_b64:\n', check_b64)
+
+        m12_params_ori = self.create_params(check_b64)
         m12_params_protobuf = m12_params_ori.SerializeToString()
         m12_params = self.get_m12_params(m12_params_protobuf, second_aes_key, second_aes_iv)
         print('m12_params:\n', m12_params)
@@ -260,7 +292,7 @@ class M12Params:
         # sign生成
         sign_ts = str(int(time.time() * 1000))
         # 验证时固定时间 todo
-        sign_ts = '1752560312944'
+        sign_ts = '1752568613040'
         # 验证时固定时间 todo
 
         # 都和params有关

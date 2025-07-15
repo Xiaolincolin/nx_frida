@@ -263,6 +263,8 @@ function hook_rsa_key_common(baseAddr) {
                 const keyStr = Memory.readCString(retval);
                 console.log(`[+] sub_111E0(${this.arg0}, ${this.arg1}) 返回字符串: ${keyStr}`);
             }
+            // const keyStr = Memory.readCString(retval);
+            // console.log(`[+] sub_111E0(${this.arg0}, ${this.arg1}) 返回字符串: ${keyStr}`);
         }
     });
 }
@@ -352,6 +354,10 @@ function hook_params_aes(baseAddr) {
 
             console.log(`[sub_1F1C8] Plaintext (${length} bytes):`);
             console.log(hexdump(plaintextPtr, {length: length}));
+            // const backtrace = Thread.backtrace(this.context, Backtracer.ACCURATE)
+            //     .map(addr => DebugSymbol.fromAddress(addr).toString())
+            //     .join("\n");
+            // console.log("[Call Stack]\n" + backtrace);
 
             this.outputPtr = plaintextPtr;
             this.length = length;
@@ -371,6 +377,10 @@ function hook_body(baseAddr) {
     const sub_1AFD0_ptr = baseAddr.add(0x1AFD0);
     Interceptor.attach(sub_1AFD0_ptr, {
         onEnter(args) {
+            // const backtrace = Thread.backtrace(this.context, Backtracer.ACCURATE)
+            //     .map(addr => DebugSymbol.fromAddress(addr).toString())
+            //     .join("\n");
+            // console.log("[Call Stack]\n" + backtrace);
 
         },
         onLeave(retval) {
@@ -386,6 +396,7 @@ function hook_body(baseAddr) {
             }
             try {
                 const str = Memory.readUtf8String(ptr);  // 不给 len，Frida 自动遇 0 终止
+                if (!str) return;
                 console.log("[sub_1AFD0] string:", str);
             } catch (e) {
                 console.warn("[sub_1AFD0] Invalid UTF-8 at offset", e.offset || "?");
@@ -473,6 +484,36 @@ function hook_20720(baseAddr) {
 
 }
 
+function hook_43BDC(baseAddr) {
+    const target = baseAddr.add(0x43BDC);
+    Interceptor.attach(target, {
+        onEnter(args) {
+            this.a1 = this.context.x5.add(0x18);
+            console.log('enter hook_43BDC')
+            console.log('a4:', args[3].toInt32())
+            // const flag = this.a1.readU8();
+            // let len, dataPtr;
+            // if ((flag & 1) === 0) {
+            //     len = flag >> 1;
+            //     dataPtr = this.a1.add(8);
+            // } else {
+            //     len = this.a1.add(8).readU32();
+            //     dataPtr = this.a1.add(16).readPointer();
+            // }
+            // const original = Memory.readByteArray(dataPtr, len);
+            // console.log(`[hook_43BDC]01 enter Plaintext (${len} bytes): \n${hexdump(original, {length: len})}`);
+
+            const backtrace = Thread.backtrace(this.context, Backtracer.ACCURATE)
+                .map(addr => DebugSymbol.fromAddress(addr).toString())
+                .join("\n");
+            console.log("[Call Stack]\n" + backtrace);
+        },
+
+        onLeave(retval) {
+        }
+    });
+}
+
 function hook_tmp(baseAddr) {
     // const sub_22E90 = baseAddr.add(0x22E90);
     // Interceptor.attach(sub_22E90, {
@@ -533,7 +574,7 @@ function hook_main() {
     console.log('baseadd', baseAddr)
     // sub_235F4(baseAddr);
     hook_tmp(baseAddr);
-
+    hook_43BDC(baseAddr);
     hook_20720(baseAddr);
     hook_1d6f0(baseAddr);
     // hook_sasa20(baseAddr);
