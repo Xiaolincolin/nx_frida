@@ -503,10 +503,10 @@ function hook_43BDC(baseAddr) {
             // const original = Memory.readByteArray(dataPtr, len);
             // console.log(`[hook_43BDC]01 enter Plaintext (${len} bytes): \n${hexdump(original, {length: len})}`);
 
-            const backtrace = Thread.backtrace(this.context, Backtracer.ACCURATE)
-                .map(addr => DebugSymbol.fromAddress(addr).toString())
-                .join("\n");
-            console.log("[Call Stack]\n" + backtrace);
+            // const backtrace = Thread.backtrace(this.context, Backtracer.ACCURATE)
+            //     .map(addr => DebugSymbol.fromAddress(addr).toString())
+            //     .join("\n");
+            // console.log("[Call Stack]\n" + backtrace);
         },
 
         onLeave(retval) {
@@ -514,7 +514,210 @@ function hook_43BDC(baseAddr) {
     });
 }
 
+function hook_1BE30(baseAddr) {
+    const sub_1BE30 = baseAddr.add(0x1BE30);
+    Interceptor.attach(sub_1BE30, {
+        onEnter(args) {
+            console.log('enter sub_1BE30')
+            var ptr_to_str = Memory.readPointer(args[4].add(24 + 56)); // result[2]
+            console.log('sub_1BE30 retval Content =', Memory.readUtf8String(ptr_to_str));
+
+        },
+        onLeave(retval) {
+            console.log('leave sub_1BE30')
+
+        }
+    });
+}
+
+function hook_1C514(baseAddr) {
+    const sub_1C514 = baseAddr.add(0x1C514);
+    Interceptor.attach(sub_1C514, {
+        onEnter(args) {
+            console.log('enter sub_1C514')
+
+        },
+        onLeave(retval) {
+            console.log('leave sub_1C514')
+            var ptr_to_str = Memory.readPointer(retval.add(24 + 56)); // result[2]
+            console.log('sub_1C514 retval Content =', Memory.readUtf8String(ptr_to_str));
+        }
+    });
+}
+
+function hook_sub_17DEC(baseAddr) {
+    const sub_17DEC = baseAddr.add(0x17DEC);
+    Interceptor.attach(sub_17DEC, {
+        onEnter(args) {
+            console.log('enter sub_17DEC')
+
+        },
+        onLeave(retval) {
+            console.log('leave sub_17DEC')
+            var ptr_to_str = Memory.readPointer(retval.add(24)); // result[2]
+            console.log('sub_17DEC retval Content =', Memory.readUtf8String(ptr_to_str));
+        }
+    });
+}
+
+function hook_B3A8(baseAddr) {
+    const sub_B3A8 = baseAddr.add(0xB3A8);
+    Interceptor.attach(sub_B3A8, {
+        onEnter(args) {
+            this.out = args[0];
+            console.log('enter sub_B3A8')
+        },
+        onLeave(retval) {
+            var ptr_to_str = Memory.readPointer(this.out.add(16)); // result[2]
+            console.log('sub_B3A8 -> v13 =', ptr_to_str);
+            console.log('Content =', Memory.readUtf8String(ptr_to_str));
+        }
+    });
+
+}
+
+function hook_422E4(baseAddr) {
+    const sub_422E4 = baseAddr.add(0x422E4);
+    Interceptor.attach(sub_422E4, {
+        onEnter(args) {
+            console.log('enter sub_422E4')
+            this.a3 = args[2];
+
+        },
+
+        onLeave(retval) {
+            console.log('retval sub_422E4')
+            let out = this.a3;
+            const tag = Memory.readU8(out);
+            let ptr, len;
+            if ((tag & 1) === 0) {
+                len = tag >>> 1;
+                ptr = out.add(8);
+                console.log('sub_422E4 inline')
+            } else {
+                len = Memory.readU64(out.add(8));
+                ptr = Memory.readPointer(out.add(16));
+                console.log('sub_422E4 走堆内存')
+            }
+            try {
+                const str = Memory.readUtf8String(ptr);  // 不给 len，Frida 自动遇 0 终止
+                console.log("retval sub_422E4 string:", str);
+                // const trace = Thread.backtrace(this.context, Backtracer.ACCURATE)
+                //     .map(addr => DebugSymbol.fromAddress(addr).toString())
+                //     .join("\n");
+                // console.log("[Call Stack]\n" + trace)
+            } catch (e) {
+                console.warn("Invalid UTF-8 at offset", e.offset || "?");
+            }
+        }
+    });
+}
+
+function hook_170B4(baseAddr) {
+    const sub_170B4 = baseAddr.add(0x170B4);
+    Interceptor.attach(sub_170B4, {
+        onEnter(args) {
+            console.log('enter sub_170B4')
+            let a2 = args[1];
+            let a2_str = Java.cast(a2, Java.use('java.lang.String'));
+            console.log('sub_170B4 a2:', a2_str);
+            // const trace = Thread.backtrace(this.context, Backtracer.ACCURATE)
+            //     .map(addr => DebugSymbol.fromAddress(addr).toString())
+            //     .join("\n");
+            // console.log("[Call Stack]\n" + trace)
+        },
+
+        onLeave(retval) {
+            console.log('retval sub_170B4:', retval.readCString())
+        }
+    });
+}
+
+function hook_14A50(baseAddr) {
+    const sub_14A50 = baseAddr.add(0x14A50);
+    Interceptor.attach(sub_14A50, {
+        onEnter(args) {
+            console.log('enter sub_14A50')
+        },
+
+        onLeave(retval) {
+            console.log('retval sub_14A50:', retval.readCString())
+            // const trace = Thread.backtrace(this.context, Backtracer.ACCURATE)
+            //     .map(addr => DebugSymbol.fromAddress(addr).toString())
+            //     .join("\n");
+            // console.log("[Call Stack]\n" + trace)
+
+        }
+    });
+}
+
+function hook_43190(baseAddr) {
+    const sub_43190 = baseAddr.add(0x43190);
+    Interceptor.attach(sub_43190, {
+        onEnter(args) {
+            console.log('enter sub_43190')
+            let a2 = args[1];
+            let a3 = args[2];
+            Java.perform(function () {
+                let a2_str = Java.cast(a2, Java.use('java.lang.String'));
+                let a3_str = Java.cast(a3, Java.use('java.lang.String'));
+                console.log(`[sub_43190] a2${a2_str},a3:${a3_str}`);
+            })
+
+        },
+
+        onLeave(retval) {
+        }
+    });
+}
+
+function hook_42838(baseAddr) {
+    const sub_42838 = baseAddr.add(0x42838);
+    Interceptor.attach(sub_42838, {
+        onEnter(args) {
+            console.log('enter sub_42838')
+            let a2 = args[1].readCString();
+            let a3 = args[2].readCString();
+            console.log(`[sub_42838] a2-> ${a2},a3-> ${a3}`);
+            const trace = Thread.backtrace(this.context, Backtracer.ACCURATE)
+                .map(addr => DebugSymbol.fromAddress(addr).toString())
+                .join("\n");
+            console.log("[Call Stack]\n" + trace)
+        },
+
+        onLeave(retval) {
+            console.log('retval sub_42838')
+        }
+    });
+}
+
 function hook_tmp(baseAddr) {
+    // const sub_AF08 = baseAddr.add(0xAF08);
+    // Interceptor.attach(sub_AF08, {
+    //     onEnter(args) {
+    //         const strPtr = args[1];
+    //         try {
+    //             const s = strPtr.readUtf8String();
+    //             console.log(`[sub_AF08] preparing string: "${s}"`);
+    //         } catch (e) {
+    //         }
+    //     }
+    // });
+    // const sub_3E5F8 = baseAddr.add(0x3E5F8);
+    // Interceptor.attach(sub_3E5F8, {
+    //     onEnter(args) {
+    //         console.log('enter sub_3E5F8')
+    //         let w9 = this.context.x9.toInt32();  // 读取 W9 寄存器的值
+    //         console.log('W9 = ' + w9);
+    //
+    //         if ((w9 & 1) !== 0) {
+    //             console.log('W9 : v33 = v255;');
+    //         } else {
+    //             console.log('W9 :v33 = v155');
+    //         }
+    //     }
+    // });
+
     // const sub_22E90 = baseAddr.add(0x22E90);
     // Interceptor.attach(sub_22E90, {
     //     onEnter(args) {
@@ -574,6 +777,18 @@ function hook_main() {
     console.log('baseadd', baseAddr)
     // sub_235F4(baseAddr);
     hook_tmp(baseAddr);
+    // hook_B3A8(baseAddr);
+    // ----------开始----------//
+    // 中间比较慢，逆完可以注释
+    // hook_1BE30(baseAddr);
+    hook_1C514(baseAddr);
+    hook_sub_17DEC(baseAddr);
+    hook_422E4(baseAddr);
+    hook_170B4(baseAddr);
+    hook_14A50(baseAddr);
+    // hook_43190(baseAddr);
+    hook_42838(baseAddr);
+    // ----------结束----------//
     hook_43BDC(baseAddr);
     hook_20720(baseAddr);
     hook_1d6f0(baseAddr);
