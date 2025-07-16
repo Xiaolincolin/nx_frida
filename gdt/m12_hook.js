@@ -421,8 +421,7 @@ function hook_1d6f0(baseAddr) {
     });
 }
 
-function hook_20720(baseAddr) {
-
+function hook_20720_bak(baseAddr) {
     const sub_20720 = baseAddr.add(0x20720);
     Interceptor.attach(sub_20720, {
         onEnter(args) {
@@ -481,6 +480,65 @@ function hook_20720(baseAddr) {
             console.log(`[+] sub_20720 returned: ${retval}`);
         }
     });
+}
+
+// function hook_20720(baseAddr) {
+//
+//     const sub_20720 = baseAddr.add(0x20720);
+//     function readString(ptrStruct) {
+//         const tag = ptrStruct.readU8();
+//         if ((tag & 1) === 0) {
+//             return Memory.readUtf8String(ptrStruct.add(1));
+//         } else {
+//             const strPtr = ptrStruct.add(2 * Process.pointerSize).readPointer();
+//             return Memory.readUtf8String(strPtr);
+//         }
+//     }
+//
+//     Interceptor.attach(sub_20720, {
+//         onEnter(args) {
+//             this.ts = readString(args[0]);   // 时间戳字符串
+//             this.hex = readString(args[1]);  // 随机 hex 字符串
+//             this.out = args[2];
+//         },
+//         onLeave(retval) {
+//             const result = readString(this.out);
+//             console.log('🕒 时间戳:  ', this.ts);
+//             console.log('🔐 HEX:    ', this.hex);
+//             console.log('🔗 v32:     ', result);
+//         }
+//     });
+//
+//
+// }
+
+function hook_20518(baseAddr) {
+    const sub_20518 = baseAddr.add(0x20518);
+    Interceptor.attach(sub_20518, {
+        onEnter(args) {
+            console.log('enter sub_20518')
+        },
+        onLeave(retval) {
+            console.log('onLeave sub_20518')
+
+        }
+    });
+
+}
+
+function hook_49440(baseAddr) {
+    const sub_49440 = baseAddr.add(0x49440);
+    Interceptor.attach(sub_49440, {
+        onEnter(args) {
+            this.buf = args[0];
+            console.log('enter sub_49440')
+        },
+        onLeave(retval) {
+            const raw = Memory.readByteArray(this.buf, 32);
+            console.log("🎲  /dev/urandom data (32 bytes):");
+            console.log(hexdump(raw, {offset: 0, length: 32, header: false}));
+        }
+    });
 
 }
 
@@ -514,18 +572,19 @@ function hook_43BDC(baseAddr) {
     });
 }
 
-function hook_1BE30(baseAddr) {
-    const sub_1BE30 = baseAddr.add(0x1BE30);
-    Interceptor.attach(sub_1BE30, {
+
+function hook_1BF8C(baseAddr) {
+    const sub_1BF8C = baseAddr.add(0x1BF8C);
+    Interceptor.attach(sub_1BF8C, {
         onEnter(args) {
-            console.log('enter sub_1BE30')
-            var ptr_to_str = Memory.readPointer(args[4].add(24 + 56)); // result[2]
-            console.log('sub_1BE30 retval Content =', Memory.readUtf8String(ptr_to_str));
+            console.log('enter sub_1BF8C');
+            console.log('sub_1BF8C enter a3', args[2].add(1).readCString());
 
         },
         onLeave(retval) {
-            console.log('leave sub_1BE30')
-
+            console.log('leave sub_1BF8C')
+            var ptr_to_str = Memory.readPointer(retval.add(24 + 56)); // result[2]
+            console.log('sub_1BF8C retval Content =', Memory.readUtf8String(ptr_to_str));
         }
     });
 }
@@ -671,6 +730,21 @@ function hook_43190(baseAddr) {
     });
 }
 
+function hook_202AC(baseAddr) {
+    const sub_202AC = baseAddr.add(0x202AC);
+    Interceptor.attach(sub_202AC, {
+        onEnter(args) {
+            console.log('enter sub_202AC')
+            this.a1 = this.context.x8;
+        },
+
+        onLeave(retval) {
+            console.log('onLeave sub_202AC')
+            console.log('retval sub_202AC', this.a1.add(1).readCString())
+        }
+    });
+}
+
 function hook_42838(baseAddr) {
     const sub_42838 = baseAddr.add(0x42838);
     Interceptor.attach(sub_42838, {
@@ -691,7 +765,9 @@ function hook_42838(baseAddr) {
     });
 }
 
+
 function hook_tmp(baseAddr) {
+
     // const sub_AF08 = baseAddr.add(0xAF08);
     // Interceptor.attach(sub_AF08, {
     //     onEnter(args) {
@@ -703,20 +779,16 @@ function hook_tmp(baseAddr) {
     //         }
     //     }
     // });
-    // const sub_3E5F8 = baseAddr.add(0x3E5F8);
-    // Interceptor.attach(sub_3E5F8, {
-    //     onEnter(args) {
-    //         console.log('enter sub_3E5F8')
-    //         let w9 = this.context.x9.toInt32();  // 读取 W9 寄存器的值
-    //         console.log('W9 = ' + w9);
-    //
-    //         if ((w9 & 1) !== 0) {
-    //             console.log('W9 : v33 = v255;');
-    //         } else {
-    //             console.log('W9 :v33 = v155');
-    //         }
-    //     }
-    // });
+    const sub_3E600 = baseAddr.add(0x3E600);
+    Interceptor.attach(sub_3E600, {
+        onEnter(args) {
+            console.log('enter sub_3E600')
+            let x8 = this.context.x8;
+            let x9 = this.context.x9;
+            console.log('x8 = ', x8.readCString());
+            console.log('x9 = ', x9.readCString());
+        }
+    });
 
     // const sub_22E90 = baseAddr.add(0x22E90);
     // Interceptor.attach(sub_22E90, {
@@ -776,21 +848,24 @@ function hook_main() {
     }
     console.log('baseadd', baseAddr)
     // sub_235F4(baseAddr);
-    hook_tmp(baseAddr);
+    // hook_tmp(baseAddr);
     // hook_B3A8(baseAddr);
     // ----------开始----------//
     // 中间比较慢，逆完可以注释
-    // hook_1BE30(baseAddr);
-    hook_1C514(baseAddr);
-    hook_sub_17DEC(baseAddr);
-    hook_422E4(baseAddr);
-    hook_170B4(baseAddr);
-    hook_14A50(baseAddr);
+    // hook_1BF8C(baseAddr);  //根据key查找value
+    // hook_1C514(baseAddr);
+    // hook_sub_17DEC(baseAddr);
+    // hook_422E4(baseAddr);
+    // hook_170B4(baseAddr);
+    // hook_14A50(baseAddr);
     // hook_43190(baseAddr);
+    hook_20518(baseAddr);
+    hook_49440(baseAddr);
+    hook_202AC(baseAddr);
     hook_42838(baseAddr);
     // ----------结束----------//
     hook_43BDC(baseAddr);
-    hook_20720(baseAddr);
+    // hook_20720(baseAddr);
     hook_1d6f0(baseAddr);
     // hook_sasa20(baseAddr);
     hook_235F4(baseAddr);
