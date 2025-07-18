@@ -126,6 +126,26 @@ function hook_aes(baseAddr) {
     });
 }
 
+function hook_17DEC(baseAddr) {
+    const sub_17DEC = baseAddr.add(0x17DEC);
+    Interceptor.attach(sub_17DEC, {
+        onEnter(args) {
+            console.log('enter sub_17DEC');
+            const keyStr = Memory.readUtf8String(args[1].add(1));
+            console.log('[sub_17DEC] Searching key (string):', keyStr);
+        },
+        onLeave(retval) {
+            console.log('leave sub_17DEC')
+            var ptr_to_str = Memory.readPointer(retval.add(24)); // result[2]
+            console.log('sub_17DEC retval Content =', Memory.readUtf8String(ptr_to_str));
+            const trace = Thread.backtrace(this.context, Backtracer.ACCURATE)
+                .map(addr => DebugSymbol.fromAddress(addr).toString())
+                .join("\n");
+            console.log("[Call Stack]\n" + trace)
+        }
+    });
+}
+
 function hook_17F2C(baseAddr) {
     // todo 追踪每个端值的来源的来源，例如k1-k15
     const sub_17F2C = baseAddr.add(0x17F2C);
@@ -144,7 +164,7 @@ function hook_17F2C(baseAddr) {
             if (len === 0) {
                 return
             }
-
+            console.log('hook_17F2C a1->', args[0].readU8())
             const firstByte = Memory.readU8(dataPtr);
             console.log('firstByte:', firstByte)
             const original = Memory.readByteArray(dataPtr, len);
@@ -161,6 +181,89 @@ function hook_17F2C(baseAddr) {
     });
 }
 
+function hook_1CCBC(baseAddr) {
+    const sub_1CCBC = baseAddr.add(0x1CCBC);
+    Interceptor.attach(sub_1CCBC, {
+        onEnter(args) {
+            console.log('enter sub_1CCBC');
+            console.log(hexdump(args[0].add(1)))
+
+        },
+        onLeave(retval) {
+            console.log('leave sub_1CCBC')
+            console.log(hexdump(retval))
+        }
+    });
+}
+
+function hook_28D68(baseAddr) {
+    let sub_28D68 = baseAddr.add(0x28D68);
+    Interceptor.attach(sub_28D68, {
+        onEnter(args) {
+            console.log('enter sub_28D68');
+            let a1 = args[0];
+            let a2 = args[1].toInt32();
+            console.log('length:', a2);
+            console.log(hexdump(a1, {length: a2}))
+
+        },
+        onLeave(retval) {
+            console.log('leave sub_28D68')
+            console.log(retval.toInt32())
+        }
+    });
+
+}
+
+function hook_17(baseAddr) {
+    let target = baseAddr.add(0x126EC);
+    Java.perform(function () {
+        console.log("Hooking sub_126EC at", target);
+        Interceptor.attach(target, {
+            onEnter: function (args) {
+                this.env = args[0];
+                this.outBuf = args[2];
+                this.len = args[3].toInt32();
+            },
+
+            onLeave: function (retval) {
+                console.log("[*] sub_126EC returned:\n", hexdump(this.outBuf));
+            }
+        });
+    });
+
+
+}
+
+function hook_java() {
+    Java.perform(function () {
+        Java.enumerateClassLoaders({
+            onMatch: function (loader) {
+                try {
+                    Java.classFactory.loader = loader; // 设置当前 ClassLoader
+                    let U = Java.use("com.android.gdt.qone.uin.U");
+                    U["r"].implementation = function (z, i, i2, str, i3, strArr, str2) {
+                        console.log(`U.r is called: z=${z}, i=${i}, i2=${i2}, str=${str}, i3=${i3}, strArr=${strArr}, str2=${str2}`);
+                        let result = this["r"](z, i, i2, str, i3, strArr, str2);
+                        console.log(`U.r result=${result}`);
+                        return result;
+                    };
+
+                } catch (error) {
+                    if (error.message.includes("ClassNotFoundException")) {
+                        // 忽略 ClassNotFound 异常，继续尝试下一个 ClassLoader
+                    } else {
+                        console.error(`[Error] Loader ${loader}: ${error}`);
+                    }
+                }
+            },
+            onComplete: function () {
+                console.log("[Info] ClassLoader enumeration complete.");
+            }
+        });
+
+    })
+}
 
 function hook_main() {
     const baseAddr = Module.findBaseAddress(libName);
@@ -172,6 +275,12 @@ function hook_main() {
     hook_aes(baseAddr);
     hook_body(baseAddr);
     hook_params_aes(baseAddr);
+    hook_17F2C(baseAddr);
+    hook_1CCBC(baseAddr);
+    hook_17DEC(baseAddr);
+    hook_17(baseAddr);
+    hook_28D68(baseAddr);
+    hook_java();
 }
 
 function hook_system() {
