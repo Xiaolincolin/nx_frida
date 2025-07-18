@@ -201,19 +201,124 @@ function hook_202AC(baseAddr) {
     });
 }
 
-function hook_tmp(baseAddr) {
-    let sub_3EF68 = baseAddr.add(0x3EF68);
-    Interceptor.attach(sub_3EF68, {
+function hook_sha256_update(baseAddr) {
+    // 替换为 sub_1FEDC 的实际地址
+    const sub_1FC60 = baseAddr.add(0x1FC60);
+
+    Interceptor.attach(sub_1FC60, {
         onEnter(args) {
-            console.log('onEnter sub_3EF68')
-            let x22 = this.context.x22;   // 原始明文结构体
-            console.log(`[sub_3EF68] : \n${hexdump(x22, {length: 32})}`);
+            const resultPtr = args[0];
+            const srcPtr = args[1];
+            const len = args[2].toInt32();
+
+            console.log("[*] SHA256 Update Input");
+            console.log("    Length:", len);
+            if (len > 0 && len < 1024) {
+                console.log("    Data:", Memory.readByteArray(srcPtr, len));
+            }
+
+            this.resultPtr = resultPtr;
+        },
+        onLeave(retval) {
+            const currentBits = Memory.readU32(this.resultPtr);
+            console.log("[+] SHA256 Total Bits:", currentBits);
+        }
+    });
+
+
+}
+
+function hook_SHA256_Final(baseAddr) {
+    const target = baseAddr.add(0x1FD3C); // 根据你的 baseAddr 调整偏移
+
+    Interceptor.attach(target, {
+        onEnter(args) {
+            this.statePtr = args[0];
+            this.outputPtr = args[1];
+        },
+        onLeave(retval) {
+            const digestBytes = Memory.readByteArray(this.outputPtr, 32);
+            console.log('[+] SHA256 Digest:', hexdump(digestBytes, {length: 32}));
+        }
+    });
+}
+
+function hook_sha256(baseAddr) {
+
+    const sub_1FC60 = baseAddr.add(0x1FC60); // 根据你的 baseAddr 调整偏移
+    const sub_1FEDC = baseAddr.add(0x1FEDC); // 根据你的 baseAddr 调整偏移
+    const sub_1FD3C = baseAddr.add(0x1FD3C); // 根据你的 baseAddr 调整偏移
+
+    // 1. Hook 输入数据
+    Interceptor.attach(sub_1FC60, {
+        onEnter: function (args) {
+            console.log("\n[+] sub_1FC60 Input (Length:", args[2].toInt32(), ")");
+            console.log(hexdump(args[1], {length: args[2].toInt32()}));
+        }
+    });
+
+    // 2. Hook 压缩函数
+    Interceptor.attach(sub_1FEDC, {
+        onEnter: function (args) {
+            this.ctx = args[0];
+            this.input = args[1];
+            console.log('[+] SHA256 Block Input:');
+            console.log(hexdump(this.input, {length: 64}));
+        },
+        onLeave: function (retval) {
+            // 打印 context 中的 state[8]
+            console.log('[+] SHA256 state after block:');
+            const state = this.ctx.add(8); // 假设 ctx+8 是 state 起始
+            let digest = [];
+            for (let i = 0; i < 8; i++) {
+                const word = Memory.readU32(state.add(i * 4));
+                digest.push(('00000000' + word.toString(16)).slice(-8));
+            }
+            console.log('Digest (intermediate):', digest.join(''));
+        }
+    });
+
+
+    // 3. Hook Final 函数
+    Interceptor.attach(sub_1FD3C, {
+        onEnter: function (args) {
+            this.output = args[1]; // output digest ptr
+        },
+        onLeave: function (retval) {
+            console.log("[+] Final SHA256 digest:");
+            console.log(hexdump(this.output, {length: 32}));
+        }
+    });
+
+}
+
+function hook_tmp(baseAddr) {
+
+    let sub_3F1E4 = baseAddr.add(0x3F214);
+    Interceptor.attach(sub_3F1E4, {
+        onEnter(args) {
+            console.log('onEnter sub_3F1E4')
+            let x8 = this.context.x27;   // 原始明文结构体
+            console.log(`[sub_3F1E4] : \n${hexdump(x8, {length: 32})}`);
         },
 
         onLeave(retval) {
 
         }
     });
+
+    // let sub_3EF68 = baseAddr.add(0x3EF68);
+    // Interceptor.attach(sub_3EF68, {
+    //     onEnter(args) {
+    //         console.log('onEnter sub_3EF68')
+    //         let x22 = this.context.x22;   // 原始明文结构体
+    //         console.log(`[sub_3EF68] : \n${hexdump(x22, {length: 32})}`);
+    //     },
+    //
+    //     onLeave(retval) {
+    //
+    //     }
+    // });
 
     //
     // let sub_3EF98 = baseAddr.add(0x3EF98);
@@ -249,13 +354,16 @@ function hook_main(libName) {
         return;
     }
     console.log('baseadd', baseAddr);
-    // hook_tmp(baseAddr);
+    hook_tmp(baseAddr);
     hook_params_aes(baseAddr);
     hook_body(baseAddr);
     hook_17f2c(baseAddr);
     hook_1CCBC(baseAddr);
     // hook_14A50(baseAddr);
     hook_202AC(baseAddr);
+    // hook_sha256_update(baseAddr);
+    // hook_SHA256_Final(baseAddr);
+    // hook_sha256(baseAddr);
 }
 
 function hook_system() {
