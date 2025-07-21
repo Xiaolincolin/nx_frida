@@ -575,6 +575,40 @@ function hook_1C514(baseAddr) {
     });
 }
 
+function hook_17f2c(baseAddr) {
+    let sub_17F2C = baseAddr.add(0x17f2c);
+    Interceptor.attach(sub_17F2C, {
+        onEnter(args) {
+            this.a1 = args[2];   // 原始明文结构体
+            const flag = this.a1.readU8();
+            let len, dataPtr;
+            if ((flag & 1) === 0) {
+                len = flag >> 1;
+                dataPtr = this.a1.add(8);
+            } else {
+                len = this.a1.add(8).readU32();
+                dataPtr = this.a1.add(16).readPointer();
+            }
+            if (len === 0) {
+                return
+            }
+
+            const firstByte = Memory.readU8(dataPtr);
+            console.log('firstByte:', firstByte)
+            const original = Memory.readByteArray(dataPtr, len);
+            console.log(`[hook_17F2C] enter (${len} bytes): \n${hexdump(original, {length: len})}`);
+            const backtrace = Thread.backtrace(this.context, Backtracer.ACCURATE)
+                .map(addr => DebugSymbol.fromAddress(addr).toString())
+                .join("\n");
+            console.log("[Call Stack]\n" + backtrace);
+        },
+
+        onLeave(retval) {
+
+        }
+    });
+}
+
 function hook_sub_17DEC(baseAddr) {
     const sub_17DEC = baseAddr.add(0x17DEC);
     Interceptor.attach(sub_17DEC, {
@@ -702,8 +736,6 @@ function hook_43190(baseAddr) {
 }
 
 
-
-
 function hook_tmp(baseAddr) {
 
     const sub_1FE60 = baseAddr.add(0x1FE60);
@@ -788,6 +820,38 @@ function hook_tmp(baseAddr) {
     // })
 }
 
+
+function hook_1CCBC(baseAddr) {
+    let sub_1CCBC = baseAddr.add(0x1CCBC);
+    Interceptor.attach(sub_1CCBC, {
+        onEnter(args) {
+            this.a1 = args[0];   // 原始明文结构体
+            const flag = this.a1.readU8();
+            let len, dataPtr;
+            if ((flag & 1) === 0) {
+                len = flag >> 1;
+                dataPtr = this.a1.add(8);
+            } else {
+                len = this.a1.add(8).readU32();
+                dataPtr = this.a1.add(16).readPointer();
+            }
+            if (len === 0) {
+                return
+            }
+            const original = Memory.readByteArray(dataPtr, len);
+            console.log(`[sub_1CCBC] enter (${len} bytes): \n${hexdump(original, {length: len})}`);
+            // const backtrace = Thread.backtrace(this.context, Backtracer.ACCURATE)
+            //     .map(addr => DebugSymbol.fromAddress(addr).toString())
+            //     .join("\n");
+            // console.log("[Call Stack]\n" + backtrace);
+        },
+
+        onLeave(retval) {
+
+        }
+    });
+}
+
 function hook_main() {
     const baseAddr = Module.findBaseAddress(libName);
     if (!baseAddr) {
@@ -797,7 +861,7 @@ function hook_main() {
     console.log('baseadd', baseAddr)
     // sub_235F4(baseAddr);
     hook_tmp(baseAddr);
-    hook_sha256(baseAddr);
+    // hook_sha256(baseAddr);
     // hook_B3A8(baseAddr);
     // ----------开始----------//
     // 中间比较慢，逆完可以注释
@@ -833,6 +897,10 @@ function hook_main() {
     hook_params_aes(baseAddr);
     // 最终body生成的结果
     hook_body(baseAddr);
+
+    // 找2-7
+    // hook_17f2c(baseAddr);
+    // hook_1CCBC(baseAddr);
 }
 
 function hook_system() {

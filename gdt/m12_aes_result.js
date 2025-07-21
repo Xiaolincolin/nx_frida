@@ -245,7 +245,7 @@ function hook_tmp() {
             this.arg1 = args[1].toInt32();
         },
         onLeave(retval) {
-            let allow_list = [5606, 5954, 6062, 6062]
+            let allow_list = [5606, 5954, 6062, 6062, 9152]
             if (allow_list.includes(this.arg1)) {
                 const keyStr = Memory.readCString(retval);
                 console.log(`[+] sub_111E0(${this.arg0}, ${this.arg1}) 返回字符串: ${keyStr}`);
