@@ -252,6 +252,25 @@ function hook_202AC(baseAddr) {
     });
 }
 
+function hook_111E0(baseAddr) {
+    const sub_111E0 = baseAddr.add(0x111E0);
+    Interceptor.attach(sub_111E0, {
+        onEnter(args) {
+            this.arg0 = args[0].toInt32();
+            this.arg1 = args[1].toInt32();
+        },
+        onLeave(retval) {
+            // let allow_list = [5606, 5954, 6062, 6062, 9152]
+            // if (allow_list.includes(this.arg1)) {
+            //     const keyStr = Memory.readCString(retval);
+            //     console.log(`[+] sub_111E0(${this.arg0}, ${this.arg1}) 返回字符串: ${keyStr}`);
+            // }
+            const keyStr = Memory.readCString(retval);
+            console.log(`[+] sub_111E0(${this.arg0}, ${this.arg1}) 返回字符串: ${keyStr}`);
+        }
+    });
+}
+
 function hook_sha256_update(baseAddr) {
     // 替换为 sub_1FEDC 的实际地址
     const sub_1FC60 = baseAddr.add(0x1FC60);
@@ -307,6 +326,10 @@ function hook_sha256(baseAddr) {
             this.a3 = args[2];
             console.log("\n[+] sub_1FE60 Input (Length:", args[1].toInt32(), ")");
             console.log(hexdump(args[0], {length: args[1].toInt32()}));
+            const backtrace = Thread.backtrace(this.context, Backtracer.ACCURATE)
+                .map(addr => DebugSymbol.fromAddress(addr).toString())
+                .join("\n");
+            console.log("[Call Stack]\n" + backtrace);
 
         },
         onLeave: function (retval) {
@@ -316,18 +339,18 @@ function hook_sha256(baseAddr) {
     });
 
 
-    // 1. Hook 输入数据
-    // Interceptor.attach(sub_1FC60, {
-    //     onEnter: function (args) {
-    //         console.log("\n[+] sub_1FC60 Input (Length:", args[2].toInt32(), ")");
-    //         console.log(hexdump(args[1], {length: args[2].toInt32()}));
-    //         // const backtrace = Thread.backtrace(this.context, Backtracer.ACCURATE)
-    //         //     .map(addr => DebugSymbol.fromAddress(addr).toString())
-    //         //     .join("\n");
-    //         // console.log("[Call Stack]\n" + backtrace);
-    //     }
-    // });
-    //
+    //1. Hook 输入数据
+    Interceptor.attach(sub_1FC60, {
+        onEnter: function (args) {
+            console.log("\n[+] sub_1FC60 Input (Length:", args[2].toInt32(), ")");
+            console.log(hexdump(args[1], {length: args[2].toInt32()}));
+            // const backtrace = Thread.backtrace(this.context, Backtracer.ACCURATE)
+            //     .map(addr => DebugSymbol.fromAddress(addr).toString())
+            //     .join("\n");
+            // console.log("[Call Stack]\n" + backtrace);
+        }
+    });
+
     // // 2. Hook 压缩函数
     // Interceptor.attach(sub_1FEDC, {
     //     onEnter: function (args) {
@@ -370,34 +393,42 @@ function hook_sha256(baseAddr) {
         onLeave: function (retval) {
             console.log("[+] sub_1FD3C Final SHA256 digest:");
             console.log(hexdump(this.output, {length: 32}));
-            stk_trace(this.tid, baseAddr, end_add);
+            // stk_trace(this.tid, baseAddr, end_add);
         }
     });
 
 }
 
 function hook_tmp(baseAddr) {
-    const sub_AF08_ptr = baseAddr.add(0xAF08);
-    Interceptor.attach(sub_AF08_ptr, {
-        onEnter(args) {
-            const strPtr = args[1];
-            try {
-                const s = strPtr.readUtf8String();
-                console.log(`[sub_AF08] preparing string: "${s}"`);
-            } catch (e) {
-            }
-        }
-    });
-    // let sub_3F1E4 = baseAddr.add(0x3F1E4);
-    // Interceptor.attach(sub_3F1E4, {
+    // let target = baseAddr.add(0x422E4);
+    // Interceptor.attach(target, {
     //     onEnter(args) {
-    //         console.log('onEnter sub_3F1E4')
-    //         let x8 = this.context.x8;   // 原始明文结构体
-    //         console.log(`[sub_3F1E4] : \n${hexdump(x8, {length: 32})}`);
+    //         console.log('onEnter target')
+    //         this.a1 = args[1];   // 原始明文结构体
+    //         // console.log(`[target enter] : \n${hexdump(this.a1, {length: 32})}`);
     //     },
     //
     //     onLeave(retval) {
+    //         console.log(`[target retval] : \n${hexdump(this.a1, {length: 64})}`);
     //
+    //     }
+    // });
+
+    // const sub_AF08_ptr = baseAddr.add(0xAF08);
+    // Interceptor.attach(sub_AF08_ptr, {
+    //     onEnter(args) {
+    //         const strPtr = args[1];
+    //         try {
+    //             const s = strPtr.readUtf8String();
+    //             console.log(`[sub_AF08] preparing string: "${s}"`);
+    //             if (s === "7") {
+    //                 const backtrace = Thread.backtrace(this.context, Backtracer.ACCURATE)
+    //                     .map(addr => DebugSymbol.fromAddress(addr).toString())
+    //                     .join("\n");
+    //                 console.log("[Call Stack]\n" + backtrace);
+    //             }
+    //         } catch (e) {
+    //         }
     //     }
     // });
 
@@ -405,8 +436,13 @@ function hook_tmp(baseAddr) {
     // Interceptor.attach(sub_3EF68, {
     //     onEnter(args) {
     //         console.log('onEnter sub_3EF68')
+    //         let x19 = this.context.x19.add(0x1D8).readPointer();
+    //         console.log(x19)
+    //         console.log(`[sub_3EF68 x19] : \n${hexdump(x19, {length: 32})}`);
+    //
     //         let x22 = this.context.x22;   // 原始明文结构体
-    //         console.log(`[sub_3EF68] : \n${hexdump(x22, {length: 32})}`);
+    //         console.log(x22)
+    //         console.log(`[sub_3EF68 x22] : \n${hexdump(x22, {length: 32})}`);
     //     },
     //
     //     onLeave(retval) {
@@ -414,7 +450,35 @@ function hook_tmp(baseAddr) {
     //     }
     // });
 
-    //
+    // let sub_3F928 = baseAddr.add(0x3F928);
+    // Interceptor.attach(sub_3F928, {
+    //     onEnter(args) {
+    //         console.log('index sub_3F928')
+    //         let x19 = this.context.x8;
+    //         console.log(x19)
+    //         // console.log(`[sub_3F208 x19] : \n${hexdump(x19, {length: 32})}`);
+    //     }
+    // });
+
+    let sub_3F92C = baseAddr.add(0x3F92C);
+    Interceptor.attach(sub_3F92C, {
+        onEnter(args) {
+            let x8 = this.context.x8;
+            console.log('index ori sub_3F92C: ', x8)
+            console.log('index sub_3F92C: ', x8 & 0x1f)
+            // console.log(`[sub_3F208 x19] : \n${hexdump(x19, {length: 32})}`);
+        }
+    });
+
+    let sub_3F93C = baseAddr.add(0x3F93C);
+    Interceptor.attach(sub_3F93C, {
+        onEnter(args) {
+            let x8 = this.context.x8;
+            console.log('value sub_3F93C: ', x8)
+        }
+    });
+
+
     // let sub_3EF98 = baseAddr.add(0x3EF98);
     // Interceptor.attach(sub_3EF98, {
     //     onEnter(args) {
@@ -465,8 +529,7 @@ function stk_trace(tid, baseAddr, end_addr) {
         transform: (iterator) => {
             let instruction = iterator.next();
             const startAddress = instruction.address;
-            const inRange = startAddress.compare(baseAddr) >= 0 &&
-                startAddress.compare(end_addr) < 0;
+            const inRange = startAddress.compare(baseAddr) >= 0 && startAddress.compare(end_addr) < 0;
             while (instruction !== null) {
                 if (inRange) {
                     console.log(formatInstruction(instruction, baseAddr));
@@ -478,21 +541,36 @@ function stk_trace(tid, baseAddr, end_addr) {
     });
 }
 
-function hook_sub_10394(baseAddr) {
-    const sub_10394 = baseAddr.add(0x10394);
-    Interceptor.attach(sub_10394, {
+function hook_sub_3DD80(baseAddr) {
+    const sub_3DD80 = baseAddr.add(0x3DD80);
+    const end_add = baseAddr.add(0x40BA0);
+    Interceptor.attach(sub_3DD80, {
         onEnter(args) {
-            console.log('enter sub_10394')
-            this.a3 = args[2];
-            console.log(hexdump(args[2]))
+            console.log('enter sub_3DD80');
+            // this.tid = Process.getCurrentThreadId();
+            // stk_trace(this.tid, baseAddr, end_add);
         },
         onLeave(retval) {
-            console.log('leave sub_10394')
-            console.log(hexdump(this.a3))
+            console.log('leave sub_3DD80')
+            // Stalker.unfollow(this.tid);
+            // Stalker.garbageCollect();
         }
     })
 }
 
+function hook_sub_10394(baseAddr) {
+    const sub_10394 = baseAddr.add(0x10394);
+    Interceptor.attach(sub_10394, {
+        onEnter(args) {
+            console.log('enter sub_10394');
+            this.a3 = args[2];
+        },
+        onLeave(retval) {
+            console.log('leave sub_10394')
+            console.log(hexdump(this.a3, {length: 32}))
+        }
+    })
+}
 
 function hook_main(libName) {
     const baseAddr = Module.findBaseAddress(libName);
@@ -511,8 +589,9 @@ function hook_main(libName) {
     // hook_sha256_update(baseAddr);
     // hook_SHA256_Final(baseAddr);
     // hook_sha256(baseAddr);
-    hook_B3A8(baseAddr);
-    // hook_sub_10394(baseAddr);
+    // hook_B3A8(baseAddr);
+    hook_sub_10394(baseAddr);
+    // hook_sub_3DD80(baseAddr);
 }
 
 function hook_system() {
