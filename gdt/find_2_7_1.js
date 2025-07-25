@@ -399,7 +399,39 @@ function hook_sha256(baseAddr) {
 
 }
 
+function hook_2_7_result(baseAddr) {
+    let sub_3F92C = baseAddr.add(0x3F92C);
+    Interceptor.attach(sub_3F92C, {
+        onEnter(args) {
+            let x8 = this.context.x8;
+            console.log('index ori sub_3F92C: ', x8)
+            console.log('index sub_3F92C: ', x8 & 0x1f)
+            // console.log(`[sub_3F208 x19] : \n${hexdump(x19, {length: 32})}`);
+        }
+    });
+
+    let sub_3F93C = baseAddr.add(0x3F93C);
+    Interceptor.attach(sub_3F93C, {
+        onEnter(args) {
+            let x8 = this.context.x8;
+            console.log('value sub_3F93C: ', x8)
+        }
+    });
+}
+
 function hook_tmp(baseAddr) {
+    // let sub_3F650 = baseAddr.add(0x3F650);
+    // Interceptor.attach(sub_3F650, {
+    //     onEnter(args) {
+    //         console.log('index sub_3F650')
+    //         let x8 = this.context.x8;
+    //         let x9 = this.context.x9;
+    //         let x10 = this.context.x10;
+    //         console.log(`x8: ${x8},x9:${x9},x10:${x10}`)
+    //         // console.log(`[sub_3F208 x19] : \n${hexdump(x19, {length: 32})}`);
+    //     }
+    // });
+
     // let target = baseAddr.add(0x422E4);
     // Interceptor.attach(target, {
     //     onEnter(args) {
@@ -459,24 +491,6 @@ function hook_tmp(baseAddr) {
     //         // console.log(`[sub_3F208 x19] : \n${hexdump(x19, {length: 32})}`);
     //     }
     // });
-
-    let sub_3F92C = baseAddr.add(0x3F92C);
-    Interceptor.attach(sub_3F92C, {
-        onEnter(args) {
-            let x8 = this.context.x8;
-            console.log('index ori sub_3F92C: ', x8)
-            console.log('index sub_3F92C: ', x8 & 0x1f)
-            // console.log(`[sub_3F208 x19] : \n${hexdump(x19, {length: 32})}`);
-        }
-    });
-
-    let sub_3F93C = baseAddr.add(0x3F93C);
-    Interceptor.attach(sub_3F93C, {
-        onEnter(args) {
-            let x8 = this.context.x8;
-            console.log('value sub_3F93C: ', x8)
-        }
-    });
 
 
     // let sub_3EF98 = baseAddr.add(0x3EF98);
@@ -558,11 +572,28 @@ function hook_sub_3DD80(baseAddr) {
     })
 }
 
+function hook_A770(baseAddr) {
+    const sub_A770 = baseAddr.add(0xA770);
+    Interceptor.attach(sub_A770, {
+        onEnter(args) {
+            console.log('enter sub_A770');
+            this.a2 = args[1].toInt32();
+        },
+        onLeave(retval) {
+            console.log('leave sub_A770')
+            console.log('retval:', hexdump(retval, {length: this.a2}));
+        }
+    })
+}
+
 function hook_sub_10394(baseAddr) {
     const sub_10394 = baseAddr.add(0x10394);
     Interceptor.attach(sub_10394, {
         onEnter(args) {
             console.log('enter sub_10394');
+            let a1 = args[0];
+            let a2 = args[1];
+            console.log('a1:', hexdump(a1, {length: a2.toInt32()}));
             this.a3 = args[2];
         },
         onLeave(retval) {
@@ -580,7 +611,7 @@ function hook_main(libName) {
     }
     console.log('baseadd', baseAddr);
     hook_tmp(baseAddr);
-    // hook_params_aes(baseAddr);
+    hook_params_aes(baseAddr);
     // hook_body(baseAddr);
     hook_17f2c(baseAddr);
     hook_1CCBC(baseAddr);
@@ -590,7 +621,9 @@ function hook_main(libName) {
     // hook_SHA256_Final(baseAddr);
     // hook_sha256(baseAddr);
     // hook_B3A8(baseAddr);
+    hook_2_7_result(baseAddr);
     hook_sub_10394(baseAddr);
+    // hook_A770(baseAddr);
     // hook_sub_3DD80(baseAddr);
 }
 
