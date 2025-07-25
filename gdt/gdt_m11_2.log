@@ -1,0 +1,8 @@
+🧬 Found libturingau.3e364a2a.so at 0x6ec9362000
+baseAddr: 0x6ec9362000
+hook_20688 onEnter
+a5:
+"<instance: java.util.Map, $className: java.util.HashMap>"
+a6:
+1
+hook_20688 onLeave

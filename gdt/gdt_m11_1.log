@@ -1,0 +1,11 @@
+[+] Starting simplified Lichee hook...
+[+] DexClassLoader created with path: /data/user/0/com.qq.e.union.demo.union/app_e_qq_com_plugin_0f50a4d217c8538245ee2d99f71e9f37/gdt_plugin.jar
+[!] Target ClassLoader saved!
+find class Lichee
+enter hook java
+264 : Pixel 4
+1 : 105498
+101 : 1101152570
+207 : 
+TNative$aa.e90_BD4FE23C352252DC is called: sparseArray={}, context=com.qq.e.union.demo.DemoApplication@592de0a, map="<instance: java.util.Map, $className: java.util.HashMap>", i=1
+TNative$aa.e90_BD4FE23C352252DC result={0=0, 1=[B@b427cb7}
