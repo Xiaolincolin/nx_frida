@@ -1,0 +1,2676 @@
+🧬 Found libart.so at 0x6de4e00000
+target  symbols {"isGlobal":false,"type":"function","section":{"id":"14.text","protection":"r-x"},"name":"_ZN3art3JNIILb0EE9FindClassEP7_JNIEnvPKc","address":"0x6de539b700","size":4056}
+target address = 0x6de539b700
+target  symbols {"isGlobal":false,"type":"function","section":{"id":"14.text","protection":"r-x"},"name":"_ZN3art3JNIILb0EE10GetFieldIDEP7_JNIEnvP7_jclassPKcS7_","address":"0x6de53be97c","size":1836}
+target address = 0x6de53be97c
+target  symbols {"isGlobal":false,"type":"function","section":{"id":"14.text","protection":"r-x"},"name":"_ZN3art3JNIILb0EE16GetStaticFieldIDEP7_JNIEnvP7_jclassPKcS7_","address":"0x6de53d4730","size":1836}
+target address = 0x6de53d4730
+target  symbols {"isGlobal":false,"type":"function","section":{"id":"14.text","protection":"r-x"},"name":"_ZN3art3JNIILb0EE14SetObjectFieldEP7_JNIEnvP8_jobjectP9_jfieldIDS5_","address":"0x6de53c3a94","size":2288}
+target address = 0x6de53c3a94
+target  symbols {"isGlobal":false,"type":"function","section":{"id":"14.text","protection":"r-x"},"name":"_ZN3art3JNIILb0EE20SetStaticObjectFieldEP7_JNIEnvP7_jclassP9_jfieldIDP8_jobject","address":"0x6de53d8b84","size":1924}
+target address = 0x6de53d8b84
+[GetStaticFieldID] [0x70d91c60].DEFAULT : Landroid/graphics/Typeface; → 0x70949fb0
+
+[SetObjectField]
+  ↳ Target obj: 0x70d91c60
+  ↳ jfieldID  : 0x70949fb0
+  ↳ Class     : [0x70d91c60]
+  ↳ Field     : DEFAULT
+  ↳ Sig       : Landroid/graphics/Typeface;
+  ↳ Value     : 0x7fc10f1dec
+[Call Stack]
+0x707acb3f38 libhwui.so!0x4b3f38
+0x7159f1a4 boot-framework.oat!0x1881a4
+0x7159f1a4 boot-framework.oat!0x1881a4
+[GetStaticFieldID] [0x70d91c60].DEFAULT_BOLD : Landroid/graphics/Typeface; → 0x70949fc0
+
+[SetObjectField]
+  ↳ Target obj: 0x70d91c60
+  ↳ jfieldID  : 0x70949fc0
+  ↳ Class     : [0x70d91c60]
+  ↳ Field     : DEFAULT_BOLD
+  ↳ Sig       : Landroid/graphics/Typeface;
+  ↳ Value     : 0x7fc10f1dec
+[Call Stack]
+0x707acb3f38 libhwui.so!0x4b3f38
+0x7159f1a4 boot-framework.oat!0x1881a4
+0x7159f1a4 boot-framework.oat!0x1881a4
+[GetStaticFieldID] [0x70d91c60].SANS_SERIF : Landroid/graphics/Typeface; → 0x7094a040
+
+[SetObjectField]
+  ↳ Target obj: 0x70d91c60
+  ↳ jfieldID  : 0x7094a040
+  ↳ Class     : [0x70d91c60]
+  ↳ Field     : SANS_SERIF
+  ↳ Sig       : Landroid/graphics/Typeface;
+  ↳ Value     : 0x7fc10f1dec
+[Call Stack]
+0x707acb3f38 libhwui.so!0x4b3f38
+0x7159f1a4 boot-framework.oat!0x1881a4
+0x7159f1a4 boot-framework.oat!0x1881a4
+[GetStaticFieldID] [0x70d91c60].SERIF : Landroid/graphics/Typeface; → 0x7094a050
+
+[SetObjectField]
+  ↳ Target obj: 0x70d91c60
+  ↳ jfieldID  : 0x7094a050
+  ↳ Class     : [0x70d91c60]
+  ↳ Field     : SERIF
+  ↳ Sig       : Landroid/graphics/Typeface;
+  ↳ Value     : 0x7fc10f1dec
+[Call Stack]
+0x707acb3f38 libhwui.so!0x4b3f38
+0x7159f1a4 boot-framework.oat!0x1881a4
+0x7159f1a4 boot-framework.oat!0x1881a4
+[GetStaticFieldID] [0x70d91c60].MONOSPACE : Landroid/graphics/Typeface; → 0x7094a010
+
+[SetObjectField]
+  ↳ Target obj: 0x70d91c60
+  ↳ jfieldID  : 0x7094a010
+  ↳ Class     : [0x70d91c60]
+  ↳ Field     : MONOSPACE
+  ↳ Sig       : Landroid/graphics/Typeface;
+  ↳ Value     : 0x7fc10f1dec
+[Call Stack]
+0x707acb3f38 libhwui.so!0x4b3f38
+0x7159f1a4 boot-framework.oat!0x1881a4
+0x7159f1a4 boot-framework.oat!0x1881a4
+
+[SetObjectField]
+  ↳ Target obj: 0x7fc10f1b58
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x7fc10f1b58
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x7fc10f1a38
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x7fc10f18d8
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x7fc10f13c8
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x7fc10f19d8
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+
+[SetObjectField]
+  ↳ Target obj: 0x6d5ef2dca8
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x7fc10f19d8
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x6d5ef2dca8
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x7fc10f13a8
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x6d5ef2dc98
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[GetStaticFieldID] yaq/pro.vmpctx : J → 0x6d5e4e9c64
+[GetStaticFieldID] yaq/pro.arch_code : I → 0x6d5e4e9ba4
+[GetStaticFieldID] yaq/pro.ctx : Landroid/content/Context; → 0x6d5e4e9bb4
+[GetStaticFieldID] yaq/pro.Pluginpath : Ljava/lang/String; → 0x6d5e4e9b94
+[GetStaticFieldID] yaq/pro.Pluginname : Ljava/lang/String; → 0x6d5e4e9b84
+[GetStaticFieldID] yaq/pro.DataPath : Ljava/lang/String; → 0x6d5e4e9ac4
+[GetStaticFieldID] yaq/pro.Data2Path : Ljava/lang/String; → 0x6d5e4e9aa4
+[GetStaticFieldID] yaq/pro.Data3Path : Ljava/lang/String; → 0x6d5e4e9ab4
+[GetStaticFieldID] yaq/pro.DexNum : I → 0x6d5e4e9ad4
+[GetFieldID] android/content/pm/PackageInfo.applicationInfo : Landroid/content/pm/ApplicationInfo; → 0x70961c28
+[GetFieldID] android/content/pm/ApplicationInfo.sourceDir : Ljava/lang/String; → 0x70960f58
+[GetStaticFieldID] yaq/pro.vmpctx : J → 0x6d5e4e9c64
+[GetStaticFieldID] com/qq/e/comm/plugin/POFactoryImpl.a : Lcom/qq/e/comm/pi/POFactory; → 0x6d5e4e828c
+[GetStaticFieldID] com/qq/e/comm/plugin/ku.a : I → 0x6d5e4cecbc
+[GetStaticFieldID] com/qq/e/comm/plugin/ku.a : I → 0x6d5e4cecbc
+[GetStaticFieldID] com/qq/e/comm/plugin/ku.a : I → 0x6d5e4cecbc
+
+[SetObjectField]
+  ↳ Target obj: 0x6d5ed189f8
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x7fc10f13c8
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x6d5ef2dc98
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+[GetStaticFieldID] com/qq/e/comm/plugin/d2.b : Landroid/content/Context; → 0x6d5e4a5a84
+
+[SetObjectField]
+  ↳ Target obj: 0x89
+  ↳ jfieldID  : 0x6d5e4a5a84
+  ↳ Class     : com/qq/e/comm/plugin/d2
+  ↳ Field     : b
+  ↳ Sig       : Landroid/content/Context;
+  ↳ Value     : 0x71
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x7fc10f13a8
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x6d5ef2e388
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x7fc10f13a8
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x6d604fe298
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x7fc10f13a8
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x7fc10f13a8
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[GetFieldID] [0x446].ai_flags : I → 0x6fe5ad08
+[GetFieldID] [0x446].ai_family : I → 0x6fe5acf8
+[GetFieldID] [0x446].ai_socktype : I → 0x6fe5ad38
+[GetFieldID] [0x446].ai_protocol : I → 0x6fe5ad28
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x7fc10f13a8
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[GetFieldID] [0x386].holder : Ljava/net/InetAddress$InetAddressHolder; → 0x6fcfe730
+[GetFieldID] [0x396].family : I → 0x6fcf4524
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x7fc10f13a8
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x6d5e3731d0 libyaqpro.3e364a2a.so!0x321d0
+0x6d5e34c75c libyaqpro.3e364a2a.so!0xb75c
+0x6d56205a84 libyaqbasic.3e364a2a.so!0xa84
+0x6de50d7648 libart.so!art_quick_generic_jni_trampoline+0x98
+0x6de500918c libart.so!nterp_helper+0x9c
+0x6de500918c libart.so!nterp_helper+0x9c
+0x6de500a048 libart.so!nterp_helper+0xf58
+0x6de50cdd68 libart.so!art_quick_invoke_stub+0x228
+0x6de50f23d4 libart.so!_ZN3art11interpreter34ArtInterpreterToCompiledCodeBridgeEPNS_6ThreadEPNS_9ArtMethodEPNS_11ShadowFrameEtPNS_6JValueE+0x13c
+0x6de51ff86c libart.so!_ZN3art11interpreter6DoCallILb0ELb0EEEbPNS_9ArtMethodEPNS_6ThreadERNS_11ShadowFrameEPKNS_11InstructionEtPNS_6JValueE+0x338
+0x6de50c43f0 libart.so!MterpInvokeVirtual+0x1508
+0x6de50c8418 libart.so!mterp_op_invoke_virtual+0x18
+0x6de507d74c libart.so!_ZN3art11interpreterL7ExecuteEPNS_6ThreadERKNS_20CodeItemDataAccessorERNS_11ShadowFrameENS_6JValueEbb.llvm.7449118509010352383+0x288
+0x6de507c8f4 libart.so!artQuickToInterpreterBridge+0x49c
+0x6de50d777c libart.so!art_quick_to_interpreter_bridge+0x5c
+0x6de500918c libart.so!nterp_helper+0x9c
+[GetStaticFieldID] com/qq/e/comm/plugin/d2.c : Ljava/lang/String; → 0x6d5e4a5a94
+
+[SetObjectField]
+  ↳ Target obj: 0x85
+  ↳ jfieldID  : 0x6d5e4a5a94
+  ↳ Class     : com/qq/e/comm/plugin/d2
+  ↳ Field     : c
+  ↳ Sig       : Ljava/lang/String;
+  ↳ Value     : 0x75
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x7fc10f13a8
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+  ↳ String content: 4.640
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x7fc10f13a8
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x7fc10f13a8
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x7fc10f13a8
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x7fc10f13a8
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x7fc10f13a8
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x6d5e3731d0 libyaqpro.3e364a2a.so!0x321d0
+0x6d5e34c75c libyaqpro.3e364a2a.so!0xb75c
+0x6d56205a84 libyaqbasic.3e364a2a.so!0xa84
+0x6de50d7648 libart.so!art_quick_generic_jni_trampoline+0x98
+0x6de500918c libart.so!nterp_helper+0x9c
+0x6de500918c libart.so!nterp_helper+0x9c
+0x6de500a048 libart.so!nterp_helper+0xf58
+0x6de50cdd68 libart.so!art_quick_invoke_stub+0x228
+0x6de50f23d4 libart.so!_ZN3art11interpreter34ArtInterpreterToCompiledCodeBridgeEPNS_6ThreadEPNS_9ArtMethodEPNS_11ShadowFrameEtPNS_6JValueE+0x13c
+0x6de51ff86c libart.so!_ZN3art11interpreter6DoCallILb0ELb0EEEbPNS_9ArtMethodEPNS_6ThreadERNS_11ShadowFrameEPKNS_11InstructionEtPNS_6JValueE+0x338
+0x6de50c43f0 libart.so!MterpInvokeVirtual+0x1508
+0x6de50c8418 libart.so!mterp_op_invoke_virtual+0x18
+0x6de507d74c libart.so!_ZN3art11interpreterL7ExecuteEPNS_6ThreadERKNS_20CodeItemDataAccessorERNS_11ShadowFrameENS_6JValueEbb.llvm.7449118509010352383+0x288
+0x6de507c8f4 libart.so!artQuickToInterpreterBridge+0x49c
+0x6de50d777c libart.so!art_quick_to_interpreter_bridge+0x5c
+0x6de500918c libart.so!nterp_helper+0x9c
+[GetStaticFieldID] com/qq/e/comm/plugin/d2.d : I → 0x6d5e4a5aa4
+[GetStaticFieldID] com/qq/e/comm/plugin/d2.e : Z → 0x6d5e4a5ab4
+[GetStaticFieldID] com/qq/e/comm/plugin/d2.f : Ljava/lang/String; → 0x6d5e4a5ac4
+
+[SetObjectField]
+  ↳ Target obj: 0x81
+  ↳ jfieldID  : 0x6d5e4a5ac4
+  ↳ Class     : com/qq/e/comm/plugin/d2
+  ↳ Field     : f
+  ↳ Sig       : Ljava/lang/String;
+  ↳ Value     : 0x71
+  ↳ String content: 1101152570
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x7fc10f13a8
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x7fc10f13a8
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x7fc10f13a8
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x7fc10f14d8
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x7fc10f13a8
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x7fc10f1368
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x6d5e3731d0 libyaqpro.3e364a2a.so!0x321d0
+0x6d5e34c75c libyaqpro.3e364a2a.so!0xb75c
+0x6d56205a84 libyaqbasic.3e364a2a.so!0xa84
+0x6de50d7648 libart.so!art_quick_generic_jni_trampoline+0x98
+0x6de500918c libart.so!nterp_helper+0x9c
+0x6de500918c libart.so!nterp_helper+0x9c
+0x6de500a048 libart.so!nterp_helper+0xf58
+0x6de50cdd68 libart.so!art_quick_invoke_stub+0x228
+0x6de50f23d4 libart.so!_ZN3art11interpreter34ArtInterpreterToCompiledCodeBridgeEPNS_6ThreadEPNS_9ArtMethodEPNS_11ShadowFrameEtPNS_6JValueE+0x13c
+0x6de51ff86c libart.so!_ZN3art11interpreter6DoCallILb0ELb0EEEbPNS_9ArtMethodEPNS_6ThreadERNS_11ShadowFrameEPKNS_11InstructionEtPNS_6JValueE+0x338
+0x6de50c43f0 libart.so!MterpInvokeVirtual+0x1508
+0x6de50c8418 libart.so!mterp_op_invoke_virtual+0x18
+0x6de507d74c libart.so!_ZN3art11interpreterL7ExecuteEPNS_6ThreadERKNS_20CodeItemDataAccessorERNS_11ShadowFrameENS_6JValueEbb.llvm.7449118509010352383+0x288
+0x6de507c8f4 libart.so!artQuickToInterpreterBridge+0x49c
+0x6de50d777c libart.so!art_quick_to_interpreter_bridge+0x5c
+0x6de500918c libart.so!nterp_helper+0x9c
+[GetStaticFieldID] com/qq/e/comm/plugin/d2.g : Ljava/lang/String; → 0x6d5e4a5ad4
+
+[SetObjectField]
+  ↳ Target obj: 0x89
+  ↳ jfieldID  : 0x6d5e4a5ad4
+  ↳ Class     : com/qq/e/comm/plugin/d2
+  ↳ Field     : g
+  ↳ Sig       : Ljava/lang/String;
+  ↳ Value     : 0x75
+  ↳ String content: /data/user/0/com.qq.e.union.demo.union/app_e_qq_com_dog_0f50a4d217c8538245ee2d99f71e9f37
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x7fc10f16d8
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x7fc10f16d8
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x7fc10f1778
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x7fc10f1778
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x7fc10f1768
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x6d5e3731d0 libyaqpro.3e364a2a.so!0x321d0
+0x6d5e34c75c libyaqpro.3e364a2a.so!0xb75c
+0x6d56205a84 libyaqbasic.3e364a2a.so!0xa84
+0x6de50d7648 libart.so!art_quick_generic_jni_trampoline+0x98
+0x6de500918c libart.so!nterp_helper+0x9c
+0x6de500918c libart.so!nterp_helper+0x9c
+0x6de500a048 libart.so!nterp_helper+0xf58
+0x6de50cdd68 libart.so!art_quick_invoke_stub+0x228
+0x6de50f23d4 libart.so!_ZN3art11interpreter34ArtInterpreterToCompiledCodeBridgeEPNS_6ThreadEPNS_9ArtMethodEPNS_11ShadowFrameEtPNS_6JValueE+0x13c
+0x6de51ff86c libart.so!_ZN3art11interpreter6DoCallILb0ELb0EEEbPNS_9ArtMethodEPNS_6ThreadERNS_11ShadowFrameEPKNS_11InstructionEtPNS_6JValueE+0x338
+0x6de50c43f0 libart.so!MterpInvokeVirtual+0x1508
+0x6de50c8418 libart.so!mterp_op_invoke_virtual+0x18
+0x6de507d74c libart.so!_ZN3art11interpreterL7ExecuteEPNS_6ThreadERKNS_20CodeItemDataAccessorERNS_11ShadowFrameENS_6JValueEbb.llvm.7449118509010352383+0x288
+0x6de507c8f4 libart.so!artQuickToInterpreterBridge+0x49c
+0x6de50d777c libart.so!art_quick_to_interpreter_bridge+0x5c
+0x6de500918c libart.so!nterp_helper+0x9c
+[GetStaticFieldID] com/qq/e/comm/plugin/d2.h : [J → 0x6d5e4a5ae4
+
+[SetObjectField]
+  ↳ Target obj: 0xa1
+  ↳ jfieldID  : 0x6d5e4a5ae4
+  ↳ Class     : com/qq/e/comm/plugin/d2
+  ↳ Field     : h
+  ↳ Sig       : [J
+  ↳ Value     : 0xb5
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x7fc10f1778
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x7fc10f16c8
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x7fc10f16c8
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x7fc10f1668
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x7fc10f15b8
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x6d5e3731d0 libyaqpro.3e364a2a.so!0x321d0
+0x6d5e34c75c libyaqpro.3e364a2a.so!0xb75c
+0x6d56205a84 libyaqbasic.3e364a2a.so!0xa84
+0x6de50d7648 libart.so!art_quick_generic_jni_trampoline+0x98
+0x6de500918c libart.so!nterp_helper+0x9c
+0x6de500918c libart.so!nterp_helper+0x9c
+0x6de500a048 libart.so!nterp_helper+0xf58
+0x6de50cdd68 libart.so!art_quick_invoke_stub+0x228
+0x6de50f23d4 libart.so!_ZN3art11interpreter34ArtInterpreterToCompiledCodeBridgeEPNS_6ThreadEPNS_9ArtMethodEPNS_11ShadowFrameEtPNS_6JValueE+0x13c
+0x6de51ff86c libart.so!_ZN3art11interpreter6DoCallILb0ELb0EEEbPNS_9ArtMethodEPNS_6ThreadERNS_11ShadowFrameEPKNS_11InstructionEtPNS_6JValueE+0x338
+0x6de50c43f0 libart.so!MterpInvokeVirtual+0x1508
+0x6de50c8418 libart.so!mterp_op_invoke_virtual+0x18
+0x6de507d74c libart.so!_ZN3art11interpreterL7ExecuteEPNS_6ThreadERKNS_20CodeItemDataAccessorERNS_11ShadowFrameENS_6JValueEbb.llvm.7449118509010352383+0x288
+0x6de507c8f4 libart.so!artQuickToInterpreterBridge+0x49c
+0x6de50d777c libart.so!art_quick_to_interpreter_bridge+0x5c
+0x6de500918c libart.so!nterp_helper+0x9c
+[GetStaticFieldID] com/qq/e/comm/plugin/d2.i : J → 0x6d5e4a5af4
+[GetStaticFieldID] com/qq/e/comm/plugin/d2.k : Ljava/lang/String; → 0x6d5e4a5b14
+
+[SetObjectField]
+  ↳ Target obj: 0xd5
+  ↳ jfieldID  : 0x6d5e4a5b14
+  ↳ Class     : com/qq/e/comm/plugin/d2
+  ↳ Field     : k
+  ↳ Sig       : Ljava/lang/String;
+  ↳ Value     : 0xc5
+  ↳ String content: https://union.eff.qq.com/pantheon/c/v1/log/crash/report
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x7fc10f1708
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x7fc10f1858
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x7fc10f1a38
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x7fc10f1b28
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x6d5e3731d0 libyaqpro.3e364a2a.so!0x321d0
+0x6d5e34c75c libyaqpro.3e364a2a.so!0xb75c
+0x6d56205a84 libyaqbasic.3e364a2a.so!0xa84
+0x6de50d7648 libart.so!art_quick_generic_jni_trampoline+0x98
+0x6de500918c libart.so!nterp_helper+0x9c
+0x6de500918c libart.so!nterp_helper+0x9c
+0x6de500a048 libart.so!nterp_helper+0xf58
+0x6de50cdd68 libart.so!art_quick_invoke_stub+0x228
+0x6de50f23d4 libart.so!_ZN3art11interpreter34ArtInterpreterToCompiledCodeBridgeEPNS_6ThreadEPNS_9ArtMethodEPNS_11ShadowFrameEtPNS_6JValueE+0x13c
+0x6de51ff86c libart.so!_ZN3art11interpreter6DoCallILb0ELb0EEEbPNS_9ArtMethodEPNS_6ThreadERNS_11ShadowFrameEPKNS_11InstructionEtPNS_6JValueE+0x338
+0x6de50c43f0 libart.so!MterpInvokeVirtual+0x1508
+0x6de50c8418 libart.so!mterp_op_invoke_virtual+0x18
+0x6de507d74c libart.so!_ZN3art11interpreterL7ExecuteEPNS_6ThreadERKNS_20CodeItemDataAccessorERNS_11ShadowFrameENS_6JValueEbb.llvm.7449118509010352383+0x288
+0x6de507c8f4 libart.so!artQuickToInterpreterBridge+0x49c
+0x6de50d777c libart.so!art_quick_to_interpreter_bridge+0x5c
+0x6de500918c libart.so!nterp_helper+0x9c
+[GetStaticFieldID] com/qq/e/comm/plugin/d2.l : [Ljava/lang/String; → 0x6d5e4a5b24
+
+[SetObjectField]
+  ↳ Target obj: 0xf9
+  ↳ jfieldID  : 0x6d5e4a5b24
+  ↳ Class     : com/qq/e/comm/plugin/d2
+  ↳ Field     : l
+  ↳ Sig       : [Ljava/lang/String;
+  ↳ Value     : 0xe1
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x7fc10f19a8
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x7fc10f1908
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x7fc10f1978
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x7fc10f1978
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x6d5e3731d0 libyaqpro.3e364a2a.so!0x321d0
+0x6d5e34c75c libyaqpro.3e364a2a.so!0xb75c
+0x6d56205a84 libyaqbasic.3e364a2a.so!0xa84
+0x6de50d7648 libart.so!art_quick_generic_jni_trampoline+0x98
+0x6de500918c libart.so!nterp_helper+0x9c
+0x6de500918c libart.so!nterp_helper+0x9c
+0x6de500a048 libart.so!nterp_helper+0xf58
+0x6de50cdd68 libart.so!art_quick_invoke_stub+0x228
+0x6de50f23d4 libart.so!_ZN3art11interpreter34ArtInterpreterToCompiledCodeBridgeEPNS_6ThreadEPNS_9ArtMethodEPNS_11ShadowFrameEtPNS_6JValueE+0x13c
+0x6de51ff86c libart.so!_ZN3art11interpreter6DoCallILb0ELb0EEEbPNS_9ArtMethodEPNS_6ThreadERNS_11ShadowFrameEPKNS_11InstructionEtPNS_6JValueE+0x338
+0x6de50c43f0 libart.so!MterpInvokeVirtual+0x1508
+0x6de50c8418 libart.so!mterp_op_invoke_virtual+0x18
+0x6de507d74c libart.so!_ZN3art11interpreterL7ExecuteEPNS_6ThreadERKNS_20CodeItemDataAccessorERNS_11ShadowFrameENS_6JValueEbb.llvm.7449118509010352383+0x288
+0x6de507c8f4 libart.so!artQuickToInterpreterBridge+0x49c
+0x6de50d777c libart.so!art_quick_to_interpreter_bridge+0x5c
+0x6de500918c libart.so!nterp_helper+0x9c
+[GetStaticFieldID] com/qq/e/comm/plugin/ku.a : I → 0x6d5e4cecbc
+[GetStaticFieldID] com/qq/e/comm/plugin/ku.a : I → 0x6d5e4cecbc
+[GetStaticFieldID] com/qq/e/comm/plugin/POFactoryImpl.a : Lcom/qq/e/comm/pi/POFactory; → 0x6d5e4e828c
+
+[SetObjectField]
+  ↳ Target obj: 0x45
+  ↳ jfieldID  : 0x6d5e4e828c
+  ↳ Class     : com/qq/e/comm/plugin/POFactoryImpl
+  ↳ Field     : a
+  ↳ Sig       : Lcom/qq/e/comm/pi/POFactory;
+  ↳ Value     : 0x55
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x7fc10f1a88
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x7fc10f1798
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x6d5e3731d0 libyaqpro.3e364a2a.so!0x321d0
+0x6d5e34c75c libyaqpro.3e364a2a.so!0xb75c
+0x6d56205aa4 libyaqbasic.3e364a2a.so!0xaa4
+0x6de50d7648 libart.so!art_quick_generic_jni_trampoline+0x98
+0x6de500918c libart.so!nterp_helper+0x9c
+0x6de50cdfec libart.so!art_quick_invoke_static_stub+0x23c
+0x6de5162f10 libart.so!_ZN3art12InvokeMethodILNS_11PointerSizeE8EEEP8_jobjectRKNS_33ScopedObjectAccessAlreadyRunnableES3_S3_S3_m+0x264
+0x6de5162c88 libart.so!_ZN3artL13Method_invokeEP7_JNIEnvP8_jobjectS3_P13_jobjectArray+0x38
+0x6ff8df78 boot.oat!0xb2f78
+0x6ff8df78 boot.oat!0xb2f78
+[GetStaticFieldID] com/qq/e/comm/plugin/POFactoryImpl.a : Lcom/qq/e/comm/pi/POFactory; → 0x6d5e4e828c
+[GetStaticFieldID] com/qq/e/comm/plugin/f00.a : Ljava/util/concurrent/atomic/AtomicInteger; → 0x6d5e4a4de4
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetStaticFieldID] com/qq/e/comm/plugin/m00$a.a : [I → 0x6d5e3daee4
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.e : Ljava/lang/Runnable; → 0x6d5e3db364
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.e : Ljava/lang/Runnable; → 0x6d5e3db364
+[GetFieldID] com/qq/e/comm/plugin/m00.b : Landroid/content/Context; → 0x6d5e3db334
+[GetFieldID] com/qq/e/comm/plugin/m00.c : Lcom/qq/e/comm/plugin/g00; → 0x6d5e3db344
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetStaticFieldID] com/qq/e/comm/plugin/j00.a : Ljava/util/concurrent/atomic/AtomicInteger; → 0x6d5e4a515c
+[GetFieldID] com/qq/e/comm/plugin/m00.d : Lcom/qq/e/comm/plugin/k00; → 0x6d5e3db354
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+
+[SetObjectField]
+  ↳ Target obj: 0x6d5067df88
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[GetStaticFieldID] com/qq/e/comm/plugin/j00.a : Ljava/util/concurrent/atomic/AtomicInteger; → 0x6d5e4a515c
+[GetFieldID] com/qq/e/comm/plugin/m00.d : Lcom/qq/e/comm/plugin/k00; → 0x6d5e3db354
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetStaticFieldID] com/qq/e/comm/plugin/lf.u : Lcom/qq/e/comm/plugin/lf; → 0x6d5e4d9064
+[GetStaticFieldID] com/qq/e/comm/plugin/ku.b : I → 0x6d5e4ceccc
+[GetStaticFieldID] com/qq/e/comm/plugin/ku.a : I → 0x6d5e4cecbc
+[GetStaticFieldID] com/qq/e/comm/plugin/ku.a : I → 0x6d5e4cecbc
+[GetStaticFieldID] com/qq/e/comm/plugin/ku.b : I → 0x6d5e4ceccc
+[GetStaticFieldID] com/qq/e/comm/plugin/ku.b : I → 0x6d5e4ceccc
+[GetFieldID] com/qq/e/comm/plugin/lf.d : Ljava/util/List; → 0x6d5e4d90bc
+[GetStaticFieldID] com/qq/e/comm/plugin/ku.b : I → 0x6d5e4ceccc
+[GetStaticFieldID] com/qq/e/comm/plugin/ku.b : I → 0x6d5e4ceccc
+[GetStaticFieldID] com/qq/e/comm/plugin/lf.u : Lcom/qq/e/comm/plugin/lf; → 0x6d5e4d9064
+[GetFieldID] com/qq/e/comm/plugin/lf.n : Ljava/lang/Boolean; → 0x6d5e4d915c
+
+[SetObjectField]
+  ↳ Target obj: 0xd9
+  ↳ jfieldID  : 0x6d5e4d915c
+  ↳ Class     : com/qq/e/comm/plugin/lf
+  ↳ Field     : n
+  ↳ Sig       : Ljava/lang/Boolean;
+  ↳ Value     : 0x105
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x7fc10f19d8
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x6d5067df88
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x7fc10f1978
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x6d5067df78
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+[GetStaticFieldID] com/qq/e/comm/plugin/m00$l.e : Lcom/qq/e/comm/plugin/m00$l; → 0x6d5e3daf64
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetStaticFieldID] com/qq/e/comm/plugin/m00$a.a : [I → 0x6d5e3daee4
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+
+[SetObjectField]
+  ↳ Target obj: 0x7fc10f1978
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x6d5067df78
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x6d5067df88
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x7fc10f1798
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x6d5e36addc libyaqpro.3e364a2a.so!0x29ddc
+0x6d5e34c75c libyaqpro.3e364a2a.so!0xb75c
+0x6d56205a84 libyaqbasic.3e364a2a.so!0xa84
+0x6de50d7648 libart.so!art_quick_generic_jni_trampoline+0x98
+0x6de500918c libart.so!nterp_helper+0x9c
+0x6de50cdd68 libart.so!art_quick_invoke_stub+0x228
+0x6de523a5a0 libart.so!_ZN3art35InvokeVirtualOrInterfaceWithVarArgsIPNS_9ArtMethodEEENS_6JValueERKNS_33ScopedObjectAccessAlreadyRunnableEP8_jobjectT_St9__va_list+0x374
+0x6de53b2070 libart.so!_ZN3art3JNIILb0EE15CallVoidMethodVEP7_JNIEnvP8_jobjectP10_jmethodIDSt9__va_list+0x130
+0x6d5e38ce64 libyaqpro.3e364a2a.so!0x4be64
+0x6d5e3897e8 libyaqpro.3e364a2a.so!0x487e8
+0x6d5e34c75c libyaqpro.3e364a2a.so!0xb75c
+0x6d56205a84 libyaqbasic.3e364a2a.so!0xa84
+0x6de50d7648 libart.so!art_quick_generic_jni_trampoline+0x98
+0x6de500918c libart.so!nterp_helper+0x9c
+0x6de50cdd68 libart.so!art_quick_invoke_stub+0x228
+0x6de51d5664 libart.so!_ZN3art3JNIILb0EE25CallNonvirtualVoidMethodVEP7_JNIEnvP8_jobjectP7_jclassP10_jmethodIDSt9__va_list+0x1f0
+[GetFieldID] com/qq/e/comm/plugin/lf.o : Ljava/lang/String; → 0x6d5e4d916c
+
+[SetObjectField]
+  ↳ Target obj: 0xd9
+  ↳ jfieldID  : 0x6d5e4d916c
+  ↳ Class     : com/qq/e/comm/plugin/lf
+  ↳ Field     : o
+  ↳ Sig       : Ljava/lang/String;
+  ↳ Value     : 0x111
+  ↳ String content: 
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x7fc10f19d8
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x6d5067df88
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x6d5067df78
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x6d5067df78
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x6d5e36addc libyaqpro.3e364a2a.so!0x29ddc
+0x6d5e34c75c libyaqpro.3e364a2a.so!0xb75c
+0x6d56205a84 libyaqbasic.3e364a2a.so!0xa84
+0x6de50d7648 libart.so!art_quick_generic_jni_trampoline+0x98
+0x6de500918c libart.so!nterp_helper+0x9c
+0x6de50cdd68 libart.so!art_quick_invoke_stub+0x228
+0x6de523a5a0 libart.so!_ZN3art35InvokeVirtualOrInterfaceWithVarArgsIPNS_9ArtMethodEEENS_6JValueERKNS_33ScopedObjectAccessAlreadyRunnableEP8_jobjectT_St9__va_list+0x374
+0x6de53b2070 libart.so!_ZN3art3JNIILb0EE15CallVoidMethodVEP7_JNIEnvP8_jobjectP10_jmethodIDSt9__va_list+0x130
+0x6d5e38ce64 libyaqpro.3e364a2a.so!0x4be64
+0x6d5e3897e8 libyaqpro.3e364a2a.so!0x487e8
+0x6d5e34c75c libyaqpro.3e364a2a.so!0xb75c
+0x6d56205a84 libyaqbasic.3e364a2a.so!0xa84
+0x6de50d7648 libart.so!art_quick_generic_jni_trampoline+0x98
+0x6de500918c libart.so!nterp_helper+0x9c
+0x6de50cdd68 libart.so!art_quick_invoke_stub+0x228
+0x6de51d5664 libart.so!_ZN3art3JNIILb0EE25CallNonvirtualVoidMethodVEP7_JNIEnvP8_jobjectP7_jclassP10_jmethodIDSt9__va_list+0x1f0
+[GetFieldID] com/qq/e/comm/plugin/lf.q : J → 0x6d5e4d918c
+[GetFieldID] com/qq/e/comm/plugin/lf.r : J → 0x6d5e4d919c
+[GetFieldID] com/qq/e/comm/plugin/lf.e : Ljava/util/concurrent/ExecutorService; → 0x6d5e4d90cc
+[GetStaticFieldID] com/qq/e/comm/plugin/ku.a : I → 0x6d5e4cecbc
+[GetStaticFieldID] com/qq/e/comm/plugin/ku.a : I → 0x6d5e4cecbc
+[GetStaticFieldID] com/qq/e/comm/plugin/lf.u : Lcom/qq/e/comm/plugin/lf; → 0x6d5e4d9064
+[GetFieldID] com/qq/e/comm/plugin/lf.a : Ljava/lang/String; → 0x6d5e4d908c
+[GetStaticFieldID] com/qq/e/comm/plugin/lf.u : Lcom/qq/e/comm/plugin/lf; → 0x6d5e4d9064
+[GetStaticFieldID] com/qq/e/comm/plugin/p10.h : Z → 0x6d5e48a65c
+[GetFieldID] com/qq/e/comm/plugin/lf.a : Ljava/lang/String; → 0x6d5e4d908c
+[GetStaticFieldID] com/qq/e/comm/plugin/p10.i : Z → 0x6d5e48a66c
+[GetStaticFieldID] com/qq/e/comm/plugin/p10.h : Z → 0x6d5e48a65c
+[GetFieldID] com/qq/e/comm/plugin/ka.f : Ljava/lang/String; → 0x6d5e4ca8fc
+[GetStaticFieldID] [0x19b6].DISPLAY_SERVICE : Ljava/lang/String; → 0x70940870
+[GetFieldID] [0x19d6].versionCode : I → 0x70961e78
+[GetFieldID] [0x19d6].packageName : Ljava/lang/String; → 0x70961d58
+[GetFieldID] [0x19d6].applicationInfo : Landroid/content/pm/ApplicationInfo; → 0x70961c28
+[GetFieldID] [0x19d6].firstInstallTime : J → 0x70961ca8
+[GetFieldID] [0x1ad6].uid : I → 0x70961018
+[GetFieldID] [0x1ad6].flags : I → 0x70960cf8
+[GetStaticFieldID] [0x1ad6].FLAG_SYSTEM : I → 0x70960834
+[GetFieldID] [0x1ad6].targetSdkVersion : I → 0x70960fd8
+[GetFieldID] [0x1ad6].sourceDir : Ljava/lang/String; → 0x70960f58
+[GetStaticFieldID] [0x1ae6].SDK_INT : I → 0x70999418
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetStaticFieldID] com/qq/e/comm/plugin/m00$a.a : [I → 0x6d5e3daee4
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetStaticFieldID] com/qq/e/comm/plugin/m00$a.a : [I → 0x6d5e3daee4
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetStaticFieldID] com/qq/e/comm/plugin/m00$a.a : [I → 0x6d5e3daee4
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetStaticFieldID] com/qq/e/comm/plugin/p10.h : Z → 0x6d5e48a65c
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetStaticFieldID] com/qq/e/comm/plugin/p10.h : Z → 0x6d5e48a65c
+[GetStaticFieldID] com/qq/e/comm/plugin/p10.a : Ljava/lang/String; → 0x6d5e48a5ec
+[GetStaticFieldID] com/qq/e/comm/plugin/p10.i : Z → 0x6d5e48a66c
+[GetStaticFieldID] com/qq/e/comm/plugin/p10.b : Ljava/lang/String; → 0x6d5e48a5fc
+[GetStaticFieldID] com/qq/e/comm/plugin/p10.g : Z → 0x6d5e48a64c
+[GetStaticFieldID] com/qq/e/comm/plugin/p10.g : Z → 0x6d5e48a64c
+[GetStaticFieldID] com/qq/e/comm/plugin/p10.i : Z → 0x6d5e48a66c
+[GetStaticFieldID] com/qq/e/comm/plugin/p10.f : I → 0x6d5e48a63c
+[GetStaticFieldID] com/qq/e/comm/plugin/p10.e : I → 0x6d5e48a62c
+[GetStaticFieldID] com/qq/e/comm/plugin/f00.a : Ljava/util/concurrent/atomic/AtomicInteger; → 0x6d5e4a4de4
+[GetFieldID] com/qq/e/comm/plugin/m00.c : Lcom/qq/e/comm/plugin/g00; → 0x6d5e3db344
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetStaticFieldID] com/qq/e/comm/plugin/m00$a.a : [I → 0x6d5e3daee4
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetStaticFieldID] com/qq/e/comm/plugin/p10.h : Z → 0x6d5e48a65c
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetStaticFieldID] com/qq/e/comm/plugin/p10.f : I → 0x6d5e48a63c
+[GetStaticFieldID] com/qq/e/comm/plugin/p10.e : I → 0x6d5e48a62c
+[GetStaticFieldID] com/qq/e/comm/plugin/f00.a : Ljava/util/concurrent/atomic/AtomicInteger; → 0x6d5e4a4de4
+[GetFieldID] com/qq/e/comm/plugin/m00.c : Lcom/qq/e/comm/plugin/g00; → 0x6d5e3db344
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetStaticFieldID] com/qq/e/comm/plugin/m00$a.a : [I → 0x6d5e3daee4
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetStaticFieldID] com/qq/e/comm/plugin/p10.d : Z → 0x6d5e48a61c
+[GetStaticFieldID] com/qq/e/comm/plugin/p10.c : J → 0x6d5e48a60c
+[GetStaticFieldID] com/qq/e/comm/plugin/jg.b : Ljava/util/concurrent/ExecutorService; → 0x6d5e4fcf14
+[GetFieldID] android/util/Pair.first : Ljava/lang/Object; → 0x709dc6b4
+[GetStaticFieldID] com/qq/e/comm/plugin/p10.d : Z → 0x6d5e48a61c
+[GetStaticFieldID] com/qq/e/comm/plugin/p10.c : J → 0x6d5e48a60c
+[GetFieldID] android/util/Pair.second : Ljava/lang/Object; → 0x709dc6c4
+[GetStaticFieldID] com/qq/e/comm/plugin/f00.a : Ljava/util/concurrent/atomic/AtomicInteger; → 0x6d5e4a4de4
+[GetFieldID] com/qq/e/comm/plugin/m00.c : Lcom/qq/e/comm/plugin/g00; → 0x6d5e3db344
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetStaticFieldID] com/qq/e/comm/plugin/m00$a.a : [I → 0x6d5e3daee4
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetStaticFieldID] com/qq/e/comm/plugin/j00.a : Ljava/util/concurrent/atomic/AtomicInteger; → 0x6d5e4a515c
+[GetFieldID] com/qq/e/comm/plugin/m00.d : Lcom/qq/e/comm/plugin/k00; → 0x6d5e3db354
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetStaticFieldID] com/qq/e/comm/plugin/m00$a.a : [I → 0x6d5e3daee4
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetFieldID] com/qq/e/comm/plugin/ka.k : Landroid/content/Context; → 0x6d5e4ca94c
+[GetStaticFieldID] com/qq/e/comm/plugin/p10.e : I → 0x6d5e48a62c
+[GetStaticFieldID] com/qq/e/comm/plugin/p10.f : I → 0x6d5e48a63c
+[GetStaticFieldID] com/qq/e/comm/plugin/f00.a : Ljava/util/concurrent/atomic/AtomicInteger; → 0x6d5e4a4de4
+[GetStaticFieldID] com/qq/e/comm/plugin/ku.b : I → 0x6d5e4ceccc
+[GetStaticFieldID] com/qq/e/comm/plugin/ku.b : I → 0x6d5e4ceccc
+[GetFieldID] com/qq/e/comm/plugin/m00.c : Lcom/qq/e/comm/plugin/g00; → 0x6d5e3db344
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetStaticFieldID] com/qq/e/comm/plugin/ku.b : I → 0x6d5e4ceccc
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetStaticFieldID] com/qq/e/comm/plugin/ku.b : I → 0x6d5e4ceccc
+[GetStaticFieldID] com/qq/e/comm/plugin/ku.b : I → 0x6d5e4ceccc
+[GetStaticFieldID] com/qq/e/comm/plugin/ku.b : I → 0x6d5e4ceccc
+[GetFieldID] com/qq/e/comm/plugin/lf.f : Ljava/util/concurrent/atomic/AtomicLong; → 0x6d5e4d90dc
+[GetStaticFieldID] java/lang/Class.a : [I → 0x6d5e3daee4
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetStaticFieldID] com/qq/e/comm/plugin/p10.d : Z → 0x6d5e48a61c
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetStaticFieldID] com/qq/e/comm/plugin/zw.b : [B → 0x6d5e4fedcc
+[GetStaticFieldID] com/qq/e/comm/plugin/zw.c : Ljava/lang/ThreadLocal; → 0x6d5e4feddc
+[GetStaticFieldID] com/qq/e/comm/plugin/zw.f : [B → 0x6d5e4fee0c
+[GetStaticFieldID] [0x19b6].MODE_PRIVATE : I → 0x70940b40
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.c : Lcom/qq/e/comm/plugin/g00; → 0x6d5e3db344
+
+[SetObjectField]
+  ↳ Target obj: 0x6d5067df88
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[GetStaticFieldID] com/qq/e/comm/plugin/p10.i : Z → 0x6d5e48a66c
+[GetStaticFieldID] com/qq/e/comm/plugin/p10.d : Z → 0x6d5e48a61c
+[GetStaticFieldID] com/qq/e/comm/plugin/p10.c : J → 0x6d5e48a60c
+[GetStaticFieldID] com/qq/e/comm/plugin/jg.b : Ljava/util/concurrent/ExecutorService; → 0x6d5e4fcf14
+[GetFieldID] com/qq/e/comm/plugin/b9.b : Ljava/util/concurrent/atomic/AtomicBoolean; → 0x6d5e496d34
+[GetFieldID] com/qq/e/comm/plugin/b9.c : Ljava/util/concurrent/atomic/AtomicBoolean; → 0x6d5e496d44
+[GetFieldID] com/qq/e/comm/plugin/b9.c : Ljava/util/concurrent/atomic/AtomicBoolean; → 0x6d5e496d44
+[GetStaticFieldID] com/qq/e/comm/plugin/p10.d : Z → 0x6d5e48a61c
+[GetStaticFieldID] com/qq/e/comm/plugin/p10.c : J → 0x6d5e48a60c
+[GetFieldID] com/qq/e/comm/plugin/w50.a : Ljava/lang/String; → 0x6d5e48b58c
+
+[SetObjectField]
+  ↳ Target obj: 0x79
+  ↳ jfieldID  : 0x6d5e48b58c
+  ↳ Class     : com/qq/e/comm/plugin/w50
+  ↳ Field     : a
+  ↳ Sig       : Ljava/lang/String;
+  ↳ Value     : 0xb1
+[GetStaticFieldID] com/qq/e/comm/plugin/f00.a : Ljava/util/concurrent/atomic/AtomicInteger; → 0x6d5e4a4de4
+[GetFieldID] com/qq/e/comm/plugin/m00.c : Lcom/qq/e/comm/plugin/g00; → 0x6d5e3db344
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+  ↳ String content: 
+[GetFieldID] [0x1b8a].versionName : Ljava/lang/String; → 0x70961e98
+
+[SetObjectField]
+  ↳ Target obj: 0x7fc10f1798
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x6d5067df88
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[GetStaticFieldID] com/qq/e/comm/plugin/tr.i : J → 0x6d5e4cc764
+[GetStaticFieldID] com/qq/e/comm/plugin/tr.h : Z → 0x6d5e4cc754
+[GetStaticFieldID] com/qq/e/comm/plugin/zw.b : [B → 0x6d5e4fedcc
+[GetStaticFieldID] com/qq/e/comm/plugin/zw.d : Ljava/lang/ThreadLocal; → 0x6d5e4fedec
+[GetStaticFieldID] com/qq/e/comm/plugin/zw.f : [B → 0x6d5e4fee0c
+[GetStaticFieldID] com/qq/e/comm/plugin/f00.a : Ljava/util/concurrent/atomic/AtomicInteger; → 0x6d5e4a4de4
+[GetFieldID] com/qq/e/comm/plugin/m00.c : Lcom/qq/e/comm/plugin/g00; → 0x6d5e3db344
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetStaticFieldID] com/qq/e/comm/plugin/lf.u : Lcom/qq/e/comm/plugin/lf; → 0x6d5e4d9064
+[GetFieldID] com/qq/e/comm/plugin/lf.e : Ljava/util/concurrent/ExecutorService; → 0x6d5e4d90cc
+[GetFieldID] com/qq/e/comm/plugin/lf.j : I → 0x6d5e4d911c
+[GetFieldID] com/qq/e/comm/plugin/lf.j : I → 0x6d5e4d911c
+[GetFieldID] com/qq/e/comm/plugin/lf.j : I → 0x6d5e4d911c
+[GetStaticFieldID] com/qq/e/comm/plugin/z5.a : Ljava/nio/charset/Charset; → 0x6d5e4fcf94
+[GetStaticFieldID] com/qq/e/comm/plugin/m.a : Ljava/lang/String; → 0x6d5e46d51c
+[GetStaticFieldID] com/qq/e/comm/plugin/l30$b.a : Lcom/qq/e/comm/plugin/l30; → 0x6d5e3d2874
+[GetFieldID] com/qq/e/comm/plugin/l30.b : Z → 0x6d5e4afabc
+[GetFieldID] com/qq/e/comm/plugin/l30.a : Ljava/security/PublicKey; → 0x6d5e4afaac
+[GetStaticFieldID] com/qq/e/comm/plugin/l30.c : [B → 0x6d5e4afa94
+[GetFieldID] com/qq/e/comm/plugin/l30.a : Ljava/security/PublicKey; → 0x6d5e4afaac
+[GetStaticFieldID] com/qq/e/comm/plugin/l30$b.a : Lcom/qq/e/comm/plugin/l30; → 0x6d5e3d2874
+[GetFieldID] com/qq/e/comm/plugin/l30.b : Z → 0x6d5e4afabc
+[GetFieldID] com/qq/e/comm/plugin/l30.a : Ljava/security/PublicKey; → 0x6d5e4afaac
+[GetStaticFieldID] com/qq/e/comm/plugin/l30.c : [B → 0x6d5e4afa94
+[GetFieldID] com/qq/e/comm/plugin/l30.a : Ljava/security/PublicKey; → 0x6d5e4afaac
+[GetStaticFieldID] com/qq/e/comm/plugin/l30$b.a : Lcom/qq/e/comm/plugin/l30; → 0x6d5e3d2874
+[GetFieldID] com/qq/e/comm/plugin/l30.b : Z → 0x6d5e4afabc
+[GetFieldID] com/qq/e/comm/plugin/l30.a : Ljava/security/PublicKey; → 0x6d5e4afaac
+[GetStaticFieldID] com/qq/e/comm/plugin/l30.c : [B → 0x6d5e4afa94
+[GetFieldID] com/qq/e/comm/plugin/l30.a : Ljava/security/PublicKey; → 0x6d5e4afaac
+[GetFieldID] com/qq/e/comm/plugin/k0.b : Lorg/json/JSONObject; → 0x6d5e42c1bc
+
+[SetObjectField]
+  ↳ Target obj: 0x15
+  ↳ jfieldID  : 0x6d5e42c1bc
+  ↳ Class     : com/qq/e/comm/plugin/k0
+  ↳ Field     : b
+  ↳ Sig       : Lorg/json/JSONObject;
+  ↳ Value     : 0x35
+[GetFieldID] com/qq/e/comm/plugin/lf.l : J → 0x6d5e4d913c
+[GetFieldID] com/qq/e/comm/plugin/lf.m : J → 0x6d5e4d914c
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x7fc10f19d8
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x6d5067df78
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[GetFieldID] com/qq/e/comm/plugin/ka.f : Ljava/lang/String; → 0x6d5e4ca8fc
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x7fc10f1978
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x6d5067df78
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+
+[SetObjectField]
+  ↳ Target obj: 0x6d3fe63158
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+[GetStaticFieldID] java/lang/Integer.TYPE : Ljava/lang/Class; → 0x6fd05ea8
+[GetStaticFieldID] java/lang/Integer.TYPE : Ljava/lang/Class; → 0x6fd05ea8
+[GetStaticFieldID] java/lang/Integer.TYPE : Ljava/lang/Class; → 0x6fd05ea8
+[GetStaticFieldID] java/lang/Integer.TYPE : Ljava/lang/Class; → 0x6fd05ea8
+[GetStaticFieldID] java/lang/Integer.TYPE : Ljava/lang/Class; → 0x6fd05ea8
+[GetStaticFieldID] android/os/Build$VERSION.SDK_INT : I → 0x70999418
+[GetStaticFieldID] com/qq/e/comm/plugin/ku.b : I → 0x6d5e4ceccc
+[GetStaticFieldID] com/qq/e/comm/plugin/ku.b : I → 0x6d5e4ceccc
+[GetStaticFieldID] com/qq/e/comm/plugin/ku.b : I → 0x6d5e4ceccc
+[GetStaticFieldID] com/qq/e/comm/plugin/ku.b : I → 0x6d5e4ceccc
+[GetFieldID] com/qq/e/comm/plugin/ka.f : Ljava/lang/String; → 0x6d5e4ca8fc
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x6d5067bbf8
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x6d5e36addc libyaqpro.3e364a2a.so!0x29ddc
+0x6d5e34c75c libyaqpro.3e364a2a.so!0xb75c
+0x6d56205a84 libyaqbasic.3e364a2a.so!0xa84
+0x6de50d7648 libart.so!art_quick_generic_jni_trampoline+0x98
+0x6de500918c libart.so!nterp_helper+0x9c
+0x6de500a048 libart.so!nterp_helper+0xf58
+0x6de500a048 libart.so!nterp_helper+0xf58
+0x6de500a048 libart.so!nterp_helper+0xf58
+0x6de50cdfec libart.so!art_quick_invoke_static_stub+0x23c
+0x6de516cefc libart.so!_ZN3art17InvokeWithJValuesIPNS_9ArtMethodEEENS_6JValueERKNS_33ScopedObjectAccessAlreadyRunnableEP8_jobjectT_PK6jvalue+0x2cc
+0x6de53d4160 libart.so!_ZN3art3JNIILb0EE21CallStaticVoidMethodAEP7_JNIEnvP7_jclassP10_jmethodIDPK6jvalue+0x104
+0x6d5e38c17c libyaqpro.3e364a2a.so!0x4b17c
+0x6d5e34c75c libyaqpro.3e364a2a.so!0xb75c
+0x6d56205a84 libyaqbasic.3e364a2a.so!0xa84
+0x6de50d7648 libart.so!art_quick_generic_jni_trampoline+0x98
+0x6de500918c libart.so!nterp_helper+0x9c
+[GetStaticFieldID] com/qq/e/comm/plugin/w50.k : Ljava/lang/String; → 0x6d5e48b574
+[GetFieldID] com/qq/e/comm/plugin/w50.a : Ljava/lang/String; → 0x6d5e48b58c
+
+[SetObjectField]
+  ↳ Target obj: 0x79
+  ↳ jfieldID  : 0x6d5e48b58c
+  ↳ Class     : com/qq/e/comm/plugin/w50
+  ↳ Field     : a
+  ↳ Sig       : Ljava/lang/String;
+  ↳ Value     : 0xb9
+  ↳ String content: {'v':1,'a':1,'32':'https://qzs.gdtimg.com/union/res/union_cdn/page/other/libgdtflex_e71832c9b1fff1c99a0b667ae053fe08.zip','64':'_a1e77bba67ffbaddde9834483302222c.zip'}
+[Call Stack]
+0x6d5e36addc libyaqpro.3e364a2a.so!0x29ddc
+0x6d5e34c75c libyaqpro.3e364a2a.so!0xb75c
+0x6d56205a84 libyaqbasic.3e364a2a.so!0xa84
+0x6de50d7648 libart.so!art_quick_generic_jni_trampoline+0x98
+0x6de500918c libart.so!nterp_helper+0x9c
+0x6de500a048 libart.so!nterp_helper+0xf58
+0x6de5009128 libart.so!nterp_helper+0x38
+0x701118ac boot.oat!0x2368ac
+0x701118ac boot.oat!0x2368ac
+[GetFieldID] com/qq/e/comm/plugin/k0.c : I → 0x6d5e42c1cc
+[GetFieldID] com/qq/e/comm/plugin/k0.e : I → 0x6d5e42c1ec
+[GetFieldID] com/qq/e/comm/plugin/k0.k : Ljava/lang/String; → 0x6d5e42c24c
+
+[SetObjectField]
+  ↳ Target obj: 0x45
+  ↳ jfieldID  : 0x6d5e42c24c
+  ↳ Class     : com/qq/e/comm/plugin/k0
+  ↳ Field     : k
+  ↳ Sig       : Ljava/lang/String;
+  ↳ Value     : 0xb9
+  ↳ String content: https://qzs.gdtimg.com/union/res/union_cdn/page/other/libgdtqone_20918a10540ef84cbd775e4b8434c289.zip
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x6d3fe62778
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[GetStaticFieldID] com/qq/e/comm/plugin/d00.a : Ljava/lang/String; → 0x6d5e4ba9fc
+[GetStaticFieldID] com/qq/e/comm/plugin/p10.h : Z → 0x6d5e48a65c
+[GetStaticFieldID] com/qq/e/comm/plugin/p10.h : Z → 0x6d5e48a65c
+[GetStaticFieldID] com/qq/e/comm/plugin/p10.a : Ljava/lang/String; → 0x6d5e48a5ec
+[GetStaticFieldID] com/qq/e/comm/plugin/p10.i : Z → 0x6d5e48a66c
+[GetStaticFieldID] com/qq/e/comm/plugin/p10.b : Ljava/lang/String; → 0x6d5e48a5fc
+[GetStaticFieldID] com/qq/e/comm/plugin/p10.g : Z → 0x6d5e48a64c
+[GetStaticFieldID] com/qq/e/comm/plugin/p10.d : Z → 0x6d5e48a61c
+[GetFieldID] android/util/Pair.first : Ljava/lang/Object; → 0x709dc6b4
+[GetFieldID] android/util/Pair.second : Ljava/lang/Object; → 0x709dc6c4
+[GetStaticFieldID] com/qq/e/comm/plugin/ku.b : I → 0x6d5e4ceccc
+[GetStaticFieldID] com/qq/e/comm/plugin/ku.b : I → 0x6d5e4ceccc
+[GetStaticFieldID] com/qq/e/comm/plugin/z5.a : Ljava/nio/charset/Charset; → 0x6d5e4fcf94
+[GetStaticFieldID] com/qq/e/comm/plugin/kr$a.d : Lcom/qq/e/comm/plugin/kr$a; → 0x6d5e50036c
+[GetStaticFieldID] com/qq/e/comm/plugin/ga.c : Lcom/qq/e/comm/plugin/ga; → 0x6d5e48c2ec
+[GetFieldID] com/qq/e/comm/plugin/ka.f : Ljava/lang/String; → 0x6d5e4ca8fc
+[GetStaticFieldID] com/qq/e/comm/plugin/lf.u : Lcom/qq/e/comm/plugin/lf; → 0x6d5e4d9064
+[GetFieldID] com/qq/e/comm/plugin/lf.l : J → 0x6d5e4d913c
+[GetStaticFieldID] com/qq/e/comm/plugin/lf.u : Lcom/qq/e/comm/plugin/lf; → 0x6d5e4d9064
+[GetFieldID] com/qq/e/comm/plugin/lf.m : J → 0x6d5e4d914c
+[GetStaticFieldID] com/qq/e/comm/plugin/ga.c : Lcom/qq/e/comm/plugin/ga; → 0x6d5e48c2ec
+[GetFieldID] com/qq/e/comm/plugin/ka.f : Ljava/lang/String; → 0x6d5e4ca8fc
+[GetStaticFieldID] com/qq/e/comm/plugin/lf.u : Lcom/qq/e/comm/plugin/lf; → 0x6d5e4d9064
+[GetFieldID] com/qq/e/comm/plugin/lf.l : J → 0x6d5e4d913c
+[GetStaticFieldID] com/qq/e/comm/plugin/lf.u : Lcom/qq/e/comm/plugin/lf; → 0x6d5e4d9064
+[GetFieldID] com/qq/e/comm/plugin/lf.m : J → 0x6d5e4d914c
+[GetStaticFieldID] com/qq/e/comm/plugin/z5.a : Ljava/nio/charset/Charset; → 0x6d5e4fcf94
+[GetStaticFieldID] com/qq/e/comm/plugin/tr.i : J → 0x6d5e4cc764
+[GetStaticFieldID] com/qq/e/comm/plugin/tr.h : Z → 0x6d5e4cc754
+[GetFieldID] com/qq/e/comm/plugin/m00.d : Lcom/qq/e/comm/plugin/k00; → 0x6d5e3db354
+
+[SetObjectField]
+  ↳ Target obj: 0x6d5067df88
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+[GetFieldID] [0x1bb6].widthPixels : I → 0x709db8f4
+[GetFieldID] [0x1bb6].heightPixels : I → 0x709db864
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x6d5067df88
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[GetStaticFieldID] [0x19e6].FLAG_PERMISSION_WHITELIST_INSTALLER : I → 0x70943328
+[GetFieldID] [0x1b96].versionName : Ljava/lang/String; → 0x70961e98
+[GetStaticFieldID] com/qq/e/comm/plugin/j00.a : Ljava/util/concurrent/atomic/AtomicInteger; → 0x6d5e4a515c
+[GetFieldID] com/qq/e/comm/plugin/m00.d : Lcom/qq/e/comm/plugin/k00; → 0x6d5e3db354
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetStaticFieldID] com/qq/e/comm/plugin/p10.c : J → 0x6d5e48a60c
+[GetStaticFieldID] com/qq/e/comm/plugin/f00.a : Ljava/util/concurrent/atomic/AtomicInteger; → 0x6d5e4a4de4
+[GetFieldID] com/qq/e/comm/plugin/m00.c : Lcom/qq/e/comm/plugin/g00; → 0x6d5e3db344
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetStaticFieldID] com/qq/e/comm/plugin/p10.e : I → 0x6d5e48a62c
+[GetStaticFieldID] com/qq/e/comm/plugin/p10.f : I → 0x6d5e48a63c
+[GetStaticFieldID] com/qq/e/comm/plugin/p10.a : Ljava/lang/String; → 0x6d5e48a5ec
+[GetStaticFieldID] com/qq/e/comm/plugin/p10.g : Z → 0x6d5e48a64c
+[GetStaticFieldID] com/qq/e/comm/plugin/p10.a : Ljava/lang/String; → 0x6d5e48a5ec
+[GetStaticFieldID] com/qq/e/comm/plugin/f00.a : Ljava/util/concurrent/atomic/AtomicInteger; → 0x6d5e4a4de4
+[GetFieldID] com/qq/e/comm/plugin/m00.c : Lcom/qq/e/comm/plugin/g00; → 0x6d5e3db344
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetStaticFieldID] com/qq/e/comm/plugin/p10.a : Ljava/lang/String; → 0x6d5e48a5ec
+
+[SetObjectField]
+  ↳ Target obj: 0x79
+  ↳ jfieldID  : 0x6d5e48a5ec
+  ↳ Class     : com/qq/e/comm/plugin/p10
+  ↳ Field     : a
+  ↳ Sig       : Ljava/lang/String;
+  ↳ Value     : 0x81
+  ↳ String content: 0101869F047020E3D09E551635733783DEC7C16D85B97AD0C895C02C654F7087804503D2E484E1B0C98C8B56
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x6d5067df78
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[GetFieldID] com/qq/e/comm/plugin/ka.f : Ljava/lang/String; → 0x6d5e4ca8fc
+[GetFieldID] [0x366].holder6 : Ljava/net/Inet6Address$Inet6AddressHolder; → 0x6fd0731c
+[GetFieldID] [0x376].scope_id : I → 0x6fcf44c0
+[GetFieldID] [0x1bba].widthPixels : I → 0x709db8f4
+[GetFieldID] [0x1bba].heightPixels : I → 0x709db864
+
+[SetObjectField]
+  ↳ Target obj: 0x6d3b9a3b78
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x6d5067df78
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x6d5e36addc libyaqpro.3e364a2a.so!0x29ddc
+0x6d5e34c75c libyaqpro.3e364a2a.so!0xb75c
+0x6d56205a84 libyaqbasic.3e364a2a.so!0xa84
+0x6de50d7648 libart.so!art_quick_generic_jni_trampoline+0x98
+0x6de500918c libart.so!nterp_helper+0x9c
+0x6de500a048 libart.so!nterp_helper+0xf58
+0x6de500a048 libart.so!nterp_helper+0xf58
+0x6de500a048 libart.so!nterp_helper+0xf58
+0x6de50cdfec libart.so!art_quick_invoke_static_stub+0x23c
+0x6de516cefc libart.so!_ZN3art17InvokeWithJValuesIPNS_9ArtMethodEEENS_6JValueERKNS_33ScopedObjectAccessAlreadyRunnableEP8_jobjectT_PK6jvalue+0x2cc
+0x6de53d4160 libart.so!_ZN3art3JNIILb0EE21CallStaticVoidMethodAEP7_JNIEnvP7_jclassP10_jmethodIDPK6jvalue+0x104
+0x6d5e38c17c libyaqpro.3e364a2a.so!0x4b17c
+0x6d5e34c75c libyaqpro.3e364a2a.so!0xb75c
+0x6d56205a84 libyaqbasic.3e364a2a.so!0xa84
+0x6de50d7648 libart.so!art_quick_generic_jni_trampoline+0x98
+0x6de500918c libart.so!nterp_helper+0x9c
+[GetFieldID] com/qq/e/comm/plugin/w50.a : Ljava/lang/String; → 0x6d5e48b58c
+[GetFieldID] com/qq/e/comm/plugin/w50.c : I → 0x6d5e48b5ac
+[GetFieldID] com/qq/e/comm/plugin/w50.b : I → 0x6d5e48b59c
+[GetStaticFieldID] com/qq/e/comm/plugin/f00.a : Ljava/util/concurrent/atomic/AtomicInteger; → 0x6d5e4a4de4
+[GetFieldID] com/qq/e/comm/plugin/m00.c : Lcom/qq/e/comm/plugin/g00; → 0x6d5e3db344
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetStaticFieldID] com/qq/e/comm/plugin/j00.a : Ljava/util/concurrent/atomic/AtomicInteger; → 0x6d5e4a515c
+[GetFieldID] com/qq/e/comm/plugin/m00.d : Lcom/qq/e/comm/plugin/k00; → 0x6d5e3db354
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/dynamic/c.a : Ljava/util/concurrent/atomic/AtomicBoolean; → 0x6d5e4fb724
+[GetFieldID] com/qq/e/comm/dynamic/c.c : Ljava/lang/String; → 0x6d5e4fb744
+
+[SetObjectField]
+  ↳ Target obj: 0x75
+  ↳ jfieldID  : 0x6d5e4fb744
+  ↳ Class     : com/qq/e/comm/dynamic/c
+  ↳ Field     : c
+  ↳ Sig       : Ljava/lang/String;
+  ↳ Value     : 0xb5
+  ↳ String content: 
+[Call Stack]
+0x6d5e36addc libyaqpro.3e364a2a.so!0x29ddc
+0x6d5e34c75c libyaqpro.3e364a2a.so!0xb75c
+0x6d56205b44 libyaqbasic.3e364a2a.so!0xb44
+0x6de50d7648 libart.so!art_quick_generic_jni_trampoline+0x98
+0x6de500918c libart.so!nterp_helper+0x9c
+0x6de50cdd68 libart.so!art_quick_invoke_stub+0x228
+0x6de516cee0 libart.so!_ZN3art17InvokeWithJValuesIPNS_9ArtMethodEEENS_6JValueERKNS_33ScopedObjectAccessAlreadyRunnableEP8_jobjectT_PK6jvalue+0x2b0
+0x6de53b9dbc libart.so!_ZN3art3JNIILb0EE24CallNonvirtualIntMethodAEP7_JNIEnvP8_jobjectP7_jclassP10_jmethodIDPK6jvalue+0x110
+0x6d5e38b820 libyaqpro.3e364a2a.so!0x4a820
+0x6d5e34c75c libyaqpro.3e364a2a.so!0xb75c
+0x6d56205a84 libyaqbasic.3e364a2a.so!0xa84
+0x6de50d7648 libart.so!art_quick_generic_jni_trampoline+0x98
+0x6de500918c libart.so!nterp_helper+0x9c
+0x6de500a048 libart.so!nterp_helper+0xf58
+0x6de5009128 libart.so!nterp_helper+0x38
+0x701118ac boot.oat!0x2368ac
+[GetFieldID] com/qq/e/comm/plugin/k0.k : Ljava/lang/String; → 0x6d5e42c24c
+[GetFieldID] com/qq/e/comm/plugin/k0.k : Ljava/lang/String; → 0x6d5e42c24c
+[GetFieldID] com/qq/e/comm/plugin/k0.k : Ljava/lang/String; → 0x6d5e42c24c
+[GetFieldID] com/qq/e/comm/plugin/k0.l : Ljava/lang/String; → 0x6d5e42c25c
+
+[SetObjectField]
+  ↳ Target obj: 0x45
+  ↳ jfieldID  : 0x6d5e42c25c
+  ↳ Class     : com/qq/e/comm/plugin/k0
+  ↳ Field     : l
+  ↳ Sig       : Ljava/lang/String;
+  ↳ Value     : 0xc9
+  ↳ String content: 20918a10540ef84cbd775e4b8434c289
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+[GetFieldID] [0x1c02].x : I → 0x70966174
+[GetFieldID] [0x1c02].y : I → 0x70966184
+[GetFieldID] [0x1ba6].artMethod : J → 0x6fd06870
+[GetFieldID] [0x1ba6].accessFlags : I → 0x0
+[GetFieldID] [0x1b92].versionName : Ljava/lang/String; → 0x70961e98
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+[GetStaticFieldID] java/lang/Integer.TYPE : Ljava/lang/Class; → 0x6fd05ea8
+[GetStaticFieldID] java/lang/Integer.TYPE : Ljava/lang/Class; → 0x6fd05ea8
+[GetStaticFieldID] java/lang/Integer.TYPE : Ljava/lang/Class; → 0x6fd05ea8
+[GetStaticFieldID] android/os/Build$VERSION.SDK_INT : I → 0x70999418
+[GetStaticFieldID] com/qq/e/comm/plugin/ku.b : I → 0x6d5e4ceccc
+[GetStaticFieldID] com/qq/e/comm/plugin/ku.b : I → 0x6d5e4ceccc
+[GetStaticFieldID] com/qq/e/comm/plugin/p10.h : Z → 0x6d5e48a65c
+[GetStaticFieldID] com/qq/e/comm/plugin/p10.h : Z → 0x6d5e48a65c
+[GetStaticFieldID] com/qq/e/comm/plugin/p10.a : Ljava/lang/String; → 0x6d5e48a5ec
+[GetStaticFieldID] com/qq/e/comm/plugin/p10.i : Z → 0x6d5e48a66c
+[GetStaticFieldID] com/qq/e/comm/plugin/p10.b : Ljava/lang/String; → 0x6d5e48a5fc
+[GetStaticFieldID] com/qq/e/comm/plugin/p10.g : Z → 0x6d5e48a64c
+[GetStaticFieldID] com/qq/e/comm/plugin/p10.d : Z → 0x6d5e48a61c
+[GetFieldID] android/util/Pair.first : Ljava/lang/Object; → 0x709dc6b4
+[GetFieldID] android/util/Pair.second : Ljava/lang/Object; → 0x709dc6c4
+[GetStaticFieldID] com/qq/e/comm/plugin/ku.b : I → 0x6d5e4ceccc
+[GetStaticFieldID] com/qq/e/comm/plugin/ku.b : I → 0x6d5e4ceccc
+[GetStaticFieldID] com/qq/e/comm/plugin/z5.a : Ljava/nio/charset/Charset; → 0x6d5e4fcf94
+[GetStaticFieldID] com/qq/e/comm/plugin/kr$a.d : Lcom/qq/e/comm/plugin/kr$a; → 0x6d5e50036c
+[GetStaticFieldID] com/qq/e/comm/plugin/ga.c : Lcom/qq/e/comm/plugin/ga; → 0x6d5e48c2ec
+[GetFieldID] com/qq/e/comm/plugin/ka.f : Ljava/lang/String; → 0x6d5e4ca8fc
+[GetStaticFieldID] com/qq/e/comm/plugin/lf.u : Lcom/qq/e/comm/plugin/lf; → 0x6d5e4d9064
+[GetFieldID] com/qq/e/comm/plugin/lf.l : J → 0x6d5e4d913c
+[GetStaticFieldID] com/qq/e/comm/plugin/lf.u : Lcom/qq/e/comm/plugin/lf; → 0x6d5e4d9064
+[GetFieldID] com/qq/e/comm/plugin/lf.m : J → 0x6d5e4d914c
+[GetStaticFieldID] com/qq/e/comm/plugin/ga.c : Lcom/qq/e/comm/plugin/ga; → 0x6d5e48c2ec
+[GetFieldID] com/qq/e/comm/plugin/ka.f : Ljava/lang/String; → 0x6d5e4ca8fc
+[GetStaticFieldID] com/qq/e/comm/plugin/lf.u : Lcom/qq/e/comm/plugin/lf; → 0x6d5e4d9064
+[GetFieldID] com/qq/e/comm/plugin/lf.l : J → 0x6d5e4d913c
+[GetStaticFieldID] com/qq/e/comm/plugin/lf.u : Lcom/qq/e/comm/plugin/lf; → 0x6d5e4d9064
+[GetFieldID] com/qq/e/comm/plugin/lf.m : J → 0x6d5e4d914c
+[GetStaticFieldID] com/qq/e/comm/plugin/z5.a : Ljava/nio/charset/Charset; → 0x6d5e4fcf94
+[GetStaticFieldID] com/qq/e/comm/plugin/tr.i : J → 0x6d5e4cc764
+[GetStaticFieldID] com/qq/e/comm/plugin/tr.h : Z → 0x6d5e4cc754
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetStaticFieldID] com/qq/e/comm/plugin/m00$a.a : [I → 0x6d5e3daee4
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetStaticFieldID] com/qq/e/comm/plugin/m00$a.a : [I → 0x6d5e3daee4
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetStaticFieldID] com/qq/e/comm/plugin/m00$a.a : [I → 0x6d5e3daee4
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetStaticFieldID] com/qq/e/comm/plugin/m00$a.a : [I → 0x6d5e3daee4
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetStaticFieldID] com/qq/e/comm/plugin/m00$a.a : [I → 0x6d5e3daee4
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetStaticFieldID] com/qq/e/comm/plugin/m00$a.a : [I → 0x6d5e3daee4
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetStaticFieldID] com/qq/e/comm/plugin/m00$a.a : [I → 0x6d5e3daee4
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[Call Stack]
+0x6d5e3731d0 libyaqpro.3e364a2a.so!0x321d0
+0x6d5e34c75c libyaqpro.3e364a2a.so!0xb75c
+0x6d56205a84 libyaqbasic.3e364a2a.so!0xa84
+0x6de50d7648 libart.so!art_quick_generic_jni_trampoline+0x98
+0x6de500918c libart.so!nterp_helper+0x9c
+0x6de50cdfec libart.so!art_quick_invoke_static_stub+0x23c
+0x6de516cefc libart.so!_ZN3art17InvokeWithJValuesIPNS_9ArtMethodEEENS_6JValueERKNS_33ScopedObjectAccessAlreadyRunnableEP8_jobjectT_PK6jvalue+0x2cc
+0x6de53d4160 libart.so!_ZN3art3JNIILb0EE21CallStaticVoidMethodAEP7_JNIEnvP7_jclassP10_jmethodIDPK6jvalue+0x104
+0x6d5e38c17c libyaqpro.3e364a2a.so!0x4b17c
+0x6d5e34c75c libyaqpro.3e364a2a.so!0xb75c
+0x6d56205a84 libyaqbasic.3e364a2a.so!0xa84
+0x6de50d7648 libart.so!art_quick_generic_jni_trampoline+0x98
+0x6de500918c libart.so!nterp_helper+0x9c
+0x6de50cdfec libart.so!art_quick_invoke_static_stub+0x23c
+0x6de53d3434 libart.so!_ZN3art3JNIILb0EE21CallStaticVoidMethodVEP7_JNIEnvP7_jclassP10_jmethodIDSt9__va_list+0x288
+0x6d5e353eb8 libyaqpro.3e364a2a.so!0x12eb8
+[GetStaticFieldID] com/qq/e/comm/plugin/p10.d : Z → 0x6d5e48a61c
+[Call Stack]
+0x6d5e36addc libyaqpro.3e364a2a.so!0x29ddc
+0x6d5e34c75c libyaqpro.3e364a2a.so!0xb75c
+0x6d56205a84 libyaqbasic.3e364a2a.so!0xa84
+0x6de50d7648 libart.so!art_quick_generic_jni_trampoline+0x98
+0x6de500918c libart.so!nterp_helper+0x9c
+0x6de500a048 libart.so!nterp_helper+0xf58
+0x6de500a048 libart.so!nterp_helper+0xf58
+0x6de500a048 libart.so!nterp_helper+0xf58
+0x6de50cdfec libart.so!art_quick_invoke_static_stub+0x23c
+0x6de516cefc libart.so!_ZN3art17InvokeWithJValuesIPNS_9ArtMethodEEENS_6JValueERKNS_33ScopedObjectAccessAlreadyRunnableEP8_jobjectT_PK6jvalue+0x2cc
+0x6de53d4160 libart.so!_ZN3art3JNIILb0EE21CallStaticVoidMethodAEP7_JNIEnvP7_jclassP10_jmethodIDPK6jvalue+0x104
+0x6d5e38c17c libyaqpro.3e364a2a.so!0x4b17c
+0x6d5e34c75c libyaqpro.3e364a2a.so!0xb75c
+0x6d56205a84 libyaqbasic.3e364a2a.so!0xa84
+0x6de50d7648 libart.so!art_quick_generic_jni_trampoline+0x98
+0x6de500918c libart.so!nterp_helper+0x9c
+[GetStaticFieldID] com/qq/e/comm/dynamic/c.m : Ljava/lang/String; → 0x6d5e4fb70c
+[GetFieldID] com/qq/e/comm/dynamic/c.c : Ljava/lang/String; → 0x6d5e4fb744
+
+[SetObjectField]
+  ↳ Target obj: 0x75
+  ↳ jfieldID  : 0x6d5e4fb744
+  ↳ Class     : com/qq/e/comm/dynamic/c
+  ↳ Field     : c
+  ↳ Sig       : Ljava/lang/String;
+  ↳ Value     : 0xb1
+  ↳ String content: {'v':1,'a':1,'32':'https://qzs.gdtimg.com/union/res/union_cdn/page/android/quickjs/libquickjs_3eaeb9fefa6c9762ac61cba7e1e9536f.zip','64':'https://qzs.gdtimg.com/union/res/union_cdn/page/android/quickjs/libquickjs_b4dcb011a890172524fe93d930e8670c.zip'}
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.c : Lcom/qq/e/comm/plugin/g00; → 0x6d5e3db344
+[GetFieldID] com/qq/e/comm/plugin/w0.b : Ljava/util/List; → 0x6d5e47cb7c
+[GetFieldID] com/qq/e/comm/plugin/w0.a : Landroid/content/Context; → 0x6d5e47cb6c
+[GetFieldID] com/qq/e/comm/plugin/m00.d : Lcom/qq/e/comm/plugin/k00; → 0x6d5e3db354
+[GetFieldID] com/qq/e/comm/plugin/w0.b : Ljava/util/List; → 0x6d5e47cb7c
+[GetFieldID] com/qq/e/comm/plugin/w0.a : Landroid/content/Context; → 0x6d5e47cb6c
+[Call Stack]
+0x6d5e36addc libyaqpro.3e364a2a.so!0x29ddc
+0x6d5e34c75c libyaqpro.3e364a2a.so!0xb75c
+0x6d56205b44 libyaqbasic.3e364a2a.so!0xb44
+0x6de50d7648 libart.so!art_quick_generic_jni_trampoline+0x98
+0x6de500918c libart.so!nterp_helper+0x9c
+0x6de50cdd68 libart.so!art_quick_invoke_stub+0x228
+0x6de516cee0 libart.so!_ZN3art17InvokeWithJValuesIPNS_9ArtMethodEEENS_6JValueERKNS_33ScopedObjectAccessAlreadyRunnableEP8_jobjectT_PK6jvalue+0x2b0
+0x6de53b9dbc libart.so!_ZN3art3JNIILb0EE24CallNonvirtualIntMethodAEP7_JNIEnvP8_jobjectP7_jclassP10_jmethodIDPK6jvalue+0x110
+0x6d5e38b820 libyaqpro.3e364a2a.so!0x4a820
+0x6d5e34c75c libyaqpro.3e364a2a.so!0xb75c
+0x6d56205a84 libyaqbasic.3e364a2a.so!0xa84
+0x6de50d7648 libart.so!art_quick_generic_jni_trampoline+0x98
+0x6de500918c libart.so!nterp_helper+0x9c
+0x6de500a048 libart.so!nterp_helper+0xf58
+0x6de5009128 libart.so!nterp_helper+0x38
+0x701118ac boot.oat!0x2368ac
+[GetFieldID] com/qq/e/comm/plugin/k0.l : Ljava/lang/String; → 0x6d5e42c25c
+[GetFieldID] com/qq/e/comm/plugin/k0.h : Ljava/lang/String; → 0x6d5e42c21c
+
+[SetObjectField]
+  ↳ Target obj: 0x45
+  ↳ jfieldID  : 0x6d5e42c21c
+  ↳ Class     : com/qq/e/comm/plugin/k0
+  ↳ Field     : h
+  ↳ Sig       : Ljava/lang/String;
+  ↳ Value     : 0xc5
+  ↳ String content: 20918a10540ef84cbd775e4b8434c289.zip
+[Call Stack]
+0x6d5e36addc libyaqpro.3e364a2a.so!0x29ddc
+0x6d5e34c75c libyaqpro.3e364a2a.so!0xb75c
+0x6d56205b44 libyaqbasic.3e364a2a.so!0xb44
+0x6de50d7648 libart.so!art_quick_generic_jni_trampoline+0x98
+0x6de500918c libart.so!nterp_helper+0x9c
+0x6de50cdd68 libart.so!art_quick_invoke_stub+0x228
+0x6de516cee0 libart.so!_ZN3art17InvokeWithJValuesIPNS_9ArtMethodEEENS_6JValueERKNS_33ScopedObjectAccessAlreadyRunnableEP8_jobjectT_PK6jvalue+0x2b0
+0x6de53b9dbc libart.so!_ZN3art3JNIILb0EE24CallNonvirtualIntMethodAEP7_JNIEnvP8_jobjectP7_jclassP10_jmethodIDPK6jvalue+0x110
+0x6d5e38b820 libyaqpro.3e364a2a.so!0x4a820
+0x6d5e34c75c libyaqpro.3e364a2a.so!0xb75c
+0x6d56205a84 libyaqbasic.3e364a2a.so!0xa84
+0x6de50d7648 libart.so!art_quick_generic_jni_trampoline+0x98
+0x6de500918c libart.so!nterp_helper+0x9c
+0x6de500a048 libart.so!nterp_helper+0xf58
+0x6de5009128 libart.so!nterp_helper+0x38
+0x701118ac boot.oat!0x2368ac
+[GetStaticFieldID] com/qq/e/comm/plugin/f00.a : Ljava/util/concurrent/atomic/AtomicInteger; → 0x6d5e4a4de4
+[GetFieldID] com/qq/e/comm/plugin/m00.c : Lcom/qq/e/comm/plugin/g00; → 0x6d5e3db344
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetStaticFieldID] com/qq/e/comm/plugin/m00$a.a : [I → 0x6d5e3daee4
+[GetStaticFieldID] java/io/File.separator : Ljava/lang/String; → 0x6fcfc034
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetStaticFieldID] com/qq/e/comm/plugin/w50.i : Ljava/lang/String; → 0x6d5e48b554
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetFieldID] com/qq/e/comm/plugin/w50.e : Ljava/util/concurrent/atomic/AtomicBoolean; → 0x6d5e48b5cc
+[GetStaticFieldID] java/io/File.separator : Ljava/lang/String; → 0x6fcfc034
+[GetFieldID] com/qq/e/comm/plugin/k0.f : Ljava/lang/String; → 0x6d5e42c1fc
+[GetStaticFieldID] com/qq/e/comm/plugin/j00.a : Ljava/util/concurrent/atomic/AtomicInteger; → 0x6d5e4a515c
+[GetFieldID] com/qq/e/comm/plugin/m00.d : Lcom/qq/e/comm/plugin/k00; → 0x6d5e3db354
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/tu.b : Lcom/android/gdt/qone/sdk/IQoneSDK; → 0x6d5e48a954
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetStaticFieldID] com/qq/e/comm/plugin/m00$a.a : [I → 0x6d5e3daee4
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetStaticFieldID] java/lang/Boolean.TYPE : Ljava/lang/Class; → 0x6fcfc464
+[GetStaticFieldID] java/lang/Boolean.TYPE : Ljava/lang/Class; → 0x6fcfc464
+[GetStaticFieldID] java/lang/Boolean.TYPE : Ljava/lang/Class; → 0x6fcfc464
+[GetStaticFieldID] java/lang/Boolean.TYPE : Ljava/lang/Class; → 0x6fcfc464
+[GetStaticFieldID] java/lang/Boolean.TYPE : Ljava/lang/Class; → 0x6fcfc464
+[GetFieldID] com/qq/e/comm/plugin/ka.j : Ljava/lang/String; → 0x6d5e4ca93c
+[GetFieldID] com/qq/e/comm/plugin/tu.b : Lcom/android/gdt/qone/sdk/IQoneSDK; → 0x6d5e48a954
+
+[SetObjectField]
+  ↳ Target obj: 0x19
+  ↳ jfieldID  : 0x6d5e48a954
+  ↳ Class     : com/qq/e/comm/plugin/tu
+  ↳ Field     : b
+  ↳ Sig       : Lcom/android/gdt/qone/sdk/IQoneSDK;
+  ↳ Value     : 0x49
+[Call Stack]
+0x6d5e36addc libyaqpro.3e364a2a.so!0x29ddc
+0x6d5e34c75c libyaqpro.3e364a2a.so!0xb75c
+0x6d56205a84 libyaqbasic.3e364a2a.so!0xa84
+0x6de50d7648 libart.so!art_quick_generic_jni_trampoline+0x98
+0x6de500918c libart.so!nterp_helper+0x9c
+0x6de500a048 libart.so!nterp_helper+0xf58
+0x6de500a048 libart.so!nterp_helper+0xf58
+0x6de500a048 libart.so!nterp_helper+0xf58
+0x6de50cdfec libart.so!art_quick_invoke_static_stub+0x23c
+0x6de516cefc libart.so!_ZN3art17InvokeWithJValuesIPNS_9ArtMethodEEENS_6JValueERKNS_33ScopedObjectAccessAlreadyRunnableEP8_jobjectT_PK6jvalue+0x2cc
+0x6de53d4160 libart.so!_ZN3art3JNIILb0EE21CallStaticVoidMethodAEP7_JNIEnvP7_jclassP10_jmethodIDPK6jvalue+0x104
+0x6d5e38c17c libyaqpro.3e364a2a.so!0x4b17c
+0x6d5e34c75c libyaqpro.3e364a2a.so!0xb75c
+0x6d56205a84 libyaqbasic.3e364a2a.so!0xa84
+0x6de50d7648 libart.so!art_quick_generic_jni_trampoline+0x98
+0x6de500918c libart.so!nterp_helper+0x9c
+[GetFieldID] com/qq/e/comm/dynamic/c.c : Ljava/lang/String; → 0x6d5e4fb744
+[GetFieldID] com/qq/e/comm/dynamic/c.d : I → 0x6d5e4fb754
+[GetFieldID] com/qq/e/comm/dynamic/c.f : I → 0x6d5e4fb774
+[GetStaticFieldID] com/qq/e/comm/plugin/f00.a : Ljava/util/concurrent/atomic/AtomicInteger; → 0x6d5e4a4de4
+[GetFieldID] com/qq/e/comm/plugin/m00.c : Lcom/qq/e/comm/plugin/g00; → 0x6d5e3db344
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetStaticFieldID] com/qq/e/comm/plugin/m00$a.a : [I → 0x6d5e3daee4
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetFieldID] com/qq/e/comm/dynamic/c.c : Ljava/lang/String; → 0x6d5e4fb744
+[GetFieldID] com/qq/e/comm/dynamic/c.c : Ljava/lang/String; → 0x6d5e4fb744
+[GetFieldID] com/qq/e/comm/plugin/f20.a : Z → 0x6d5e48b8e4
+[GetFieldID] com/qq/e/comm/plugin/f20.a : Z → 0x6d5e48b8e4
+[GetFieldID] com/qq/e/comm/plugin/f20.k : I → 0x6d5e48b984
+[GetFieldID] com/qq/e/comm/plugin/f20.l : I → 0x6d5e48b994
+[GetStaticFieldID] com/qq/e/comm/plugin/f00.a : Ljava/util/concurrent/atomic/AtomicInteger; → 0x6d5e4a4de4
+[GetFieldID] com/qq/e/comm/plugin/m00.c : Lcom/qq/e/comm/plugin/g00; → 0x6d5e3db344
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetStaticFieldID] com/qq/e/comm/plugin/jg.c : Ljava/util/concurrent/ExecutorService; → 0x6d5e4fcf24
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetStaticFieldID] com/qq/e/comm/plugin/m00$a.a : [I → 0x6d5e3daee4
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+
+[SetObjectField]
+  ↳ Target obj: 0x6dd681b138
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[GetFieldID] com/qq/e/comm/plugin/d0.a : Z → 0x6d5e503ad4
+[GetFieldID] com/qq/e/comm/plugin/d0.a : Z → 0x6d5e503ad4
+[GetFieldID] com/qq/e/comm/plugin/d0.c : I → 0x6d5e503af4
+[GetStaticFieldID] com/qq/e/comm/plugin/f00.a : Ljava/util/concurrent/atomic/AtomicInteger; → 0x6d5e4a4de4
+[GetFieldID] com/qq/e/comm/plugin/m00.c : Lcom/qq/e/comm/plugin/g00; → 0x6d5e3db344
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetStaticFieldID] com/qq/e/comm/plugin/jg.c : Ljava/util/concurrent/ExecutorService; → 0x6d5e4fcf24
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetStaticFieldID] com/qq/e/comm/plugin/m00$a.a : [I → 0x6d5e3daee4
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetStaticFieldID] com/qq/e/comm/plugin/j00.a : Ljava/util/concurrent/atomic/AtomicInteger; → 0x6d5e4a515c
+[GetFieldID] com/qq/e/comm/plugin/m00.d : Lcom/qq/e/comm/plugin/k00; → 0x6d5e3db354
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetStaticFieldID] com/qq/e/comm/plugin/m00$a.a : [I → 0x6d5e3daee4
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetStaticFieldID] com/qq/e/comm/plugin/j00.a : Ljava/util/concurrent/atomic/AtomicInteger; → 0x6d5e4a515c
+[GetFieldID] com/qq/e/comm/plugin/m00.d : Lcom/qq/e/comm/plugin/k00; → 0x6d5e3db354
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetStaticFieldID] com/qq/e/comm/plugin/m00$a.a : [I → 0x6d5e3daee4
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x6dd681b138
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x6d5e36addc libyaqpro.3e364a2a.so!0x29ddc
+0x6d5e34c75c libyaqpro.3e364a2a.so!0xb75c
+0x6d56205a84 libyaqbasic.3e364a2a.so!0xa84
+0x6de50d7648 libart.so!art_quick_generic_jni_trampoline+0x98
+0x6de500918c libart.so!nterp_helper+0x9c
+0x6de500a048 libart.so!nterp_helper+0xf58
+0x6de5009128 libart.so!nterp_helper+0x38
+0x701118ac boot.oat!0x2368ac
+0x701118ac boot.oat!0x2368ac
+[GetStaticFieldID] com/qq/e/comm/plugin/j00.a : Ljava/util/concurrent/atomic/AtomicInteger; → 0x6d5e4a515c
+[GetFieldID] com/qq/e/comm/plugin/m00.d : Lcom/qq/e/comm/plugin/k00; → 0x6d5e3db354
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetStaticFieldID] com/qq/e/comm/plugin/m00$a.a : [I → 0x6d5e3daee4
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x6dd681b128
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[GetStaticFieldID] com/qq/e/comm/plugin/s1.g : Lcom/qq/e/comm/plugin/s1; → 0x6d5e48e7cc
+[GetStaticFieldID] com/qq/e/comm/plugin/s1.g : Lcom/qq/e/comm/plugin/s1; → 0x6d5e48e7cc
+[GetFieldID] com/qq/e/comm/plugin/s1.a : Landroid/content/SharedPreferences; → 0x6d5e48e7e4
+[GetStaticFieldID] com/qq/e/comm/plugin/s1.g : Lcom/qq/e/comm/plugin/s1; → 0x6d5e48e7cc
+
+[SetObjectField]
+  ↳ Target obj: 0x21
+  ↳ jfieldID  : 0x6d5e48e7cc
+  ↳ Class     : com/qq/e/comm/plugin/s1
+  ↳ Field     : g
+  ↳ Sig       : Lcom/qq/e/comm/plugin/s1;
+  ↳ Value     : 0x35
+[GetStaticFieldID] java/io/File.separator : Ljava/lang/String; → 0x6fcfc034
+[GetStaticFieldID] com/qq/e/comm/dynamic/c.j : Ljava/lang/String; → 0x6d5e4fb6dc
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x6dd681b128
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[GetStaticFieldID] android/os/Bundle.EMPTY : Landroid/os/Bundle; → 0x709b34a0
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+[Call Stack]
+0x6d5e3731d0 libyaqpro.3e364a2a.so!0x321d0
+0x6d5e34c75c libyaqpro.3e364a2a.so!0xb75c
+0x6d56205aa4 libyaqbasic.3e364a2a.so!0xaa4
+0x6de50d7648 libart.so!art_quick_generic_jni_trampoline+0x98
+0x6de500918c libart.so!nterp_helper+0x9c
+0x6de500918c libart.so!nterp_helper+0x9c
+0x6de5009128 libart.so!nterp_helper+0x38
+0x6de5009128 libart.so!nterp_helper+0x38
+0x6de5009128 libart.so!nterp_helper+0x38
+0x701118ac boot.oat!0x2368ac
+0x701118ac boot.oat!0x2368ac
+[GetStaticFieldID] com/qq/e/comm/plugin/s1.g : Lcom/qq/e/comm/plugin/s1; → 0x6d5e48e7cc
+
+[SetObjectField]
+  ↳ Target obj: 0x6dd66e0ae8
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[GetFieldID] com/qq/e/comm/dynamic/c.firstInstallTime : J → 0x70961ca8
+[GetFieldID] android/net/Uri.lastUpdateTime : J → 0x70961d08
+[GetFieldID] android/net/Uri.firstInstallTime : J → 0x70961ca8
+[GetFieldID] java/lang/System.lastUpdateTime : J → 0x70961d08
+[GetFieldID] com/qq/e/comm/dynamic/c.sourceDir : Ljava/lang/String; → 0x70960f58
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x6dd66e0ae8
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x6dd66e0ad8
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x6dd66e0ad8
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[GetStaticFieldID] android/content/Context.ACCESSIBILITY_SERVICE : Ljava/lang/String; → 0x70940390
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+[GetFieldID] com/qq/e/comm/dynamic/c.signatures : [Landroid/content/pm/Signature; → 0x70961e28
+[GetFieldID] android/view/SurfaceView.firstInstallTime : J → 0x70961ca8
+[GetFieldID] android/app/ActivityThread.lastUpdateTime : J → 0x70961d08
+
+[SetObjectField]
+  ↳ Target obj: 0x6dd66e0af8
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[GetStaticFieldID] java/io/File.separator : Ljava/lang/String; → 0x6fcfc034
+[GetStaticFieldID] com/qq/e/comm/plugin/d0.i : Ljava/lang/String; → 0x6d5e503a7c
+[GetStaticFieldID] java/io/File.separator : Ljava/lang/String; → 0x6fcfc034
+[GetStaticFieldID] com/qq/e/comm/plugin/f20.o : Ljava/lang/String; → 0x6d5e48b8bc
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x6dd66e0af8
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x6dd66e0ae8
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+
+[SetObjectField]
+  ↳ Target obj: 0x6dd66e0ae8
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+[GetFieldID] com/qq/e/comm/plugin/dp.g : Z → 0x6d5e48cf44
+[GetFieldID] com/qq/e/comm/plugin/dp.a : Lcom/qq/e/comm/plugin/om; → 0x6d5e48cee4
+
+[SetObjectField]
+  ↳ Target obj: 0x41
+  ↳ jfieldID  : 0x6d5e48cee4
+  ↳ Class     : com/qq/e/comm/plugin/dp
+  ↳ Field     : a
+  ↳ Sig       : Lcom/qq/e/comm/plugin/om;
+  ↳ Value     : 0x79
+[Call Stack]
+0x6d5e36addc libyaqpro.3e364a2a.so!0x29ddc
+0x6d5e34c75c libyaqpro.3e364a2a.so!0xb75c
+0x6d56205a84 libyaqbasic.3e364a2a.so!0xa84
+0x6de50d7648 libart.so!art_quick_generic_jni_trampoline+0x98
+0x6de500918c libart.so!nterp_helper+0x9c
+0x6de500a048 libart.so!nterp_helper+0xf58
+0x6de500a048 libart.so!nterp_helper+0xf58
+0x6de500a048 libart.so!nterp_helper+0xf58
+0x6de50cdfec libart.so!art_quick_invoke_static_stub+0x23c
+0x6de508a7bc libart.so!_ZN3art11ClassLinker15InitializeClassEPNS_6ThreadENS_6HandleINS_6mirror5ClassEEEbb+0x114c
+0x6de516c4c8 libart.so!_ZN3art11ClassLinker17EnsureInitializedEPNS_6ThreadENS_6HandleINS_6mirror5ClassEEEbb+0xa0
+0x6de547e1fc libart.so!_ZN3artL18Class_classForNameEP7_JNIEnvP7_jclassP8_jstringhP8_jobject+0x134
+0x6ff8d20c boot.oat!0xb220c
+0x6ff8d20c boot.oat!0xb220c
+[GetFieldID] com/qq/e/comm/plugin/dp.g : Z → 0x6d5e48cf44
+[GetFieldID] com/qq/e/comm/plugin/dp.b : Lcom/qq/e/comm/plugin/ur; → 0x6d5e48cef4
+
+[SetObjectField]
+  ↳ Target obj: 0x41
+  ↳ jfieldID  : 0x6d5e48cef4
+  ↳ Class     : com/qq/e/comm/plugin/dp
+  ↳ Field     : b
+  ↳ Sig       : Lcom/qq/e/comm/plugin/ur;
+  ↳ Value     : 0x85
+[Call Stack]
+0x6d5e36addc libyaqpro.3e364a2a.so!0x29ddc
+0x6d5e34c75c libyaqpro.3e364a2a.so!0xb75c
+0x6d56205a84 libyaqbasic.3e364a2a.so!0xa84
+0x6de50d7648 libart.so!art_quick_generic_jni_trampoline+0x98
+0x6de500918c libart.so!nterp_helper+0x9c
+0x6de500a048 libart.so!nterp_helper+0xf58
+0x6de500a048 libart.so!nterp_helper+0xf58
+0x6de500a048 libart.so!nterp_helper+0xf58
+0x6de50cdfec libart.so!art_quick_invoke_static_stub+0x23c
+0x6de508a7bc libart.so!_ZN3art11ClassLinker15InitializeClassEPNS_6ThreadENS_6HandleINS_6mirror5ClassEEEbb+0x114c
+0x6de516c4c8 libart.so!_ZN3art11ClassLinker17EnsureInitializedEPNS_6ThreadENS_6HandleINS_6mirror5ClassEEEbb+0xa0
+0x6de547e1fc libart.so!_ZN3artL18Class_classForNameEP7_JNIEnvP7_jclassP8_jstringhP8_jobject+0x134
+0x6ff8d20c boot.oat!0xb220c
+0x6ff8d20c boot.oat!0xb220c
+[GetFieldID] com/qq/e/comm/plugin/dp.g : Z → 0x6d5e48cf44
+[GetFieldID] com/qq/e/comm/plugin/dp.c : Lcom/qq/e/comm/plugin/pm; → 0x6d5e48cf04
+
+[SetObjectField]
+  ↳ Target obj: 0x41
+  ↳ jfieldID  : 0x6d5e48cf04
+  ↳ Class     : com/qq/e/comm/plugin/dp
+  ↳ Field     : c
+  ↳ Sig       : Lcom/qq/e/comm/plugin/pm;
+  ↳ Value     : 0x55
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.c : Lcom/qq/e/comm/plugin/g00; → 0x6d5e3db344
+[GetFieldID] com/qq/e/comm/plugin/w0.b : Ljava/util/List; → 0x6d5e47cb7c
+[GetFieldID] com/qq/e/comm/plugin/w0.a : Landroid/content/Context; → 0x6d5e47cb6c
+[GetFieldID] com/qq/e/comm/plugin/m00.d : Lcom/qq/e/comm/plugin/k00; → 0x6d5e3db354
+[GetFieldID] com/qq/e/comm/plugin/w0.b : Ljava/util/List; → 0x6d5e47cb7c
+[GetFieldID] com/qq/e/comm/plugin/w0.a : Landroid/content/Context; → 0x6d5e47cb6c
+[GetFieldID] java/lang/Class.firstInstallTime : J → 0x70961ca8
+[GetFieldID] com/qq/e/comm/plugin/f20$c.lastUpdateTime : J → 0x70961d08
+[GetFieldID] com/qq/e/comm/plugin/f20$c.firstInstallTime : J → 0x70961ca8
+[GetFieldID] com/qq/e/comm/plugin/c00.lastUpdateTime : J → 0x70961d08
+[GetFieldID] java/lang/Class.sourceDir : Ljava/lang/String; → 0x70960f58
+[Call Stack]
+0x6d5e36addc libyaqpro.3e364a2a.so!0x29ddc
+0x6d5e34c75c libyaqpro.3e364a2a.so!0xb75c
+0x6d56205a84 libyaqbasic.3e364a2a.so!0xa84
+0x6de50d7648 libart.so!art_quick_generic_jni_trampoline+0x98
+0x6de500918c libart.so!nterp_helper+0x9c
+0x6de500a048 libart.so!nterp_helper+0xf58
+0x6de500a048 libart.so!nterp_helper+0xf58
+0x6de500a048 libart.so!nterp_helper+0xf58
+0x6de50cdfec libart.so!art_quick_invoke_static_stub+0x23c
+0x6de508a7bc libart.so!_ZN3art11ClassLinker15InitializeClassEPNS_6ThreadENS_6HandleINS_6mirror5ClassEEEbb+0x114c
+0x6de516c4c8 libart.so!_ZN3art11ClassLinker17EnsureInitializedEPNS_6ThreadENS_6HandleINS_6mirror5ClassEEEbb+0xa0
+0x6de547e1fc libart.so!_ZN3artL18Class_classForNameEP7_JNIEnvP7_jclassP8_jstringhP8_jobject+0x134
+0x6ff8d20c boot.oat!0xb220c
+0x6ff8d20c boot.oat!0xb220c
+[GetFieldID] com/qq/e/comm/plugin/dp.g : Z → 0x6d5e48cf44
+[GetFieldID] com/qq/e/comm/plugin/dp.d : Lcom/qq/e/comm/plugin/vr; → 0x6d5e48cf14
+
+[SetObjectField]
+  ↳ Target obj: 0x41
+  ↳ jfieldID  : 0x6d5e48cf14
+  ↳ Class     : com/qq/e/comm/plugin/dp
+  ↳ Field     : d
+  ↳ Sig       : Lcom/qq/e/comm/plugin/vr;
+  ↳ Value     : 0x89
+[GetStaticFieldID] android/content/Context.ACCESSIBILITY_SERVICE : Ljava/lang/String; → 0x70940390
+[GetFieldID] java/lang/Class.signatures : [Landroid/content/pm/Signature; → 0x70961e28
+[GetFieldID] android/view/SurfaceView.firstInstallTime : J → 0x70961ca8
+[GetFieldID] android/app/ActivityThread.lastUpdateTime : J → 0x70961d08
+[Call Stack]
+0x6d5e36addc libyaqpro.3e364a2a.so!0x29ddc
+0x6d5e34c75c libyaqpro.3e364a2a.so!0xb75c
+0x6d56205a84 libyaqbasic.3e364a2a.so!0xa84
+0x6de50d7648 libart.so!art_quick_generic_jni_trampoline+0x98
+0x6de500918c libart.so!nterp_helper+0x9c
+0x6de500a048 libart.so!nterp_helper+0xf58
+0x6de500a048 libart.so!nterp_helper+0xf58
+0x6de500a048 libart.so!nterp_helper+0xf58
+0x6de50cdfec libart.so!art_quick_invoke_static_stub+0x23c
+0x6de508a7bc libart.so!_ZN3art11ClassLinker15InitializeClassEPNS_6ThreadENS_6HandleINS_6mirror5ClassEEEbb+0x114c
+0x6de516c4c8 libart.so!_ZN3art11ClassLinker17EnsureInitializedEPNS_6ThreadENS_6HandleINS_6mirror5ClassEEEbb+0xa0
+0x6de547e1fc libart.so!_ZN3artL18Class_classForNameEP7_JNIEnvP7_jclassP8_jstringhP8_jobject+0x134
+0x6ff8d20c boot.oat!0xb220c
+0x6ff8d20c boot.oat!0xb220c
+[GetFieldID] com/qq/e/comm/plugin/dp.e : Ljava/util/concurrent/CopyOnWriteArrayList; → 0x6d5e48cf24
+
+[SetObjectField]
+  ↳ Target obj: 0x41
+  ↳ jfieldID  : 0x6d5e48cf24
+  ↳ Class     : com/qq/e/comm/plugin/dp
+  ↳ Field     : e
+  ↳ Sig       : Ljava/util/concurrent/CopyOnWriteArrayList;
+  ↳ Value     : 0x51
+[Call Stack]
+0x6d5e36addc libyaqpro.3e364a2a.so!0x29ddc
+0x6d5e34c75c libyaqpro.3e364a2a.so!0xb75c
+0x6d56205a84 libyaqbasic.3e364a2a.so!0xa84
+0x6de50d7648 libart.so!art_quick_generic_jni_trampoline+0x98
+0x6de500918c libart.so!nterp_helper+0x9c
+0x6de500a048 libart.so!nterp_helper+0xf58
+0x6de500a048 libart.so!nterp_helper+0xf58
+0x6de500a048 libart.so!nterp_helper+0xf58
+0x6de50cdfec libart.so!art_quick_invoke_static_stub+0x23c
+0x6de508a7bc libart.so!_ZN3art11ClassLinker15InitializeClassEPNS_6ThreadENS_6HandleINS_6mirror5ClassEEEbb+0x114c
+0x6de516c4c8 libart.so!_ZN3art11ClassLinker17EnsureInitializedEPNS_6ThreadENS_6HandleINS_6mirror5ClassEEEbb+0xa0
+0x6de547e1fc libart.so!_ZN3artL18Class_classForNameEP7_JNIEnvP7_jclassP8_jstringhP8_jobject+0x134
+0x6ff8d20c boot.oat!0xb220c
+0x6ff8d20c boot.oat!0xb220c
+[GetFieldID] com/qq/e/comm/plugin/dp.f : Ljava/util/concurrent/ConcurrentHashMap; → 0x6d5e48cf34
+
+[SetObjectField]
+  ↳ Target obj: 0x41
+  ↳ jfieldID  : 0x6d5e48cf34
+  ↳ Class     : com/qq/e/comm/plugin/dp
+  ↳ Field     : f
+  ↳ Sig       : Ljava/util/concurrent/ConcurrentHashMap;
+  ↳ Value     : 0x85
+[GetFieldID] android/view/Window.firstInstallTime : J → 0x70961ca8
+[GetFieldID] android/view/SurfaceView.lastUpdateTime : J → 0x70961d08
+[GetFieldID] android/view/SurfaceView.firstInstallTime : J → 0x70961ca8
+[GetFieldID] java/net/SocketTimeoutException.lastUpdateTime : J → 0x70961d08
+[GetFieldID] android/view/SurfaceView.firstInstallTime : J → 0x70961ca8
+[GetFieldID] java/net/SocketTimeoutException.lastUpdateTime : J → 0x70961d08
+[Call Stack]
+0x6d5e36addc libyaqpro.3e364a2a.so!0x29ddc
+0x6d5e34c75c libyaqpro.3e364a2a.so!0xb75c
+0x6d56205a84 libyaqbasic.3e364a2a.so!0xa84
+0x6de50d7648 libart.so!art_quick_generic_jni_trampoline+0x98
+0x6de500918c libart.so!nterp_helper+0x9c
+0x6de500a048 libart.so!nterp_helper+0xf58
+0x6de500a048 libart.so!nterp_helper+0xf58
+0x6de500a048 libart.so!nterp_helper+0xf58
+0x6de50cdfec libart.so!art_quick_invoke_static_stub+0x23c
+0x6de508a7bc libart.so!_ZN3art11ClassLinker15InitializeClassEPNS_6ThreadENS_6HandleINS_6mirror5ClassEEEbb+0x114c
+0x6de516c4c8 libart.so!_ZN3art11ClassLinker17EnsureInitializedEPNS_6ThreadENS_6HandleINS_6mirror5ClassEEEbb+0xa0
+0x6de547e1fc libart.so!_ZN3artL18Class_classForNameEP7_JNIEnvP7_jclassP8_jstringhP8_jobject+0x134
+0x6ff8d20c boot.oat!0xb220c
+0x6ff8d20c boot.oat!0xb220c
+[GetFieldID] com/qq/e/comm/plugin/dp.a : Lcom/qq/e/comm/plugin/om; → 0x6d5e48cee4
+[GetFieldID] com/qq/e/comm/plugin/dp.b : Lcom/qq/e/comm/plugin/ur; → 0x6d5e48cef4
+[GetStaticFieldID] com/qq/e/comm/plugin/r1.d : Lcom/qq/e/comm/plugin/r1; → 0x6d5e48d58c
+[GetStaticFieldID] com/qq/e/comm/plugin/gy.e : Ljava/lang/Integer; → 0x6d5e4b5c6c
+[GetFieldID] com/qq/e/comm/plugin/r1.c : Ljava/util/concurrent/atomic/AtomicInteger; → 0x6d5e48d5c4
+[GetStaticFieldID] com/qq/e/comm/plugin/jg.b : Ljava/util/concurrent/ExecutorService; → 0x6d5e4fcf14
+[GetFieldID] com/qq/e/comm/plugin/r1.a : Lcom/qq/e/comm/plugin/t1; → 0x6d5e48d5a4
+[GetStaticFieldID] com/qq/e/comm/plugin/l3.g : Lcom/qq/e/comm/plugin/l3; → 0x6d5e4dcf34
+[GetFieldID] com/qq/e/comm/plugin/l3.b : Ljava/util/concurrent/atomic/AtomicInteger; → 0x6d5e4dcf5c
+[GetStaticFieldID] com/qq/e/comm/plugin/zw.b : [B → 0x6d5e4fedcc
+[GetStaticFieldID] com/qq/e/comm/plugin/zw.d : Ljava/lang/ThreadLocal; → 0x6d5e4fedec
+[GetStaticFieldID] com/qq/e/comm/plugin/zw.f : [B → 0x6d5e4fee0c
+[GetFieldID] com/qq/e/comm/plugin/l3.c : Lcom/qq/e/comm/plugin/n0; → 0x6d5e4dcf6c
+[GetStaticFieldID] com/qq/e/comm/plugin/z5.a : Ljava/nio/charset/Charset; → 0x6d5e4fcf94
+[GetStaticFieldID] com/qq/e/comm/plugin/zw.b : [B → 0x6d5e4fedcc
+[GetStaticFieldID] com/qq/e/comm/plugin/zw.d : Ljava/lang/ThreadLocal; → 0x6d5e4fedec
+[GetStaticFieldID] com/qq/e/comm/plugin/zw.f : [B → 0x6d5e4fee0c
+[GetStaticFieldID] com/qq/e/comm/plugin/z5.a : Ljava/nio/charset/Charset; → 0x6d5e4fcf94
+[GetFieldID] com/qq/e/comm/plugin/l3.e : Ljava/util/Map; → 0x6d5e4dcf8c
+[GetFieldID] com/qq/e/comm/plugin/l3.e : Ljava/util/Map; → 0x6d5e4dcf8c
+[GetFieldID] com/qq/e/comm/plugin/l3.e : Ljava/util/Map; → 0x6d5e4dcf8c
+[GetFieldID] com/qq/e/comm/plugin/l3.e : Ljava/util/Map; → 0x6d5e4dcf8c
+[GetFieldID] com/qq/e/comm/plugin/l3.e : Ljava/util/Map; → 0x6d5e4dcf8c
+[GetFieldID] com/qq/e/comm/plugin/l3.e : Ljava/util/Map; → 0x6d5e4dcf8c
+[GetStaticFieldID] java/lang/Integer.TYPE : Ljava/lang/Class; → 0x6fd05ea8
+[GetStaticFieldID] java/lang/Integer.TYPE : Ljava/lang/Class; → 0x6fd05ea8
+[GetStaticFieldID] java/lang/Integer.TYPE : Ljava/lang/Class; → 0x6fd05ea8
+[GetStaticFieldID] java/lang/Integer.TYPE : Ljava/lang/Class; → 0x6fd05ea8
+[GetStaticFieldID] java/lang/Integer.TYPE : Ljava/lang/Class; → 0x6fd05ea8
+[GetStaticFieldID] java/lang/Integer.TYPE : Ljava/lang/Class; → 0x6fd05ea8
+[GetStaticFieldID] com/qq/e/comm/plugin/ga.c : Lcom/qq/e/comm/plugin/ga; → 0x6d5e48c2ec
+[GetFieldID] com/qq/e/comm/plugin/ka.f : Ljava/lang/String; → 0x6d5e4ca8fc
+[GetStaticFieldID] com/qq/e/comm/plugin/f00.a : Ljava/util/concurrent/atomic/AtomicInteger; → 0x6d5e4a4de4
+[GetFieldID] com/qq/e/comm/plugin/m00.c : Lcom/qq/e/comm/plugin/g00; → 0x6d5e3db344
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetStaticFieldID] com/qq/e/comm/plugin/m00$a.a : [I → 0x6d5e3daee4
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetStaticFieldID] com/qq/e/comm/plugin/ku.b : I → 0x6d5e4ceccc
+[GetStaticFieldID] com/qq/e/comm/plugin/ku.b : I → 0x6d5e4ceccc
+[GetStaticFieldID] com/qq/e/comm/plugin/p10.h : Z → 0x6d5e48a65c
+[GetStaticFieldID] com/qq/e/comm/plugin/p10.h : Z → 0x6d5e48a65c
+[GetStaticFieldID] com/qq/e/comm/plugin/p10.a : Ljava/lang/String; → 0x6d5e48a5ec
+[GetStaticFieldID] com/qq/e/comm/plugin/p10.a : Ljava/lang/String; → 0x6d5e48a5ec
+[GetStaticFieldID] com/qq/e/comm/plugin/p10.i : Z → 0x6d5e48a66c
+[GetStaticFieldID] com/qq/e/comm/plugin/p10.b : Ljava/lang/String; → 0x6d5e48a5fc
+[GetStaticFieldID] com/qq/e/comm/plugin/p10.g : Z → 0x6d5e48a64c
+[GetStaticFieldID] com/qq/e/comm/plugin/p10.d : Z → 0x6d5e48a61c
+[GetStaticFieldID] com/qq/e/comm/plugin/p10.c : J → 0x6d5e48a60c
+[GetFieldID] android/util/Pair.first : Ljava/lang/Object; → 0x709dc6b4
+[GetFieldID] android/util/Pair.second : Ljava/lang/Object; → 0x709dc6c4
+[GetStaticFieldID] com/qq/e/comm/plugin/z5.a : Ljava/nio/charset/Charset; → 0x6d5e4fcf94
+[GetStaticFieldID] com/qq/e/comm/plugin/kr$a.d : Lcom/qq/e/comm/plugin/kr$a; → 0x6d5e50036c
+[GetStaticFieldID] com/qq/e/comm/plugin/jg.f : Ljava/util/concurrent/ScheduledExecutorService; → 0x6d5e4fcf54
+[GetStaticFieldID] java/util/concurrent/TimeUnit.MINUTES : Ljava/util/concurrent/TimeUnit; → 0x6fd0ab4c
+[GetStaticFieldID] java/lang/Long.TYPE : Ljava/lang/Class; → 0x6fd05f40
+[GetStaticFieldID] com/qq/e/comm/plugin/jg.f : Ljava/util/concurrent/ScheduledExecutorService; → 0x6d5e4fcf54
+[GetStaticFieldID] java/util/concurrent/TimeUnit.SECONDS : Ljava/util/concurrent/TimeUnit; → 0x6fd0ab6c
+[GetStaticFieldID] java/lang/Long.TYPE : Ljava/lang/Class; → 0x6fd05f40
+[GetFieldID] com/qq/e/comm/plugin/r0.a : Ljava/lang/String; → 0x6d5e489fdc
+
+[SetObjectField]
+  ↳ Target obj: 0x19
+  ↳ jfieldID  : 0x6d5e489fdc
+  ↳ Class     : com/qq/e/comm/plugin/r0
+  ↳ Field     : a
+  ↳ Sig       : Ljava/lang/String;
+  ↳ Value     : 0x41
+  ↳ String content: {"up_32":"https://qzs.gdtimg.com/union/res/union_cdn/page/other/exop_unionNormalRelease_32_30caa6a6ac0cb9c42f5055eabc777168","sgp_32":"PpN4Wu6INY5BWEpJk8kX5l84vWSvcLltnQSrE+IsmGCtWOWxzAnYd31gtQX9nmNDv0wp04SnNnguPTCq5CgVA7F2hjupUkWTLIn45oqvlzJNf91n2wKnUfytkOkVqj10+Nef5e9yd06i9xH+k49kOmuGfUDU3yf/EVAGrZ48ZJE=","up_64":"https://qzs.gdtimg.com/union/res/union_cdn/page/other/exop_unionNormalRelease_64_bd73c43d0827c82fae430709a6b7de7d","sgp_64":"tcVUzUIsKAjvC68M5FXB48eyH9ox9Gs7me8KgwMcva8FYCjKmQnVDehDOJjwK344e2l2iXrha8ODl2kk99FMw119Cve1FhMHTijPvZYmVpVc4nF6V1K8iTaFAKP2+YG0kjs4fl6g7DQ64Yscy4BcvMeTrFxp5Q+aJBhEaLhr2TE=","ddc":"3","psv":"1450","pev":"1519","mcn":"com.qq.e.exop.ExoPlayerView"}
+[GetStaticFieldID] com/qq/e/comm/plugin/zw.b : [B → 0x6d5e4fedcc
+[GetStaticFieldID] com/qq/e/comm/plugin/zw.c : Ljava/lang/ThreadLocal; → 0x6d5e4feddc
+[GetStaticFieldID] com/qq/e/comm/plugin/zw.f : [B → 0x6d5e4fee0c
+[GetFieldID] com/qq/e/comm/plugin/r1.b : Lorg/json/JSONObject; → 0x6d5e48d5b4
+
+[SetObjectField]
+  ↳ Target obj: 0xb9
+  ↳ jfieldID  : 0x6d5e48d5b4
+  ↳ Class     : com/qq/e/comm/plugin/r1
+  ↳ Field     : b
+  ↳ Sig       : Lorg/json/JSONObject;
+  ↳ Value     : 0x101
+[GetStaticFieldID] com/qq/e/comm/plugin/tr.i : J → 0x6d5e4cc764
+[GetStaticFieldID] com/qq/e/comm/plugin/tr.h : Z → 0x6d5e4cc754
+[GetStaticFieldID] com/qq/e/comm/plugin/l3.f : Ljava/lang/String; → 0x6d5e4dcf24
+[GetFieldID] com/qq/e/comm/plugin/tr.firstInstallTime : J → 0x70961ca8
+[GetFieldID] com/qq/e/comm/plugin/tr.lastUpdateTime : J → 0x70961d08
+[Call Stack]
+0x6d5e36addc libyaqpro.3e364a2a.so!0x29ddc
+0x6d5e34c75c libyaqpro.3e364a2a.so!0xb75c
+0x6d56205ac4 libyaqbasic.3e364a2a.so!0xac4
+0x6de50d7648 libart.so!art_quick_generic_jni_trampoline+0x98
+0x6de500918c libart.so!nterp_helper+0x9c
+0x6de500a048 libart.so!nterp_helper+0xf58
+0x6de500a048 libart.so!nterp_helper+0xf58
+0x6de500a048 libart.so!nterp_helper+0xf58
+0x6de5009128 libart.so!nterp_helper+0x38
+0x6de5009128 libart.so!nterp_helper+0x38
+0x701118ac boot.oat!0x2368ac
+0x701118ac boot.oat!0x2368ac
+[GetFieldID] com/qq/e/comm/plugin/r0.b : Ljava/lang/String; → 0x6d5e489fec
+[GetFieldID] com/qq/e/comm/plugin/r0.d : Ljava/lang/String; → 0x6d5e48a00c
+
+[SetObjectField]
+  ↳ Target obj: 0x19
+  ↳ jfieldID  : 0x6d5e48a00c
+  ↳ Class     : com/qq/e/comm/plugin/r0
+  ↳ Field     : d
+  ↳ Sig       : Ljava/lang/String;
+  ↳ Value     : 0x21
+  ↳ String content: bd73c43d0827c82fae430709a6b7de7d
+[Call Stack]
+0x6d5e36addc libyaqpro.3e364a2a.so!0x29ddc
+0x6d5e34c75c libyaqpro.3e364a2a.so!0xb75c
+0x6d56205a84 libyaqbasic.3e364a2a.so!0xa84
+0x6de50d7648 libart.so!art_quick_generic_jni_trampoline+0x98
+0x6de500918c libart.so!nterp_helper+0x9c
+0x6de50cdd68 libart.so!art_quick_invoke_stub+0x228
+0x6de516cee0 libart.so!_ZN3art17InvokeWithJValuesIPNS_9ArtMethodEEENS_6JValueERKNS_33ScopedObjectAccessAlreadyRunnableEP8_jobjectT_PK6jvalue+0x2b0
+0x6de53a4a0c libart.so!_ZN3art3JNIILb0EE25CallNonvirtualVoidMethodAEP7_JNIEnvP8_jobjectP7_jclassP10_jmethodIDPK6jvalue+0x10c
+0x6d5e38b8f8 libyaqpro.3e364a2a.so!0x4a8f8
+0x6d5e34c75c libyaqpro.3e364a2a.so!0xb75c
+0x6d56205a84 libyaqbasic.3e364a2a.so!0xa84
+0x6de50d7648 libart.so!art_quick_generic_jni_trampoline+0x98
+0x6de500918c libart.so!nterp_helper+0x9c
+0x6de5009128 libart.so!nterp_helper+0x38
+0x6de500ae68 libart.so!nterp_helper+0x1d78
+0x6de500a048 libart.so!nterp_helper+0xf58
+[GetStaticFieldID] com/qq/e/comm/plugin/f00.a : Ljava/util/concurrent/atomic/AtomicInteger; → 0x6d5e4a4de4
+[GetFieldID] com/qq/e/comm/plugin/m00.c : Lcom/qq/e/comm/plugin/g00; → 0x6d5e3db344
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetStaticFieldID] com/qq/e/comm/plugin/m00$a.a : [I → 0x6d5e3daee4
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[Call Stack]
+0x6d5e36addc libyaqpro.3e364a2a.so!0x29ddc
+0x6d5e34c75c libyaqpro.3e364a2a.so!0xb75c
+0x6d56205ac4 libyaqbasic.3e364a2a.so!0xac4
+0x6de50d7648 libart.so!art_quick_generic_jni_trampoline+0x98
+0x6de500918c libart.so!nterp_helper+0x9c
+0x6de500a048 libart.so!nterp_helper+0xf58
+0x6de500a048 libart.so!nterp_helper+0xf58
+0x6de500a048 libart.so!nterp_helper+0xf58
+0x6de5009128 libart.so!nterp_helper+0x38
+0x6de5009128 libart.so!nterp_helper+0x38
+0x701118ac boot.oat!0x2368ac
+0x701118ac boot.oat!0x2368ac
+[GetFieldID] com/qq/e/comm/plugin/r0.f : I → 0x6d5e48a02c
+[GetFieldID] com/qq/e/comm/plugin/ns.w : [Ljava/lang/String; → 0x6d5e48daa4
+
+[SetObjectField]
+  ↳ Target obj: 0x19
+  ↳ jfieldID  : 0x6d5e48daa4
+  ↳ Class     : com/qq/e/comm/plugin/ns
+  ↳ Field     : w
+  ↳ Sig       : [Ljava/lang/String;
+  ↳ Value     : 0xa9
+[Call Stack]
+0x6d5e36addc libyaqpro.3e364a2a.so!0x29ddc
+0x6d5e34c75c libyaqpro.3e364a2a.so!0xb75c
+0x6d56205ac4 libyaqbasic.3e364a2a.so!0xac4
+0x6de50d7648 libart.so!art_quick_generic_jni_trampoline+0x98
+0x6de500918c libart.so!nterp_helper+0x9c
+0x6de500a048 libart.so!nterp_helper+0xf58
+0x6de500a048 libart.so!nterp_helper+0xf58
+0x6de500a048 libart.so!nterp_helper+0xf58
+0x6de5009128 libart.so!nterp_helper+0x38
+0x6de5009128 libart.so!nterp_helper+0x38
+0x701118ac boot.oat!0x2368ac
+0x701118ac boot.oat!0x2368ac
+[GetFieldID] com/qq/e/comm/plugin/r0.e : Ljava/lang/String; → 0x6d5e48a01c
+
+[SetObjectField]
+  ↳ Target obj: 0x19
+  ↳ jfieldID  : 0x6d5e48a01c
+  ↳ Class     : com/qq/e/comm/plugin/r0
+  ↳ Field     : e
+  ↳ Sig       : Ljava/lang/String;
+  ↳ Value     : 0xa5
+  ↳ String content: com.qq.e.exop.ExoPlayerView
+[Call Stack]
+0x6d5e36addc libyaqpro.3e364a2a.so!0x29ddc
+0x6d5e34c75c libyaqpro.3e364a2a.so!0xb75c
+0x6d56205ac4 libyaqbasic.3e364a2a.so!0xac4
+0x6de50d7648 libart.so!art_quick_generic_jni_trampoline+0x98
+0x6de500918c libart.so!nterp_helper+0x9c
+0x6de500a048 libart.so!nterp_helper+0xf58
+0x6de500a048 libart.so!nterp_helper+0xf58
+0x6de500a048 libart.so!nterp_helper+0xf58
+0x6de5009128 libart.so!nterp_helper+0x38
+0x6de5009128 libart.so!nterp_helper+0x38
+0x701118ac boot.oat!0x2368ac
+0x701118ac boot.oat!0x2368ac
+[GetFieldID] com/qq/e/comm/plugin/r0.e : Ljava/lang/String; → 0x6d5e48a01c
+[GetStaticFieldID] com/qq/e/comm/plugin/x1.d : Lcom/qq/e/comm/plugin/x1; → 0x6d5e48dcb4
+[GetStaticFieldID] com/qq/e/comm/plugin/x1.d : Lcom/qq/e/comm/plugin/x1; → 0x6d5e48dcb4
+[GetFieldID] com/qq/e/comm/plugin/x1.b : J → 0x6d5e48dcdc
+[GetFieldID] com/qq/e/comm/plugin/x1.b : J → 0x6d5e48dcdc
+[GetFieldID] com/qq/e/comm/plugin/x1.a : Landroid/content/SharedPreferences; → 0x6d5e48dccc
+[GetStaticFieldID] java/lang/Long.TYPE : Ljava/lang/Class; → 0x6fd05f40
+[GetFieldID] com/qq/e/comm/plugin/x1.a : Landroid/content/SharedPreferences; → 0x6d5e48dccc
+[GetStaticFieldID] java/lang/Long.TYPE : Ljava/lang/Class; → 0x6fd05f40
+[GetFieldID] com/qq/e/comm/plugin/x1.a : Landroid/content/SharedPreferences; → 0x6d5e48dccc
+[GetStaticFieldID] java/lang/Long.TYPE : Ljava/lang/Class; → 0x6fd05f40
+[GetStaticFieldID] java/lang/Long.TYPE : Ljava/lang/Class; → 0x6fd05f40
+[GetStaticFieldID] com/qq/e/comm/plugin/x1.d : Lcom/qq/e/comm/plugin/x1; → 0x6d5e48dcb4
+
+[SetObjectField]
+  ↳ Target obj: 0x21
+  ↳ jfieldID  : 0x6d5e48dcb4
+  ↳ Class     : com/qq/e/comm/plugin/x1
+  ↳ Field     : d
+  ↳ Sig       : Lcom/qq/e/comm/plugin/x1;
+  ↳ Value     : 0x39
+[Call Stack]
+0x6d5e3731d0 libyaqpro.3e364a2a.so!0x321d0
+0x6d5e34c75c libyaqpro.3e364a2a.so!0xb75c
+0x6d56205aa4 libyaqbasic.3e364a2a.so!0xaa4
+0x6de50d7648 libart.so!art_quick_generic_jni_trampoline+0x98
+0x6de500918c libart.so!nterp_helper+0x9c
+0x6de500918c libart.so!nterp_helper+0x9c
+0x6de5009128 libart.so!nterp_helper+0x38
+0x6de5009128 libart.so!nterp_helper+0x38
+0x701118ac boot.oat!0x2368ac
+0x701118ac boot.oat!0x2368ac
+[GetStaticFieldID] com/qq/e/comm/plugin/x1.d : Lcom/qq/e/comm/plugin/x1; → 0x6d5e48dcb4
+[GetStaticFieldID] com/qq/e/comm/plugin/v40.b : Z → 0x6d5e48f144
+[GetStaticFieldID] com/qq/e/comm/plugin/v40.d : Ljava/lang/Integer; → 0x6d5e48f164
+[GetStaticFieldID] com/qq/e/comm/plugin/v40.d : Ljava/lang/Integer; → 0x6d5e48f164
+[GetStaticFieldID] com/qq/e/comm/plugin/f00.a : Ljava/util/concurrent/atomic/AtomicInteger; → 0x6d5e4a4de4
+[GetFieldID] com/qq/e/comm/plugin/m00.c : Lcom/qq/e/comm/plugin/g00; → 0x6d5e3db344
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetStaticFieldID] com/qq/e/comm/plugin/v40.d : Ljava/lang/Integer; → 0x6d5e48f164
+
+[SetObjectField]
+  ↳ Target obj: 0x39
+  ↳ jfieldID  : 0x6d5e48f164
+  ↳ Class     : com/qq/e/comm/plugin/v40
+  ↳ Field     : d
+  ↳ Sig       : Ljava/lang/Integer;
+  ↳ Value     : 0x41
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetStaticFieldID] com/qq/e/comm/plugin/m00$a.a : [I → 0x6d5e3daee4
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[Call Stack]
+0x6d5e3731d0 libyaqpro.3e364a2a.so!0x321d0
+0x6d5e34c75c libyaqpro.3e364a2a.so!0xb75c
+0x6d56205b44 libyaqbasic.3e364a2a.so!0xb44
+0x6de50d7648 libart.so!art_quick_generic_jni_trampoline+0x98
+0x6de500918c libart.so!nterp_helper+0x9c
+0x6de50cdfec libart.so!art_quick_invoke_static_stub+0x23c
+0x6de52550b8 libart.so!_ZN3art17InvokeWithVarArgsIP10_jmethodIDEENS_6JValueERKNS_33ScopedObjectAccessAlreadyRunnableEP8_jobjectT_St9__va_list+0x1d4
+0x6de53ce0a4 libart.so!_ZN3art3JNIILb0EE20CallStaticIntMethodVEP7_JNIEnvP7_jclassP10_jmethodIDSt9__va_list+0x120
+0x6d5e38d760 libyaqpro.3e364a2a.so!0x4c760
+0x6d5e38c210 libyaqpro.3e364a2a.so!0x4b210
+0x6d5e34c75c libyaqpro.3e364a2a.so!0xb75c
+0x6d56205a84 libyaqbasic.3e364a2a.so!0xa84
+0x6de50d7648 libart.so!art_quick_generic_jni_trampoline+0x98
+0x6de500918c libart.so!nterp_helper+0x9c
+0x6de500918c libart.so!nterp_helper+0x9c
+0x6de5009128 libart.so!nterp_helper+0x38
+[GetStaticFieldID] com/qq/e/comm/plugin/v40.d : Ljava/lang/Integer; → 0x6d5e48f164
+[GetStaticFieldID] com/qq/e/comm/plugin/v40.d : Ljava/lang/Integer; → 0x6d5e48f164
+[GetStaticFieldID] com/qq/e/comm/plugin/f00.a : Ljava/util/concurrent/atomic/AtomicInteger; → 0x6d5e4a4de4
+[GetFieldID] com/qq/e/comm/plugin/m00.c : Lcom/qq/e/comm/plugin/g00; → 0x6d5e3db344
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetStaticFieldID] com/qq/e/comm/plugin/m00$a.a : [I → 0x6d5e3daee4
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetStaticFieldID] com/qq/e/comm/plugin/f00.a : Ljava/util/concurrent/atomic/AtomicInteger; → 0x6d5e4a4de4
+[GetFieldID] com/qq/e/comm/plugin/m00.c : Lcom/qq/e/comm/plugin/g00; → 0x6d5e3db344
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetStaticFieldID] com/qq/e/comm/plugin/m00$a.a : [I → 0x6d5e3daee4
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetStaticFieldID] com/qq/e/comm/plugin/l3.g : Lcom/qq/e/comm/plugin/l3; → 0x6d5e4dcf34
+[GetStaticFieldID] com/qq/e/comm/plugin/jg.f : Ljava/util/concurrent/ScheduledExecutorService; → 0x6d5e4fcf54
+[GetStaticFieldID] java/util/concurrent/TimeUnit.MINUTES : Ljava/util/concurrent/TimeUnit; → 0x6fd0ab4c
+[GetStaticFieldID] java/lang/Long.TYPE : Ljava/lang/Class; → 0x6fd05f40
+[GetStaticFieldID] com/qq/e/comm/plugin/f00.a : Ljava/util/concurrent/atomic/AtomicInteger; → 0x6d5e4a4de4
+[GetFieldID] com/qq/e/comm/plugin/m00.c : Lcom/qq/e/comm/plugin/g00; → 0x6d5e3db344
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetStaticFieldID] com/qq/e/comm/plugin/m00$a.a : [I → 0x6d5e3daee4
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetStaticFieldID] com/qq/e/comm/plugin/ku.a : I → 0x6d5e4cecbc
+[GetStaticFieldID] com/qq/e/comm/plugin/ku.a : I → 0x6d5e4cecbc
+[GetStaticFieldID] com/qq/e/comm/plugin/f00.a : Ljava/util/concurrent/atomic/AtomicInteger; → 0x6d5e4a4de4
+[GetFieldID] com/qq/e/comm/plugin/m00.c : Lcom/qq/e/comm/plugin/g00; → 0x6d5e3db344
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetStaticFieldID] com/qq/e/comm/plugin/m00$a.a : [I → 0x6d5e3daee4
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetStaticFieldID] com/qq/e/comm/plugin/f00.a : Ljava/util/concurrent/atomic/AtomicInteger; → 0x6d5e4a4de4
+[GetFieldID] com/qq/e/comm/plugin/m00.c : Lcom/qq/e/comm/plugin/g00; → 0x6d5e3db344
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetStaticFieldID] com/qq/e/comm/plugin/m00$a.a : [I → 0x6d5e3daee4
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetStaticFieldID] com/qq/e/comm/plugin/f00.a : Ljava/util/concurrent/atomic/AtomicInteger; → 0x6d5e4a4de4
+[GetFieldID] com/qq/e/comm/plugin/m00.c : Lcom/qq/e/comm/plugin/g00; → 0x6d5e3db344
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetStaticFieldID] com/qq/e/comm/plugin/m00$a.a : [I → 0x6d5e3daee4
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetStaticFieldID] com/qq/e/comm/plugin/f00.a : Ljava/util/concurrent/atomic/AtomicInteger; → 0x6d5e4a4de4
+[GetFieldID] com/qq/e/comm/plugin/m00.c : Lcom/qq/e/comm/plugin/g00; → 0x6d5e3db344
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetStaticFieldID] com/qq/e/comm/plugin/m00$a.a : [I → 0x6d5e3daee4
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetStaticFieldID] com/qq/e/comm/plugin/f00.a : Ljava/util/concurrent/atomic/AtomicInteger; → 0x6d5e4a4de4
+[GetFieldID] com/qq/e/comm/plugin/m00.c : Lcom/qq/e/comm/plugin/g00; → 0x6d5e3db344
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetStaticFieldID] com/qq/e/comm/plugin/m00$a.a : [I → 0x6d5e3daee4
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetStaticFieldID] com/qq/e/comm/plugin/f00.a : Ljava/util/concurrent/atomic/AtomicInteger; → 0x6d5e4a4de4
+[GetFieldID] com/qq/e/comm/plugin/m00.c : Lcom/qq/e/comm/plugin/g00; → 0x6d5e3db344
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetStaticFieldID] com/qq/e/comm/plugin/m00$a.a : [I → 0x6d5e3daee4
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetFieldID] android/content/pm/ApplicationInfo.packageName : Ljava/lang/String; → 0x7094254c
+[GetStaticFieldID] com/qq/e/comm/plugin/f00.a : Ljava/util/concurrent/atomic/AtomicInteger; → 0x6d5e4a4de4
+[GetFieldID] com/qq/e/comm/plugin/m00.c : Lcom/qq/e/comm/plugin/g00; → 0x6d5e3db344
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetStaticFieldID] com/qq/e/comm/plugin/m00$a.a : [I → 0x6d5e3daee4
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetStaticFieldID] com/qq/e/comm/plugin/jg.f : Ljava/util/concurrent/ScheduledExecutorService; → 0x6d5e4fcf54
+[GetStaticFieldID] java/util/concurrent/TimeUnit.SECONDS : Ljava/util/concurrent/TimeUnit; → 0x6fd0ab6c
+[GetStaticFieldID] java/lang/Long.TYPE : Ljava/lang/Class; → 0x6fd05f40
+
+[SetObjectField]
+  ↳ Target obj: 0x6dd66e1288
+  ↳ jfieldID  : 0x709dd1e4
+  ↳ Field info: (unknown)
+  ↳ Value     : 0x0
+[Call Stack]
+0x708d63efe0 libandroid_runtime.so!0x163fe0
+0x7159e0a0 boot-framework.oat!0x1870a0
+0x7159e0a0 boot-framework.oat!0x1870a0
+[GetStaticFieldID] com/qq/e/comm/plugin/j00.a : Ljava/util/concurrent/atomic/AtomicInteger; → 0x6d5e4a515c
+[GetFieldID] com/qq/e/comm/plugin/m00.d : Lcom/qq/e/comm/plugin/k00; → 0x6d5e3db354
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetStaticFieldID] com/qq/e/comm/plugin/m00$a.a : [I → 0x6d5e3daee4
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.c : Lcom/qq/e/comm/plugin/g00; → 0x6d5e3db344
+[GetFieldID] com/qq/e/comm/plugin/w0.b : Ljava/util/List; → 0x6d5e47cb7c
+[GetFieldID] com/qq/e/comm/plugin/w0.a : Landroid/content/Context; → 0x6d5e47cb6c
+[GetFieldID] com/qq/e/comm/plugin/m00.d : Lcom/qq/e/comm/plugin/k00; → 0x6d5e3db354
+[GetFieldID] com/qq/e/comm/plugin/w0.b : Ljava/util/List; → 0x6d5e47cb7c
+[GetFieldID] com/qq/e/comm/plugin/w0.a : Landroid/content/Context; → 0x6d5e47cb6c
+[GetStaticFieldID] com/qq/e/comm/plugin/l30$b.a : Lcom/qq/e/comm/plugin/l30; → 0x6d5e3d2874
+[GetFieldID] com/qq/e/comm/plugin/l30.b : Z → 0x6d5e4afabc
+[GetFieldID] com/qq/e/comm/plugin/l30.a : Ljava/security/PublicKey; → 0x6d5e4afaac
+[GetStaticFieldID] com/qq/e/comm/plugin/l30.c : [B → 0x6d5e4afa94
+[GetFieldID] com/qq/e/comm/plugin/l30.a : Ljava/security/PublicKey; → 0x6d5e4afaac
+[GetStaticFieldID] com/qq/e/comm/plugin/f00.a : Ljava/util/concurrent/atomic/AtomicInteger; → 0x6d5e4a4de4
+[GetFieldID] com/qq/e/comm/plugin/m00.c : Lcom/qq/e/comm/plugin/g00; → 0x6d5e3db344
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/r0.j : Ljava/io/File; → 0x6d5e48a06c
+[GetStaticFieldID] android/os/Build$VERSION.SDK_INT : I → 0x70999418
+[GetStaticFieldID] com/qq/e/comm/plugin/r0.q : Z → 0x6d5e489f94
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetStaticFieldID] com/qq/e/comm/plugin/m00$a.a : [I → 0x6d5e3daee4
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetFieldID] com/qq/e/comm/plugin/r0.e : Ljava/lang/String; → 0x6d5e48a01c
+[GetStaticFieldID] com/qq/e/comm/plugin/f00.a : Ljava/util/concurrent/atomic/AtomicInteger; → 0x6d5e4a4de4
+[GetFieldID] com/qq/e/comm/plugin/m00.c : Lcom/qq/e/comm/plugin/g00; → 0x6d5e3db344
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetStaticFieldID] com/qq/e/comm/plugin/m00$a.a : [I → 0x6d5e3daee4
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.f : Ljava/lang/Runnable; → 0x6d5e3db374
+[GetFieldID] com/qq/e/comm/plugin/m00.a : Landroid/os/Handler; → 0x6d5e3db324
+[GetFieldID] com/qq/e/comm/plugin/m00.c : Lcom/qq/e/comm/plugin/g00; → 0x6d5e3db344
+[GetFieldID] com/qq/e/comm/plugin/w0.b : Ljava/util/List; → 0x6d5e47cb7c
+[GetFieldID] com/qq/e/comm/plugin/w0.a : Landroid/content/Context; → 0x6d5e47cb6c
+[GetFieldID] com/qq/e/comm/plugin/m00.d : Lcom/qq/e/comm/plugin/k00; → 0x6d5e3db354
+[GetFieldID] com/qq/e/comm/plugin/w0.b : Ljava/util/List; → 0x6d5e47cb7c
+[GetFieldID] com/qq/e/comm/plugin/w0.a : Landroid/content/Context; → 0x6d5e47cb6c
+[GetStaticFieldID] com/qq/e/comm/plugin/ja.b : Z → 0x6d5e4e36d4
+[GetStaticFieldID] com/qq/e/comm/plugin/ja.c : Z → 0x6d5e4e36e4
+[GetStaticFieldID] android/os/Build$VERSION.SDK_INT : I → 0x70999418
+[GetFieldID] android/content/pm/PackageInfo.firstInstallTime : J → 0x70961ca8
