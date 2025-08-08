@@ -1,0 +1,1981 @@
+[*] libyaqpro.6b3ac992.so 基址: 0x6cfbe91000
+[sub_1A87C] v16 address = 0xb400006e1e6afe50
+Jump type: 0xe319 → index 25
+[sub_1A87C] jump table entry = 0x6cfbef7778
+[sub_1A87C] jump target addr = 0x6cfbeb52d8
+[sub_1A87C] jump target offset = 0x242d8
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6ae110
+Jump type: 0xb3aa → index 170
+[sub_1A87C] jump table entry = 0x6cfbef7c00
+[sub_1A87C] jump target addr = 0x6cfbeaff14
+[sub_1A87C] jump target offset = 0x1ef14
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6ae110
+Jump type: 0xa3a6 → index 166
+[sub_1A87C] jump table entry = 0x6cfbef7be0
+[sub_1A87C] jump target addr = 0x6cfbed8b88
+[sub_1A87C] jump target offset = 0x47b88
+    第2个参数: 0xf9
+    第2个参数: f9
+[sub_1A87C] v16 address = 0xb400006e1e6afe50
+Jump type: 0xa39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e69df70
+Jump type: 0xb13e → index 62
+[sub_1A87C] jump table entry = 0x6cfbef78a0
+[sub_1A87C] jump target addr = 0x6cfbeb1640
+[sub_1A87C] jump target offset = 0x20640
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6aed70
+Jump type: 0xb39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6aa330
+Jump type: 0xb39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6aed70
+Jump type: 0xb39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+[sub_1A87C] v16 address = 0xb400006e1e6aa330
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+Jump type: 0xb39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+[sub_1A87C] v16 address = 0xb400006e1e6ae350
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+Jump type: 0xb3e9 → index 233
+[sub_1A87C] jump table entry = 0x6cfbef7df8
+[sub_1A87C] jump target addr = 0x6cfbebb60c
+[sub_1A87C] jump target offset = 0x2a60c
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6aa330
+Jump type: 0xa319 → index 25
+[sub_1A87C] jump table entry = 0x6cfbef7778
+[sub_1A87C] jump target addr = 0x6cfbeb52d8
+[sub_1A87C] jump target offset = 0x242d8
+    第2个参数: 0x41
+    第2个参数: 41
+[sub_1A87C] v16 address = 0xb400006e1e6afe50
+Jump type: 0xf39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+    第2个参数: 0x25
+    第2个参数: 25
+[sub_1A87C] v16 address = 0xb400006e1e6aa8d0
+Jump type: 0x9319 → index 25
+[sub_1A87C] jump table entry = 0x6cfbef7778
+[sub_1A87C] jump target addr = 0x6cfbeb52d8
+[sub_1A87C] jump target offset = 0x242d8
+    第2个参数: 0x85
+    第2个参数: 85
+[sub_1A87C] v16 address = 0xb400006e1e6aa330
+Jump type: 0xb39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6aa330
+Jump type: 0xb39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6aa8d0
+Jump type: 0xa39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+    第2个参数: 0x25
+    第2个参数: 25
+[sub_1A87C] v16 address = 0xb400006e1e6aa330
+Jump type: 0xa319 → index 25
+[sub_1A87C] jump table entry = 0x6cfbef7778
+[sub_1A87C] jump target addr = 0x6cfbeb52d8
+[sub_1A87C] jump target offset = 0x242d8
+    第2个参数: 0x41
+    第2个参数: 41
+[sub_1A87C] v16 address = 0xb400006e1e6ad390
+Jump type: 0x9319 → index 25
+[sub_1A87C] jump table entry = 0x6cfbef7778
+[sub_1A87C] jump target addr = 0x6cfbeb52d8
+[sub_1A87C] jump target offset = 0x242d8
+    第2个参数: 0x85
+    第2个参数: 85
+[sub_1A87C] v16 address = 0xb400006e1e6aa330
+Jump type: 0xb39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6aa330
+Jump type: 0xb39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6aa330
+Jump type: 0xa319 → index 25
+[sub_1A87C] jump table entry = 0x6cfbef7778
+[sub_1A87C] jump target addr = 0x6cfbeb52d8
+[sub_1A87C] jump target offset = 0x242d8
+    第2个参数: 0x41
+    第2个参数: 41
+[sub_1A87C] v16 address = 0xb400006e1e6ad390
+Jump type: 0x9319 → index 25
+[sub_1A87C] jump table entry = 0x6cfbef7778
+[sub_1A87C] jump target addr = 0x6cfbeb52d8
+[sub_1A87C] jump target offset = 0x242d8
+    第2个参数: 0x85
+    第2个参数: 85
+[sub_1A87C] v16 address = 0xb400006e1e6aa330
+Jump type: 0xb39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6aa330
+Jump type: 0xb39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6aa330
+Jump type: 0xa319 → index 25
+[sub_1A87C] jump table entry = 0x6cfbef7778
+[sub_1A87C] jump target addr = 0x6cfbeb52d8
+[sub_1A87C] jump target offset = 0x242d8
+    第2个参数: 0x41
+    第2个参数: 41
+[sub_1A87C] v16 address = 0xb400006e1e6ad390
+Jump type: 0x9319 → index 25
+[sub_1A87C] jump table entry = 0x6cfbef7778
+[sub_1A87C] jump target addr = 0x6cfbeb52d8
+[sub_1A87C] jump target offset = 0x242d8
+    第2个参数: 0x85
+    第2个参数: 85
+[sub_1A87C] v16 address = 0xb400006e1e6aa330
+Jump type: 0xb39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6aa330
+Jump type: 0xb39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6aa330
+Jump type: 0xa319 → index 25
+[sub_1A87C] jump table entry = 0x6cfbef7778
+[sub_1A87C] jump target addr = 0x6cfbeb52d8
+[sub_1A87C] jump target offset = 0x242d8
+    第2个参数: 0x41
+    第2个参数: 41
+[sub_1A87C] v16 address = 0xb400006e1e6ad390
+Jump type: 0x9319 → index 25
+[sub_1A87C] jump table entry = 0x6cfbef7778
+[sub_1A87C] jump target addr = 0x6cfbeb52d8
+[sub_1A87C] jump target offset = 0x242d8
+    第2个参数: 0x85
+    第2个参数: 85
+[sub_1A87C] v16 address = 0xb400006e1e6aa330
+Jump type: 0xb39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6aa330
+Jump type: 0xb39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6aa330
+Jump type: 0xa319 → index 25
+[sub_1A87C] jump table entry = 0x6cfbef7778
+[sub_1A87C] jump target addr = 0x6cfbeb52d8
+[sub_1A87C] jump target offset = 0x242d8
+    第2个参数: 0x41
+    第2个参数: 41
+[sub_1A87C] v16 address = 0xb400006e1e69df70
+Jump type: 0x9319 → index 25
+[sub_1A87C] jump table entry = 0x6cfbef7778
+[sub_1A87C] jump target addr = 0x6cfbeb52d8
+[sub_1A87C] jump target offset = 0x242d8
+    第2个参数: 0x85
+    第2个参数: 85
+[sub_1A87C] v16 address = 0xb400006e1e69df70
+Jump type: 0xb39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e69df70
+Jump type: 0xb39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+[sub_1A87C] v16 address = 0xb400006e1e69df70
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+Jump type: 0xa319 → index 25
+[sub_1A87C] jump table entry = 0x6cfbef7778
+[sub_1A87C] jump target addr = 0x6cfbeb52d8
+[sub_1A87C] jump target offset = 0x242d8
+    第2个参数: 0x41
+    第2个参数: 41
+[sub_1A87C] v16 address = 0xb400006e1e6ad390
+Jump type: 0x9319 → index 25
+[sub_1A87C] jump table entry = 0x6cfbef7778
+[sub_1A87C] jump target addr = 0x6cfbeb52d8
+[sub_1A87C] jump target offset = 0x242d8
+    第2个参数: 0x85
+    第2个参数: 85
+[objArr] = ITEM_ADD
+[sub_1A87C] v16 address = 0xb400006e1e6aa8d0
+Jump type: 0xa39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+    第2个参数: 0x29
+    第2个参数: 29
+[objArr] = com.qq.e.comm.plugin.j@a8b8cd1
+[sub_1A87C] v16 address = 0xb400006e1e691bb0
+Jump type: 0xb909 → index 9
+[sub_1A87C] jump table entry = 0x6cfbef76f8
+[sub_1A87C] jump target addr = 0x6cfbeacd50
+[sub_1A87C] jump target offset = 0x1bd50
+    第2个参数: 0x75
+    第2个参数: 75
+[sub_1A87C] v16 address = 0xb400006e1e6aa8d0
+Jump type: 0xa39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+    第2个参数: 0x21
+    第2个参数: 21
+[sub_1A87C] v16 address = 0xb400006e1e6ae350
+Jump type: 0xb393 → index 147
+[sub_1A87C] jump table entry = 0x6cfbef7b48
+[sub_1A87C] jump target addr = 0x6cfbebd6c4
+[sub_1A87C] jump target offset = 0x2c6c4
+[sub_1A87C] v16 address = 0xb400006e1e6aa8d0
+Jump type: 0xa39a → index 154
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+    第2个参数: 0x25
+    第2个参数: 25
+[objArr] = ITEM_ADD
+[sub_1A87C] v16 address = 0xb400006e1e6ae350
+Jump type: 0x8319 → index 25
+[sub_1A87C] jump table entry = 0x6cfbef7778
+[sub_1A87C] jump target addr = 0x6cfbeb52d8
+[sub_1A87C] jump target offset = 0x242d8
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6ae350
+Jump type: 0xb39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6aa8d0
+Jump type: 0xa39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+    第2个参数: 0x29
+    第2个参数: 29
+[sub_1A87C] v16 address = 0xb400006e1e6ae350
+Jump type: 0xb3d6 → index 214
+[sub_1A87C] jump table entry = 0x6cfbef7d60
+[sub_1A87C] jump target addr = 0x6cfbebc67c
+[sub_1A87C] jump target offset = 0x2b67c
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6aa8d0
+Jump type: 0xa39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+    第2个参数: 0x21
+    第2个参数: 21
+[sub_1A87C] v16 address = 0xb400006e1e6ae350
+Jump type: 0xb393 → index 147
+[sub_1A87C] jump table entry = 0x6cfbef7b48
+[sub_1A87C] jump target addr = 0x6cfbebd6c4
+[sub_1A87C] jump target offset = 0x2c6c4
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6aa8d0
+Jump type: 0xa39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+    第2个参数: 0x25
+    第2个参数: 25
+[objArr] = ITEM_ADD
+[sub_1A87C] v16 address = 0xb400006e1e6adb70
+Jump type: 0xb39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6ae350
+Jump type: 0xb39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+[sub_1A87C] v16 address = 0xb400006e1e6ae350
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+Jump type: 0x3319 → index 25
+[sub_1A87C] jump table entry = 0x6cfbef7778
+[sub_1A87C] jump target addr = 0x6cfbeb52d8
+[sub_1A87C] jump target offset = 0x242d8
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6ad930
+Jump type: 0xb3e9 → index 233
+[sub_1A87C] jump table entry = 0x6cfbef7df8
+[sub_1A87C] jump target addr = 0x6cfbebb60c
+[sub_1A87C] jump target offset = 0x2a60c
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6b0870
+Jump type: 0xa39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6ad930
+Jump type: 0xb3f0 → index 240
+[sub_1A87C] jump table entry = 0x6cfbef7e30
+[sub_1A87C] jump target addr = 0x6cfbeadda4
+[sub_1A87C] jump target offset = 0x1cda4
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6adb70
+Jump type: 0xb23e → index 62
+[sub_1A87C] jump table entry = 0x6cfbef78a0
+[sub_1A87C] jump target addr = 0x6cfbeb1640
+[sub_1A87C] jump target offset = 0x20640
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6adb70
+Jump type: 0xb3f0 → index 240
+[sub_1A87C] jump table entry = 0x6cfbef7e30
+[sub_1A87C] jump target addr = 0x6cfbeadda4
+[sub_1A87C] jump target offset = 0x1cda4
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6ad930
+Jump type: 0xa39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6ae230
+Jump type: 0x43f0 → index 240
+[sub_1A87C] jump table entry = 0x6cfbef7e30
+[sub_1A87C] jump target addr = 0x6cfbeadda4
+[sub_1A87C] jump target offset = 0x1cda4
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6ad930
+Jump type: 0xb3f0 → index 240
+[sub_1A87C] jump table entry = 0x6cfbef7e30
+[sub_1A87C] jump target addr = 0x6cfbeadda4
+[sub_1A87C] jump target offset = 0x1cda4
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6ad930
+Jump type: 0xb39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6ad930
+Jump type: 0xb3c2 → index 194
+[sub_1A87C] jump table entry = 0x6cfbef7cc0
+[sub_1A87C] jump target addr = 0x6cfbebe70c
+[sub_1A87C] jump target offset = 0x2d70c
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6aa8d0
+Jump type: 0xb3c2 → index 194
+[sub_1A87C] jump table entry = 0x6cfbef7cc0
+[sub_1A87C] jump target addr = 0x6cfbebe70c
+[sub_1A87C] jump target offset = 0x2d70c
+    第2个参数: 0x1b9
+    第2个参数: 1b9
+[sub_1A87C] v16 address = 0xb400006e1e6aa8d0
+Jump type: 0xb3c2 → index 194
+[sub_1A87C] jump table entry = 0x6cfbef7cc0
+[sub_1A87C] jump target addr = 0x6cfbebe70c
+[sub_1A87C] jump target offset = 0x2d70c
+[sub_1A87C] v16 address = 0xb400006e1e6ad930
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+Jump type: 0xb3f0 → index 240
+[sub_1A87C] jump table entry = 0x6cfbef7e30
+[sub_1A87C] jump target addr = 0x6cfbeadda4
+[sub_1A87C] jump target offset = 0x1cda4
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6ad930
+Jump type: 0xb39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6aa8d0
+Jump type: 0xb3f0 → index 240
+[sub_1A87C] jump table entry = 0x6cfbef7e30
+[sub_1A87C] jump target addr = 0x6cfbeadda4
+[sub_1A87C] jump target offset = 0x1cda4
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6aa8d0
+Jump type: 0xb393 → index 147
+[sub_1A87C] jump table entry = 0x6cfbef7b48
+[sub_1A87C] jump target addr = 0x6cfbebd6c4
+[sub_1A87C] jump target offset = 0x2c6c4
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6aa8d0
+Jump type: 0xb3f0 → index 240
+[sub_1A87C] jump table entry = 0x6cfbef7e30
+[sub_1A87C] jump target addr = 0x6cfbeadda4
+[sub_1A87C] jump target offset = 0x1cda4
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6aa8d0
+Jump type: 0xb3f0 → index 240
+[sub_1A87C] jump table entry = 0x6cfbef7e30
+[sub_1A87C] jump target addr = 0x6cfbeadda4
+[sub_1A87C] jump target offset = 0x1cda4
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6ad930
+Jump type: 0xb3f0 → index 240
+[sub_1A87C] jump table entry = 0x6cfbef7e30
+[sub_1A87C] jump target addr = 0x6cfbeadda4
+[sub_1A87C] jump target offset = 0x1cda4
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6aa8d0
+Jump type: 0xb3f0 → index 240
+[sub_1A87C] jump table entry = 0x6cfbef7e30
+[sub_1A87C] jump target addr = 0x6cfbeadda4
+[sub_1A87C] jump target offset = 0x1cda4
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6ad930
+Jump type: 0xb3f0 → index 240
+[sub_1A87C] jump table entry = 0x6cfbef7e30
+[sub_1A87C] jump target addr = 0x6cfbeadda4
+[sub_1A87C] jump target offset = 0x1cda4
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6aa8d0
+Jump type: 0xb3f0 → index 240
+[sub_1A87C] jump table entry = 0x6cfbef7e30
+[sub_1A87C] jump target addr = 0x6cfbeadda4
+[sub_1A87C] jump target offset = 0x1cda4
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6aa8d0
+Jump type: 0xb3f0 → index 240
+[sub_1A87C] jump table entry = 0x6cfbef7e30
+[sub_1A87C] jump target addr = 0x6cfbeadda4
+[sub_1A87C] jump target offset = 0x1cda4
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6aa8d0
+Jump type: 0xb3f0 → index 240
+[sub_1A87C] jump table entry = 0x6cfbef7e30
+[sub_1A87C] jump target addr = 0x6cfbeadda4
+[sub_1A87C] jump target offset = 0x1cda4
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6aa8d0
+Jump type: 0xa39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6ad930
+Jump type: 0xb3aa → index 170
+[sub_1A87C] jump table entry = 0x6cfbef7c00
+[sub_1A87C] jump target addr = 0x6cfbeaff14
+[sub_1A87C] jump target offset = 0x1ef14
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6ae230
+Jump type: 0xb393 → index 147
+[sub_1A87C] jump table entry = 0x6cfbef7b48
+[sub_1A87C] jump target addr = 0x6cfbebd6c4
+[sub_1A87C] jump target offset = 0x2c6c4
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6adb70
+Jump type: 0xb39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6ad930
+Jump type: 0xb3aa → index 170
+[sub_1A87C] jump table entry = 0x6cfbef7c00
+[sub_1A87C] jump target addr = 0x6cfbeaff14
+[sub_1A87C] jump target offset = 0x1ef14
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6ae230
+Jump type: 0xb39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6ae350
+Jump type: 0xb393 → index 147
+[sub_1A87C] jump table entry = 0x6cfbef7b48
+[sub_1A87C] jump target addr = 0x6cfbebd6c4
+[sub_1A87C] jump target offset = 0x2c6c4
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6adb70
+Jump type: 0x93d4 → index 212
+[sub_1A87C] jump table entry = 0x6cfbef7d50
+[sub_1A87C] jump target addr = 0x6cfbeb4298
+[sub_1A87C] jump target offset = 0x23298
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6adb70
+Jump type: 0xb393 → index 147
+[sub_1A87C] jump table entry = 0x6cfbef7b48
+[sub_1A87C] jump target addr = 0x6cfbebd6c4
+[sub_1A87C] jump target offset = 0x2c6c4
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6ae350
+Jump type: 0x93d4 → index 212
+[sub_1A87C] jump table entry = 0x6cfbef7d50
+[sub_1A87C] jump target addr = 0x6cfbeb4298
+[sub_1A87C] jump target offset = 0x23298
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6ae230
+Jump type: 0xb393 → index 147
+[sub_1A87C] jump table entry = 0x6cfbef7b48
+[sub_1A87C] jump target addr = 0x6cfbebd6c4
+[sub_1A87C] jump target offset = 0x2c6c4
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6ae350
+Jump type: 0xb39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6ae230
+Jump type: 0xb39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6ad930
+Jump type: 0xb393 → index 147
+[sub_1A87C] jump table entry = 0x6cfbef7b48
+[sub_1A87C] jump target addr = 0x6cfbebd6c4
+[sub_1A87C] jump target offset = 0x2c6c4
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6ae350
+Jump type: 0x93d4 → index 212
+[sub_1A87C] jump table entry = 0x6cfbef7d50
+[sub_1A87C] jump target addr = 0x6cfbeb4298
+[sub_1A87C] jump target offset = 0x23298
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6ae350
+Jump type: 0xb393 → index 147
+[sub_1A87C] jump table entry = 0x6cfbef7b48
+[sub_1A87C] jump target addr = 0x6cfbebd6c4
+[sub_1A87C] jump target offset = 0x2c6c4
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6ad930
+Jump type: 0x93d4 → index 212
+[sub_1A87C] jump table entry = 0x6cfbef7d50
+[sub_1A87C] jump target addr = 0x6cfbeb4298
+[sub_1A87C] jump target offset = 0x23298
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6ae230
+Jump type: 0xb3f0 → index 240
+[sub_1A87C] jump table entry = 0x6cfbef7e30
+[sub_1A87C] jump target addr = 0x6cfbeadda4
+[sub_1A87C] jump target offset = 0x1cda4
+    第2个参数: 0x151
+    第2个参数: 151
+[sub_1A87C] v16 address = 0xb400006e1e6ad930
+Jump type: 0xb344 → index 68
+[sub_1A87C] jump table entry = 0x6cfbef78d0
+[sub_1A87C] jump target addr = 0x6cfbeadf30
+[sub_1A87C] jump target offset = 0x1cf30
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6ad930
+Jump type: 0xb344 → index 68
+[sub_1A87C] jump table entry = 0x6cfbef78d0
+[sub_1A87C] jump target addr = 0x6cfbeadf30
+[sub_1A87C] jump target offset = 0x1cf30
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6ad930
+Jump type: 0xb344 → index 68
+[sub_1A87C] jump table entry = 0x6cfbef78d0
+[sub_1A87C] jump target addr = 0x6cfbeadf30
+[sub_1A87C] jump target offset = 0x1cf30
+[sub_1A87C] v16 address = 0xb400006e1e6ad930
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+Jump type: 0xb344 → index 68
+[sub_1A87C] jump table entry = 0x6cfbef78d0
+[sub_1A87C] jump target addr = 0x6cfbeadf30
+[sub_1A87C] jump target offset = 0x1cf30
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6ad930
+Jump type: 0x93f0 → index 240
+[sub_1A87C] jump table entry = 0x6cfbef7e30
+[sub_1A87C] jump target addr = 0x6cfbeadda4
+[sub_1A87C] jump target offset = 0x1cda4
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6ad930
+Jump type: 0xa3f0 → index 240
+[sub_1A87C] jump table entry = 0x6cfbef7e30
+[sub_1A87C] jump target addr = 0x6cfbeadda4
+[sub_1A87C] jump target offset = 0x1cda4
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6ad930
+Jump type: 0xf3f0 → index 240
+[sub_1A87C] jump table entry = 0x6cfbef7e30
+[sub_1A87C] jump target addr = 0x6cfbeadda4
+[sub_1A87C] jump target offset = 0x1cda4
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6ad930
+Jump type: 0xb344 → index 68
+[sub_1A87C] jump table entry = 0x6cfbef78d0
+[sub_1A87C] jump target addr = 0x6cfbeadf30
+[sub_1A87C] jump target offset = 0x1cf30
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6ad930
+Jump type: 0xb344 → index 68
+[sub_1A87C] jump table entry = 0x6cfbef78d0
+[sub_1A87C] jump target addr = 0x6cfbeadf30
+[sub_1A87C] jump target offset = 0x1cf30
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6ad930
+Jump type: 0xb344 → index 68
+[sub_1A87C] jump table entry = 0x6cfbef78d0
+[sub_1A87C] jump target addr = 0x6cfbeadf30
+[sub_1A87C] jump target offset = 0x1cf30
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6ad930
+Jump type: 0xb344 → index 68
+[sub_1A87C] jump table entry = 0x6cfbef78d0
+[sub_1A87C] jump target addr = 0x6cfbeadf30
+[sub_1A87C] jump target offset = 0x1cf30
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6ad930
+Jump type: 0xb344 → index 68
+[sub_1A87C] jump table entry = 0x6cfbef78d0
+[sub_1A87C] jump target addr = 0x6cfbeadf30
+[sub_1A87C] jump target offset = 0x1cf30
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6ad930
+Jump type: 0xb344 → index 68
+[sub_1A87C] jump table entry = 0x6cfbef78d0
+[sub_1A87C] jump target addr = 0x6cfbeadf30
+[sub_1A87C] jump target offset = 0x1cf30
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6ad930
+Jump type: 0xb344 → index 68
+[sub_1A87C] jump table entry = 0x6cfbef78d0
+[sub_1A87C] jump target addr = 0x6cfbeadf30
+[sub_1A87C] jump target offset = 0x1cf30
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6ad930
+Jump type: 0xb344 → index 68
+[sub_1A87C] jump table entry = 0x6cfbef78d0
+[sub_1A87C] jump target addr = 0x6cfbeadf30
+[sub_1A87C] jump target offset = 0x1cf30
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6ad930
+Jump type: 0xb344 → index 68
+[sub_1A87C] jump table entry = 0x6cfbef78d0
+[sub_1A87C] jump target addr = 0x6cfbeadf30
+[sub_1A87C] jump target offset = 0x1cf30
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6ad930
+Jump type: 0xb344 → index 68
+[sub_1A87C] jump table entry = 0x6cfbef78d0
+[sub_1A87C] jump target addr = 0x6cfbeadf30
+[sub_1A87C] jump target offset = 0x1cf30
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6ad930
+Jump type: 0xb344 → index 68
+[sub_1A87C] jump table entry = 0x6cfbef78d0
+[sub_1A87C] jump target addr = 0x6cfbeadf30
+[sub_1A87C] jump target offset = 0x1cf30
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6aa8d0
+Jump type: 0xb39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6aa8d0
+Jump type: 0xb02b → index 43
+[sub_1A87C] jump table entry = 0x6cfbef7808
+[sub_1A87C] jump target addr = 0x6cfbeb16b8
+[sub_1A87C] jump target offset = 0x206b8
+    第2个参数: 0x111
+    第2个参数: 111
+[sub_1A87C] v16 address = 0xb400006e1e6ae230
+Jump type: 0xb3c2 → index 194
+[sub_1A87C] jump table entry = 0x6cfbef7cc0
+[sub_1A87C] jump target addr = 0x6cfbebe70c
+[sub_1A87C] jump target offset = 0x2d70c
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6ad930
+Jump type: 0xb3c2 → index 194
+[sub_1A87C] jump table entry = 0x6cfbef7cc0
+[sub_1A87C] jump target addr = 0x6cfbebe70c
+[sub_1A87C] jump target offset = 0x2d70c
+    第2个参数: 0x185
+    第2个参数: 185
+[sub_1A87C] v16 address = 0xb400006e1e6ad930
+Jump type: 0xb3c2 → index 194
+[sub_1A87C] jump table entry = 0x6cfbef7cc0
+[sub_1A87C] jump target addr = 0x6cfbebe70c
+[sub_1A87C] jump target offset = 0x2d70c
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6aa8d0
+Jump type: 0xb39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6ae230
+Jump type: 0xb39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6ad930
+Jump type: 0xb393 → index 147
+[sub_1A87C] jump table entry = 0x6cfbef7b48
+[sub_1A87C] jump target addr = 0x6cfbebd6c4
+[sub_1A87C] jump target offset = 0x2c6c4
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6ae350
+Jump type: 0xb39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6aea10
+Jump type: 0xb39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6ad930
+Jump type: 0xb393 → index 147
+[sub_1A87C] jump table entry = 0x6cfbef7b48
+[sub_1A87C] jump target addr = 0x6cfbebd6c4
+[sub_1A87C] jump target offset = 0x2c6c4
+[sub_1A87C] v16 address = 0xb400006e1e6ad930
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+Jump type: 0xb19d → index 157
+[sub_1A87C] jump table entry = 0x6cfbef7b98
+[sub_1A87C] jump target addr = 0x6cfbeaf5e0
+[sub_1A87C] jump target offset = 0x1e5e0
+    第2个参数: 0x115
+    第2个参数: 115
+[sub_1A87C] v16 address = 0xb400006e1e6ad930
+Jump type: 0xb39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6ae230
+Jump type: 0xb39b → index 155
+[sub_1A87C] jump table entry = 0x6cfbef7b88
+[sub_1A87C] jump target addr = 0x6cfbeaef34
+[sub_1A87C] jump target offset = 0x1df34
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6ae230
+Jump type: 0xb3c2 → index 194
+[sub_1A87C] jump table entry = 0x6cfbef7cc0
+[sub_1A87C] jump target addr = 0x6cfbebe70c
+[sub_1A87C] jump target offset = 0x2d70c
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6ad930
+Jump type: 0xb39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6ae350
+Jump type: 0xb39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6aa8d0
+Jump type: 0xb39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6ae230
+Jump type: 0xb3aa → index 170
+[sub_1A87C] jump table entry = 0x6cfbef7c00
+[sub_1A87C] jump target addr = 0x6cfbeaff14
+[sub_1A87C] jump target offset = 0x1ef14
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6ad930
+Jump type: 0xb39b → index 155
+[sub_1A87C] jump table entry = 0x6cfbef7b88
+[sub_1A87C] jump target addr = 0x6cfbeaef34
+[sub_1A87C] jump target offset = 0x1df34
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6ad930
+Jump type: 0xb39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6ad930
+Jump type: 0xb39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6ae230
+Jump type: 0xa3c5 → index 197
+[sub_1A87C] jump table entry = 0x6cfbef7cd8
+[sub_1A87C] jump target addr = 0x6cfbeb6318
+[sub_1A87C] jump target offset = 0x25318
+    第2个参数: 0x119
+    第2个参数: 119
+[sub_1A87C] v16 address = 0xb400006e1e6ae350
+Jump type: 0x93c5 → index 197
+[sub_1A87C] jump table entry = 0x6cfbef7cd8
+[sub_1A87C] jump target addr = 0x6cfbeb6318
+[sub_1A87C] jump target offset = 0x25318
+    第2个参数: 0x145
+    第2个参数: 145
+[sub_1A87C] v16 address = 0xb400006e1e6ae230
+Jump type: 0xb39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6ad930
+Jump type: 0xa3c5 → index 197
+[sub_1A87C] jump table entry = 0x6cfbef7cd8
+[sub_1A87C] jump target addr = 0x6cfbeb6318
+[sub_1A87C] jump target offset = 0x25318
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6ae230
+Jump type: 0xb3e9 → index 233
+[sub_1A87C] jump table entry = 0x6cfbef7df8
+[sub_1A87C] jump target addr = 0x6cfbebb60c
+[sub_1A87C] jump target offset = 0x2a60c
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6ae230
+Jump type: 0xb39b → index 155
+[sub_1A87C] jump table entry = 0x6cfbef7b88
+[sub_1A87C] jump target addr = 0x6cfbeaef34
+[sub_1A87C] jump target offset = 0x1df34
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6ae230
+Jump type: 0xb39b → index 155
+[sub_1A87C] jump table entry = 0x6cfbef7b88
+[sub_1A87C] jump target addr = 0x6cfbeaef34
+[sub_1A87C] jump target offset = 0x1df34
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6ad930
+Jump type: 0xb3c2 → index 194
+[sub_1A87C] jump table entry = 0x6cfbef7cc0
+[sub_1A87C] jump target addr = 0x6cfbebe70c
+[sub_1A87C] jump target offset = 0x2d70c
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6ae230
+Jump type: 0xb39b → index 155
+[sub_1A87C] jump table entry = 0x6cfbef7b88
+[sub_1A87C] jump target addr = 0x6cfbeaef34
+[sub_1A87C] jump target offset = 0x1df34
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6ad930
+Jump type: 0xb3e9 → index 233
+[sub_1A87C] jump table entry = 0x6cfbef7df8
+[sub_1A87C] jump target addr = 0x6cfbebb60c
+[sub_1A87C] jump target offset = 0x2a60c
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6ad930
+Jump type: 0xb393 → index 147
+[sub_1A87C] jump table entry = 0x6cfbef7b48
+[sub_1A87C] jump target addr = 0x6cfbebd6c4
+[sub_1A87C] jump target offset = 0x2c6c4
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6ae230
+Jump type: 0xb3aa → index 170
+[sub_1A87C] jump table entry = 0x6cfbef7c00
+[sub_1A87C] jump target addr = 0x6cfbeaff14
+[sub_1A87C] jump target offset = 0x1ef14
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6ae230
+Jump type: 0xb393 → index 147
+[sub_1A87C] jump table entry = 0x6cfbef7b48
+[sub_1A87C] jump target addr = 0x6cfbebd6c4
+[sub_1A87C] jump target offset = 0x2c6c4
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6ae230
+Jump type: 0xa319 → index 25
+[sub_1A87C] jump table entry = 0x6cfbef7778
+[sub_1A87C] jump target addr = 0x6cfbeb52d8
+[sub_1A87C] jump target offset = 0x242d8
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6ad930
+Jump type: 0x9319 → index 25
+[sub_1A87C] jump table entry = 0x6cfbef7778
+[sub_1A87C] jump target addr = 0x6cfbeb52d8
+[sub_1A87C] jump target offset = 0x242d8
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6ae230
+Jump type: 0xb393 → index 147
+[sub_1A87C] jump table entry = 0x6cfbef7b48
+[sub_1A87C] jump target addr = 0x6cfbebd6c4
+[sub_1A87C] jump target offset = 0x2c6c4
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6ae230
+Jump type: 0xa368 → index 104
+[sub_1A87C] jump table entry = 0x6cfbef79f0
+[sub_1A87C] jump target addr = 0x6cfbedadb8
+[sub_1A87C] jump target offset = 0x49db8
+    第2个参数: 0xffffffffffffffff
+    第2个参数: ffffffffffffffff
+[sub_1A87C] v16 address = 0xb400006e1e6ad930
+Jump type: 0xa319 → index 25
+[sub_1A87C] jump table entry = 0x6cfbef7778
+[sub_1A87C] jump target addr = 0x6cfbeb52d8
+[sub_1A87C] jump target offset = 0x242d8
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6ad930
+Jump type: 0x8319 → index 25
+[sub_1A87C] jump table entry = 0x6cfbef7778
+[sub_1A87C] jump target addr = 0x6cfbeb52d8
+[sub_1A87C] jump target offset = 0x242d8
+    第2个参数: 0xffffffffffffffff
+    第2个参数: ffffffffffffffff
+[sub_1A87C] v16 address = 0xb400006e1e6ae350
+Jump type: 0x93d4 → index 212
+[sub_1A87C] jump table entry = 0x6cfbef7d50
+[sub_1A87C] jump target addr = 0x6cfbeb4298
+[sub_1A87C] jump target offset = 0x23298
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6ad930
+Jump type: 0x8368 → index 104
+[sub_1A87C] jump table entry = 0x6cfbef79f0
+[sub_1A87C] jump target addr = 0x6cfbedadb8
+[sub_1A87C] jump target offset = 0x49db8
+    第2个参数: 0x155
+    第2个参数: 155
+[sub_1A87C] v16 address = 0xb400006e1e6aa8d0
+Jump type: 0xb29d → index 157
+[sub_1A87C] jump table entry = 0x6cfbef7b98
+[sub_1A87C] jump target addr = 0x6cfbeaf5e0
+[sub_1A87C] jump target offset = 0x1e5e0
+    第2个参数: 0x189
+    第2个参数: 189
+[sub_1A87C] v16 address = 0xb400006e1e6ad930
+Jump type: 0x8319 → index 25
+[sub_1A87C] jump table entry = 0x6cfbef7778
+[sub_1A87C] jump target addr = 0x6cfbeb52d8
+[sub_1A87C] jump target offset = 0x242d8
+    第2个参数: 0xffffffffffffffff
+    第2个参数: ffffffffffffffff
+[sub_1A87C] v16 address = 0xb400006e1e6ae350
+Jump type: 0x93d4 → index 212
+[sub_1A87C] jump table entry = 0x6cfbef7d50
+[sub_1A87C] jump target addr = 0x6cfbeb4298
+[sub_1A87C] jump target offset = 0x23298
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6ad930
+Jump type: 0x8368 → index 104
+[sub_1A87C] jump table entry = 0x6cfbef79f0
+[sub_1A87C] jump target addr = 0x6cfbedadb8
+[sub_1A87C] jump target offset = 0x49db8
+    第2个参数: 0x169
+    第2个参数: 169
+[sub_1A87C] v16 address = 0xb400006e1e6aa8d0
+Jump type: 0xb29d → index 157
+[sub_1A87C] jump table entry = 0x6cfbef7b98
+[sub_1A87C] jump target addr = 0x6cfbeaf5e0
+[sub_1A87C] jump target offset = 0x1e5e0
+    第2个参数: 0x195
+    第2个参数: 195
+[sub_1A87C] v16 address = 0xb400006e1e6ae350
+Jump type: 0xb29d → index 157
+[sub_1A87C] jump table entry = 0x6cfbef7b98
+[sub_1A87C] jump target addr = 0x6cfbeaf5e0
+[sub_1A87C] jump target offset = 0x1e5e0
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6ae350
+Jump type: 0xb393 → index 147
+[sub_1A87C] jump table entry = 0x6cfbef7b48
+[sub_1A87C] jump target addr = 0x6cfbebd6c4
+[sub_1A87C] jump target offset = 0x2c6c4
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6ae350
+Jump type: 0x33c5 → index 197
+[sub_1A87C] jump table entry = 0x6cfbef7cd8
+[sub_1A87C] jump target addr = 0x6cfbeb6318
+[sub_1A87C] jump target offset = 0x25318
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6ae350
+Jump type: 0xb3aa → index 170
+[sub_1A87C] jump table entry = 0x6cfbef7c00
+[sub_1A87C] jump target addr = 0x6cfbeaff14
+[sub_1A87C] jump target offset = 0x1ef14
+    第2个参数: 0xffffffffffffffff
+    第2个参数: ffffffffffffffff
+[sub_1A87C] v16 address = 0xb400006e1e6ae350
+Jump type: 0xb39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6ae350
+Jump type: 0xb39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6ae350
+Jump type: 0xa319 → index 25
+[sub_1A87C] jump table entry = 0x6cfbef7778
+[sub_1A87C] jump target addr = 0x6cfbeb52d8
+[sub_1A87C] jump target offset = 0x242d8
+    第2个参数: 0x169
+    第2个参数: 169
+[sub_1A87C] v16 address = 0xb400006e1e6ae230
+Jump type: 0x9319 → index 25
+[sub_1A87C] jump table entry = 0x6cfbef7778
+[sub_1A87C] jump target addr = 0x6cfbeb52d8
+[sub_1A87C] jump target offset = 0x242d8
+    第2个参数: 0x1a9
+    第2个参数: 1a9
+[sub_1A87C] v16 address = 0xb400006e1e6aed70
+Jump type: 0xa39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+    第2个参数: 0x29
+    第2个参数: 29
+[sub_1A87C] v16 address = 0xb400006e1e69ca10
+Jump type: 0xb39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e69ca10
+Jump type: 0xb39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e69ca10
+Jump type: 0xa319 → index 25
+[sub_1A87C] jump table entry = 0x6cfbef7778
+[sub_1A87C] jump target addr = 0x6cfbeb52d8
+[sub_1A87C] jump target offset = 0x242d8
+    第2个参数: 0x89
+    第2个参数: 89
+[sub_1A87C] v16 address = 0xb400006e1e6aed70
+Jump type: 0x9319 → index 25
+[sub_1A87C] jump table entry = 0x6cfbef7778
+[sub_1A87C] jump target addr = 0x6cfbeb52d8
+[sub_1A87C] jump target offset = 0x242d8
+    第2个参数: 0xc9
+    第2个参数: c9
+[sub_1A87C] v16 address = 0xb400006e1e69ca10
+Jump type: 0xa39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+    第2个参数: 0x21
+    第2个参数: 21
+[sub_1A87C] v16 address = 0xb400006e1e6b0cf0
+Jump type: 0xb393 → index 147
+[sub_1A87C] jump table entry = 0x6cfbef7b48
+[sub_1A87C] jump target addr = 0x6cfbebd6c4
+[sub_1A87C] jump target offset = 0x2c6c4
+[sub_1A87C] v16 address = 0xb400006e1e6b0cf0
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+Jump type: 0x8319 → index 25
+[sub_1A87C] jump table entry = 0x6cfbef7778
+[sub_1A87C] jump target addr = 0x6cfbeb52d8
+[sub_1A87C] jump target offset = 0x242d8
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6b0cf0
+Jump type: 0xb393 → index 147
+[sub_1A87C] jump table entry = 0x6cfbef7b48
+[sub_1A87C] jump target addr = 0x6cfbebd6c4
+[sub_1A87C] jump target offset = 0x2c6c4
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6b0cf0
+Jump type: 0xb39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e69ca10
+Jump type: 0xb39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6b0cf0
+Jump type: 0xb39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e69ca10
+Jump type: 0xb39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+[sub_1A87C] v16 address = 0xb400006e1e6b0cf0
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+Jump type: 0xa319 → index 25
+[sub_1A87C] jump table entry = 0x6cfbef7778
+[sub_1A87C] jump target addr = 0x6cfbeb52d8
+[sub_1A87C] jump target offset = 0x242d8
+    第2个参数: 0x25
+    第2个参数: 25
+[sub_1A87C] v16 address = 0xb400006e1e69ca10
+Jump type: 0xa319 → index 25
+[sub_1A87C] jump table entry = 0x6cfbef7778
+[sub_1A87C] jump target addr = 0x6cfbeb52d8
+[sub_1A87C] jump target offset = 0x242d8
+    第2个参数: 0x89
+    第2个参数: 89
+[sub_1A87C] v16 address = 0xb400006e1e6aed70
+Jump type: 0x9319 → index 25
+[sub_1A87C] jump table entry = 0x6cfbef7778
+[sub_1A87C] jump target addr = 0x6cfbeb52d8
+[sub_1A87C] jump target offset = 0x242d8
+    第2个参数: 0xc9
+    第2个参数: c9
+[objArr] = r00{id=-1, time=1754648558233, content='{"ei":1407012,"enum_code":1,"biz":{"pid":"4155726394505156","aid":"18172749776","traceid":"ypntwsi6dmcme01","pt":38,"adt":5,"vdo":2,"tid":"1001947","rt":3},"ext":{"du":400,"nq":2,"nqcc":2,"wss":-48,"data":1,"data2":1},"ct":1,"seq":79,"ts":1754648558233}'}
+[sub_1A87C] v16 address = 0xb400006e1e6aed70
+Jump type: 0xa39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+    第2个参数: 0x25
+    第2个参数: 25
+[sub_1A87C] v16 address = 0xb400006e1e69ca10
+Jump type: 0xb3f0 → index 240
+[sub_1A87C] jump table entry = 0x6cfbef7e30
+[sub_1A87C] jump target addr = 0x6cfbeadda4
+[sub_1A87C] jump target offset = 0x1cda4
+    第2个参数: 0xffffffffffffffff
+    第2个参数: ffffffffffffffff
+[sub_1A87C] v16 address = 0xb400006e1e6ae110
+Jump type: 0xa368 → index 104
+[sub_1A87C] jump table entry = 0x6cfbef79f0
+[sub_1A87C] jump target addr = 0x6cfbedadb8
+[sub_1A87C] jump target offset = 0x49db8
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e69ba50
+Jump type: 0xa368 → index 104
+[sub_1A87C] jump table entry = 0x6cfbef79f0
+[sub_1A87C] jump target addr = 0x6cfbedadb8
+[sub_1A87C] jump target offset = 0x49db8
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e69df70
+Jump type: 0xb393 → index 147
+[sub_1A87C] jump table entry = 0x6cfbef7b48
+[sub_1A87C] jump target addr = 0x6cfbebd6c4
+[sub_1A87C] jump target offset = 0x2c6c4
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6aa8d0
+Jump type: 0x9319 → index 25
+[sub_1A87C] jump table entry = 0x6cfbef7778
+[sub_1A87C] jump target addr = 0x6cfbeb52d8
+[sub_1A87C] jump target offset = 0x242d8
+    第2个参数: 0x61
+    第2个参数: 61
+[sub_1A87C] v16 address = 0xb400006e1e6b0cf0
+Jump type: 0xb39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+    第2个参数: 0x0
+    第2个参数: 0
+[objArr] = ITEM_ADD
+[sub_1A87C] v16 address = 0xb400006e1e6b0cf0
+Jump type: 0xb39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+[sub_1A87C] v16 address = 0xb400006e1e6b0cf0
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+Jump type: 0xa319 → index 25
+[sub_1A87C] jump table entry = 0x6cfbef7778
+[sub_1A87C] jump target addr = 0x6cfbeb52d8
+[sub_1A87C] jump target offset = 0x242d8
+    第2个参数: 0x25
+    第2个参数: 25
+[sub_1A87C] v16 address = 0xb400006e1e6a6af0
+Jump type: 0xb39b → index 155
+[sub_1A87C] jump table entry = 0x6cfbef7b88
+[sub_1A87C] jump target addr = 0x6cfbeaef34
+[sub_1A87C] jump target offset = 0x1df34
+    第2个参数: 0x25
+    第2个参数: 25
+[objArr] = r00{id=-1, time=1754648558241, content='{"ei":1407020,"enum_code":0,"biz":{"pid":"4155726394505156","aid":"18172749776","traceid":"ypntwsi6dmcme01","pt":38,"adt":5,"vdo":2,"tid":"1001947","rt":3},"ext":{"du":400,"nq":2,"nqcc":2,"wss":-48,"data":1,"data2":1},"ct":1,"seq":81,"ts":1754648558241}'}
+[objArr] = ping
+[sub_1A87C] v16 address = 0xb400006e1e6adb70
+Jump type: 0x9319 → index 25
+[sub_1A87C] jump table entry = 0x6cfbef7778
+[sub_1A87C] jump target addr = 0x6cfbeb52d8
+[sub_1A87C] jump target offset = 0x242d8
+    第2个参数: 0x61
+    第2个参数: 61
+[sub_1A87C] v16 address = 0xb400006e1e6aed70
+Jump type: 0xa39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+    第2个参数: 0x29
+    第2个参数: 29
+[sub_1A87C] v16 address = 0xb400006e1e6b0cf0
+Jump type: 0xb39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6ad390
+Jump type: 0xa3a6 → index 166
+[sub_1A87C] jump table entry = 0x6cfbef7be0
+[sub_1A87C] jump target addr = 0x6cfbed8b88
+[sub_1A87C] jump target offset = 0x47b88
+    第2个参数: 0x29
+    第2个参数: 29
+[sub_1A87C] v16 address = 0xb400006e1e6b0cf0
+Jump type: 0xb39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6b0cf0
+Jump type: 0xa319 → index 25
+[sub_1A87C] jump table entry = 0x6cfbef7778
+[sub_1A87C] jump target addr = 0x6cfbeb52d8
+[sub_1A87C] jump target offset = 0x242d8
+    第2个参数: 0x25
+    第2个参数: 25
+[objArr] = r00{id=-1, time=1754648558244, content='{"ei":1407017,"enum_code":0,"biz":{"pid":"4155726394505156","aid":"18172749776","traceid":"ypntwsi6dmcme01","pt":38,"adt":5,"vdo":2,"tid":"1001947","rt":3},"ext":{"du":400,"nq":2,"nqcc":2,"wss":-48,"data":1,"data2":1},"error_code":1,"ct":1,"seq":82,"ts":1754648558244}'}
+[sub_1A87C] v16 address = 0xb400006e1e6ad390
+Jump type: 0x9319 → index 25
+[sub_1A87C] jump table entry = 0x6cfbef7778
+[sub_1A87C] jump target addr = 0x6cfbeb52d8
+[sub_1A87C] jump target offset = 0x242d8
+    第2个参数: 0x61
+    第2个参数: 61
+[sub_1A87C] v16 address = 0xb400006e1e6aed70
+Jump type: 0xa39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+    第2个参数: 0x21
+    第2个参数: 21
+[sub_1A87C] v16 address = 0xb400006e1e6aed70
+Jump type: 0xa39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+    第2个参数: 0x25
+    第2个参数: 25
+[objArr] = ITEM_ADD
+[sub_1A87C] v16 address = 0xb400006e1e6aed70
+Jump type: 0xb39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6aed70
+Jump type: 0x83c5 → index 197
+[sub_1A87C] jump table entry = 0x6cfbef7cd8
+[sub_1A87C] jump target addr = 0x6cfbeb6318
+[sub_1A87C] jump target offset = 0x25318
+    第2个参数: 0x89
+    第2个参数: 89
+[sub_1A87C] v16 address = 0xb400006e1e69ca10
+Jump type: 0xa3c5 → index 197
+[sub_1A87C] jump table entry = 0x6cfbef7cd8
+[sub_1A87C] jump target addr = 0x6cfbeb6318
+[sub_1A87C] jump target offset = 0x25318
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e69ca10
+Jump type: 0xa3c5 → index 197
+[sub_1A87C] jump table entry = 0x6cfbef7cd8
+[sub_1A87C] jump target addr = 0x6cfbeb6318
+[sub_1A87C] jump target offset = 0x25318
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6aed70
+Jump type: 0xb39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6aed70
+Jump type: 0x83c5 → index 197
+[sub_1A87C] jump table entry = 0x6cfbef7cd8
+[sub_1A87C] jump target addr = 0x6cfbeb6318
+[sub_1A87C] jump target offset = 0x25318
+    第2个参数: 0x89
+    第2个参数: 89
+[sub_1A87C] v16 address = 0xb400006e1e69ca10
+Jump type: 0xa3c5 → index 197
+[sub_1A87C] jump table entry = 0x6cfbef7cd8
+[sub_1A87C] jump target addr = 0x6cfbeb6318
+[sub_1A87C] jump target offset = 0x25318
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e69ca10
+Jump type: 0xa3c5 → index 197
+[sub_1A87C] jump table entry = 0x6cfbef7cd8
+[sub_1A87C] jump target addr = 0x6cfbeb6318
+[sub_1A87C] jump target offset = 0x25318
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6aed70
+Jump type: 0xb39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6aed70
+Jump type: 0xb39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6aed70
+Jump type: 0xa319 → index 25
+[sub_1A87C] jump table entry = 0x6cfbef7778
+[sub_1A87C] jump target addr = 0x6cfbeb52d8
+[sub_1A87C] jump target offset = 0x242d8
+    第2个参数: 0x89
+    第2个参数: 89
+[sub_1A87C] v16 address = 0xb400006e1e69ca10
+Jump type: 0x9319 → index 25
+[sub_1A87C] jump table entry = 0x6cfbef7778
+[sub_1A87C] jump target addr = 0x6cfbeb52d8
+[sub_1A87C] jump target offset = 0x242d8
+    第2个参数: 0xc1
+    第2个参数: c1
+[sub_1A87C] v16 address = 0xb400006e1e6aed70
+Jump type: 0xa39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+    第2个参数: 0x29
+    第2个参数: 29
+[sub_1A87C] v16 address = 0xb400006e1e6ad390
+Jump type: 0xb39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+[sub_1A87C] v16 address = 0xb400006e1e6b0cf0
+Jump type: 0xb39a → index 154
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6adb70
+Jump type: 0xb393 → index 147
+[sub_1A87C] jump table entry = 0x6cfbef7b48
+[sub_1A87C] jump target addr = 0x6cfbebd6c4
+[sub_1A87C] jump target offset = 0x2c6c4
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6adb70
+Jump type: 0xe319 → index 25
+[sub_1A87C] jump table entry = 0x6cfbef7778
+[sub_1A87C] jump target addr = 0x6cfbeb52d8
+[sub_1A87C] jump target offset = 0x242d8
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6ad390
+Jump type: 0xb393 → index 147
+[sub_1A87C] jump table entry = 0x6cfbef7b48
+[sub_1A87C] jump target addr = 0x6cfbebd6c4
+[sub_1A87C] jump target offset = 0x2c6c4
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6aed70
+Jump type: 0xa339 → index 57
+[sub_1A87C] jump table entry = 0x6cfbef7878
+[sub_1A87C] jump target addr = 0x6cfbeb336c
+[sub_1A87C] jump target offset = 0x2236c
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6aed70
+Jump type: 0xb39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6aed70
+Jump type: 0xb39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+[sub_1A87C] v16 address = 0xb400006e1e6aed70
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+Jump type: 0xa319 → index 25
+[sub_1A87C] jump table entry = 0x6cfbef7778
+[sub_1A87C] jump target addr = 0x6cfbeb52d8
+[sub_1A87C] jump target offset = 0x242d8
+    第2个参数: 0x21
+    第2个参数: 21
+[sub_1A87C] v16 address = 0xb400006e1e69ca10
+Jump type: 0x9319 → index 25
+[sub_1A87C] jump table entry = 0x6cfbef7778
+[sub_1A87C] jump target addr = 0x6cfbeb52d8
+[sub_1A87C] jump target offset = 0x242d8
+    第2个参数: 0x61
+    第2个参数: 61
+[sub_1A87C] v16 address = 0xb400006e1e6aed70
+Jump type: 0xa39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+    第2个参数: 0x21
+    第2个参数: 21
+[sub_1A87C] v16 address = 0xb400006e1e69ca10
+Jump type: 0xe79a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+    第2个参数: 0xffffffffffffffff
+    第2个参数: ffffffffffffffff
+[sub_1A87C] v16 address = 0xb400006e1e6aed70
+Jump type: 0xb39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+    第2个参数: 0xffffffffffffffff
+    第2个参数: ffffffffffffffff
+[sub_1A87C] v16 address = 0xb400006e1e69ca10
+Jump type: 0xb393 → index 147
+[sub_1A87C] jump table entry = 0x6cfbef7b48
+[sub_1A87C] jump target addr = 0x6cfbebd6c4
+[sub_1A87C] jump target offset = 0x2c6c4
+[sub_1A87C] v16 address = 0xb400006e1e69ca10
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+Jump type: 0x9319 → index 25
+[sub_1A87C] jump table entry = 0x6cfbef7778
+[sub_1A87C] jump target addr = 0x6cfbeb52d8
+[sub_1A87C] jump target offset = 0x242d8
+    第2个参数: 0x25
+    第2个参数: 25
+[objArr] = {"ret":0,"msg":"","seq":"9949","reqinterval":1740,"last_ads":{"responsed_ad_data":"8Q1_qpR5jjA"},"data":{"4155726394505156":{"ret":0,"msg":"","list":"W8IBAqYEX3XfnaEkfGo6Q9S2GhIO1oymLhYJmgUSJJelNYarC82Ir62QTODvORpNZ_nm4I2jnpfnOD1GE1v1p54qpKT5JCv0N2UOGwF_91SIqe1-bi4uNzx14_CPRi8maDSlzOMLB1Z5Mux5b6J8F8xFZKrz5Nd8-VevbSvLJJDA9wrcraMSbK2WdziD0t3iyL1wazsLY6IJ0iytBq8Ih08hQ27XtlM7GjcDcf6PXldcXVc3g1PZ24dZUB-0kR25tJZvjGHZW8VlcD-nJmkiifmiW1BRvXun6d31BxLwLbiGD6dTbt7pRbAF1PWG60IusXWOpdEXn6-HH9AFo8Ac5fJIc_3fXE1-kFEw0noeDIUDOFH79ecOEKmByz5dBfRybmTij0e88xAk16dvMvdybNFYxJ8AzQUEN2ma8Sx0nOQ5C3ULIBCjpCo0oMwh2oc5a7defIpH_-N4m3WEOCmEpT1AottBrkIvDF7N31b-KEMAiwolrGmIvbwxTmw5uQ9hxUPDNt73OXpn61Wd-l3ulXVz-TLVeLTF2vWd8hoz_aBwno9pFbAJqwCZydb4m9-PxhLM3d0tNM2c7oQilywoh_hsxPRNuDwsWBB3CS2A9il2f_CfxgTM60SfcXvmXo5s80VSFRhPhpISaH7OHZI8811A3q6R0pt5OdlC5HpiaN7cP8TDyZy_q9C48ogWlG7grEmyRM10s9JjIgvX2_QURwU0joypMvSps0IU1RHTsuKZp3S7j_izVM6DAr23RCyzgkOruuOG3NHn0MxR3hUIP47vPA_clYv6C0wpgIl4NFHjfTV2FCbYttS4Fv0zF_0RC76nT62eYT3TnFOfMFmXEh1QujDA0ttTNA_sHYVtpLfmS7A_UQNtXY4ufIaGfDzcvYRV5OUS-USH4JDB1rwIvZRXXErsoIfx0_qbA0O7wTXKmV_VpcaZrtist0IXixO_1j0voDg5-4VzHll1W4YE6VWeo5CFWbC2MK39lFzWolSVFUX7iQmMYph2cb0dd-8DSq8BCDwPuTh5cJUl0wpoHR4u5Tr2wbB3p-3UFSkqa90vWg50XtqZZvkwoQfnV-QgZo8X2-3DE37rYYBtmCtFGFu8TtNPpIMFNlZN3GUHhCUteZPPBdhnmfqnzBmib8jaVYJXy7NCPB8oMgytxv5balgt7Fcxxpntl5qWvlDCKDJuk2yhTcxH3P-DpxggzBPuJJv5xdm-i9-k0DYZci0Ch6TWivxPkeMGzD--Qa5-KCpW2aLUFWV9f0M_pA4b4yNtgcw4l989NhPIkdukO5MPeKDQg2ZGELJPL2nCTPz-zLM4DWz-00P9q9PkC24L6UG1nlcCOviMhhMxtf3593iP4vcz6OulOfCia170LI27ApB91OM0GZSuAxIDud8LWGMlFg7WiDycYqr0SyrEzawtq04sJXREZBKWxh9o6iW3NmGN03ZqEsWxi49Zxqv-44_Isq1C--gZpuGiWCmo7JM0JLpy9O-fKXfcz6tyN_t-CBwGoJ_mBNoPxBrUZS5ehY2enXy1zp04IShez6c8GCGxWw5k9_OypsprUKrGlLx4Cf268SUPyEGz8cTDMgDI9pEawiPGj9e9RTh__TD5vXSYgjzNNygU29JhIPIXdIn9BT2n_-Coevgjwa4F8obJMu1m9DBTR5DZmFDGrmEf4Kp79gxPgvKTadCWMQvPLMAn4wSgsU4N4aQPt3CODVEN2jinDIKTEjXiGWNou1eo8gOI80cI2KLzG4jENGI8zJMXqc-htvXym6ZtjHD5iFhJn0OD2lYbOcI0HH9Y8-_PSci7Rmpa-T2E2DAMqddNbHd5WdM4awJBJ32HoeRY_HE1Rc_e3uoKFOyaoHH41E4YaMtGtJcuSzK044aZkEiL0vxAxUkJsmyLMf_ZW52-JFzqJgPzN-ejbsLu3pTelKh5DYfD7xF-w6hguP17aaLIRLA3BgsqzgjNI459C3WkK-BOjzHvQm8eDfwta0tmsUko4Q9IGpSjjC8jaDqwGiRBcz0BfTZO2n6WgiumIgc-1Mh8JxKZyxSlRND91cqP-72H1PRofDixzLsMBMkoIf19j4QNtqG7QufLJ6fCQwUqZeZh0UrbOmdIMUBnCjLsDOvI3Xc7lEuvLMaoTFU_jnx40Qsr-R9YXuh7dU7-tui3Fd5yfntum1TK6ViMrl9hmXo9hlievCa8Cj4y9D1RZ00W8LfuVhweqF0FfJ11JHmd61AUSDzPvTPlv8Vj6PLS3HRDrGsUujqL_l_pffdD5MC1tjjAMTUZKjHpmnl2w_cLyPB7XS-Qi2asS3ZpX0Yj0kGVTCh7hU2ibiQvpp_7RU7HomM46VSrTl7iqYJwAS0tIWu-A_XQlQiIyJ-j3B4glIi322t6LQUsHhrJzs-BNTk1PmntrGffe5N-ZlH_LBT_w3fJogs4M-c0b3K6B5J8-ODoAwSaMxsSl1psMuOFkll54KO-3FDbMmNh37ZcVwmy62y4k4HCcnNjibNwDwwV61v9Yh6ONkfdsXxjS-9rnIdytH8I9qv4_KXBBju_ZFdFssID0CTKRo3bxyFxDlN2TuE5kJy1qD61uu8UvtRkxoXkd2hlDbjqsTXAthd68yweCFkWPX4RAQI-2nTuFMXRJEOmHYgWjDtizsIiKIzXmzyxjTxAFXI8CaoHSYv2azounVUZOVvC2d5UFFHuqgxXAZ8bNptt8EVUecnsQZZiQCm2QBFS1bqrn6J1a4Soy7syA6fkRcLbRbwFW8H6hPZ-9w2c3cME0EOY1C1V69JNH5mLPSh6g8WHaJlZix7ovr9sSZ0SsuzHorG2R4HWoVvRaeYVxSYL1e2kfh_ubflUcuA1svtMr8xMZHUxNAt6qt9t1G9WXxDGBkzslh6fFYqQMv_uyLHDzV3gFluXAYIf7D6frCEj-kFbmbcBnlbGXONK5POzKGBAQ4hMoPUDWfY79wN7wS7DIjUGPp9DluhksCtRLnYJ4Tv6qqX4Fx4PgFJx9zHYTpqJs7mABh37InVotGSvcXIpbhN4UY8D-fJGL8llaIz150_CjyLKfZOCtoZJq0GiMoa5vKgkDT_aBhelGU2ZwPB3PigbH4RUjQC0E3hN1UMCVj1qAedSTDp4StdR8YL49yQanY_r6DP6q4Yzk0hlK36hNcG81ehJUpQuRdXukP6HNWa388U_jQevv9d5dndC47Ll_6rn_flkpDtuIaqsmpt7O6VbPFf5z_uPRdtmf7xfm2bLrADgwjC2TSb_F2nDmeVHt2XUGSOxgo7h7oFNWmEd_7hRtvyBmrGozaIePUdJHuQzD1UCldcmXgs7L0jnMSt6ETG58GkDoA9QR5okYLD5UIBhYu0AwGVJPTMCm-Um4KUg-IxFRJwtQxkIyXssvxO22IhLP4XK7Z369ouMhB1drZ3X8QxzeznkSnYgtQYeWVfb0pjvFXtZJCvqj9-EungNMZ8NWhhd4kmSnKahUbofAJfHWKOLg4ICXgm0n7cZ2xQZH66ApClZaJzj-ignpC9PYZRgUcH_Lgyc-OzFNDvMdTCRWLus0imVJiZfeg5vbAa_3CRXxi-rCoNQ8KL6TRiyCAVmgyeWT391PxSRTW_c3jUieLPl4XblDegAymE0eDhNtbCQCj5n7fh0aE5D4vSdXb4i6vkzG-uu2047VrQTPqv2nsd6SKFsRuf3WqjJDFlsJWQoQQprnDYHRBiLBCQVmgqfRdk3EqTRsuVZebpts5_csfHjGhJusyqeDD7T_NA5v9-ciLn_Bbfr-aAI-OXGtY3PsPewpGqFVbOZ2dPGLrHUexYczqjHscvTng59BNdyPDUEJdBLJsAFL_Ti7GjHwHSNs2-YuBAaQLE4_rVKlM4y6HlUJd0kW55Y_7tWxneSN4lgsQic2ESCvaKZ6ETES4vQjWGCA11Q2YSQtrvGjpxbFxAG8XZOXc0How4iK6TqJ6lBL7wF4srd_W9mOxcpix2BbxGGWOE_RLOtxfhKe_uIcS-BD5QN04FK5UehwTLZj-l5kKz6mCSxV1M4JiXLP8WGSKbQbXrTCKmO3CRt_5BeAdxoNyWdRywwXY0pZL1Gg3oHY8iiaikUfbDDqI1sns-Kb1wzm6hloiXd6_5xfFZtWDEZ95YbP4o-EfQt6h38sEnqfa0zA-ztRb80_zHKANDLs584MzRiNYJ_XeRmcU2OVsalXhxslGPu1rvG40PcwF0nyr2BBKlyJfcDeZEYzUH87wIXwMEDGnHPRCr-4V169z5xo6klMQqnOJKgC9efgVgwScslY_iElDECzxVPUGI-lkC06vz_dcvCJbKmbZXEOmZ2_KGp7I8EUw1USkTpI2k6zvDUpvHbM2oxXkW9ZShDIyrRSvMfcEnZGJaEiB_WwhWLtpOCLGLs_0iGiuhhh5r9KPwad6jeekwGsfwqXDrsf0M2nmp_32-Fc3vK-Yq-yERdqpWMCeV6nMwvxHE5Fy8t7rLiFGgcO5iuabdX7h28JbPTODQqcs-kKdp4utxkVNh_spqpjB2IREFT4PoiHNZtpokO6lADNXqP0Z9j5JrhktJWUm4_aznQA4rSbMQJ3ArJ5rLvvJzI30CblbW8lxYNRuUMDFHFXiwxFWIbRIOkihZf75IYw9gXV-URIgZxkNvaWsG5mj5qZaRZZDzy77APjfqmK5Z5XR8UpAR3Wf6uHVwO-ljYY2bKfOJ1vz9vyEEU3dqA20GiOnc8Z-liL-8x9ubb4_2t2iZH9upf8_5nZMhrLhg8rYmwHXgfOAvfTMlzZt3YIiEZMQ8pA7x5uybiHywkpXAIk337O_Jc0Z6zgXoBqIK_L26Oz9H-GCio2bH8J0l3lZC-zXeuNpJEAhsz-xFK9NjHiexc6EYPMxn80MSeemEeIAEQh9LHAXo9iyGHpXvLwpQp0qoXQrS3fTUiv_tdf4-veNDXr2Dk6IUSFwthiabTnomFeigcMW2mRrXQHU0zsj6s9ywityLRrrH5EdDoU8gVhT7GOubylJY99uGGcqgEia-X6uyaclc3bcGiZPYXgu0wwuUAP3cDA5t2JpJs9OEy2KD82L6bqwtwE7Q2qUFMgJvbPMuYc7leU5CLQVITsLiOJHoxT5sulMY8stDNJf-2-so7JanqURGTHEHtpa6cR-bneN58CGTBr8MJPwlwWyTTTWvCTz0GjC42y5OITEuI18dbIxPUAXGjp-DaR3-8BHNKIZQiNrXa6VdXiH_6L--qJX6tYxfI46CzIVDgXiLdFWeYWGvgsC3Zu9iXelhyuaWdpU3NSNXEopSnrugyYzFDVS1e4T_SiNwXq5xaMCYTqmmxMPPnpUakhO8_HqsJCFzEvEmA9KFVDZE5-2elkHQ-bTW9cPCMWOtHEkQYPzvhx8IV7xsJrFN5dHRkC39Cubqmv-YhCeNwdgOOgOr-hcF0fq5vMmQsj8WrxUG1qvpmygYfP5kv-khEwhGf3jzo9SCoMebrFVH3pHR0Nkumx8Hl1mGfuUWwjHktMd4uiyqL0nusO1xbclLXIEaLzND_xFxiO6z_IeJbk7sj9ua0nR336hJ7ie_OjCDQGHCgHxmX02au5itmScm3yP5yTs4ysBC4pNynKNv5DOLg_enRyZwEYztJzPsZOoEw_3tBcxc1ryZWPhZeItuSRHMLE1_BVGXcR_vxBxLsWphzUy6LiPHhiGVe7Qk7UC_0ChHgvh4ONCdoJZQbXVX4hvfBPbmFj83j6AeTfZKlH7M046D1atvTpfdAfPh_b1T3lSK0o4mpcOU1th8YFoQ1B7xaHOIRYU2waZwnZCw3X5zDGdqKkFkL79KKSzz8tM3OyX9HeX13-rdOIfFQ82nZqEfS6cVOEN4bhq-E_Kffn7TjKthTwvea299sjqblEsqjWZz28WG77O4GJkI3_ZxwIvQg6DA87XEzBC8emiHrHh8Him4cYAgwHXCHAEgi96sLuVB5Q_x8YYC4vZ7LzbGBG1hsmMg343XMjc11Lx_b51xrqpS3BU2vkojkHmMmMI0Zq-DkSYPR0bCeCSd1gJL5Q4Ns-QdHbFYwmXOpVRvH8hPpjW_zGNrdUq9rWq0a9NiY9Cu0HfsG_90-xJe1ffiOUn_RVWyroffyf0z6kdMoqBSGD1pSkWEy0zs8cs3KF-hfXt0tS5Pu7UxAP4ot0wNpV8O42lrEzwbhT34_qHqXZLR2cBJ04KjeXGotopQ3Nxkf6E6TKvRztDRvY2W7NpzfvRjAteG6WpKdW3cOtZee0kQHuNvDKzEv9-QisCwWSTru4U8UauOSsFWZDgAanqBqSkXvjFBomViJ1FzrZGCpUewWjR2G3CdNhxm-70qX9MDJlMy8HBxpBdZfBxcZDRdhQ-fyo10iz5hMvuG1Rh41G59oTZ1lbBMKEpxaqataP8SRhaVIaXsogIGt3FSgNU9I9TBs1l-O25vrz2Hv0jxbS0b_J4ni8Qx9i05D4G7aFkB3dQlnF1PZlHSBDD8MexKoR9fFwklrWMi7XqrlnVZMOdJTXGYzmwUPRIZghBFdMaJ2LF1GWjKNT1N0ERecotVJE3b0zbUVuFpOiipA8DbkKAKM07Ad1Fk73vI3_oldHXNaTwwH2QZ2qPmn526KTnU_WxhsPpLscTETnyGFZvekusZ8d-BxP6F4FCk2_EhLBfhlRdtk5WNy1pJCaVo0WaTGCw6SsJzoYeZxwsN-3yA41rWsrsUZIsjT_8xWYC1f3boCSGxPni-y6GzXOupGf0sPzev75LIKiM-_kPz5Wh1x5eD9zvDeaeOSl-3BKAWgqi0iPZDyKPExeVEHjmCLKqgUMrv9wbQ-4R2NF_dc21x6e5DyABd8-dtEuVGxgiq5Pzr4paxvyYrvYxoa98z09xYBEW7DgLTcrYM1Z8k-ew0vYAR_1z3L9zT8SKjwr0LriLDXJXPdotEWsWJJzBKQN9lzvL1U_irz2fFlyNDbwBaDWpk1UJQvJLXmYOgIfZQLj1gEtXQE5waQILn4mqhYx5ECrvBC-EOlENxdHY3rMH5VdlVOuVL6KllyomxLCMtP6acVznN6-lqurhCxqu9KEw1nvN5PFGQZ_PtypfZGGMkwRt7v3yrTG1V7v09LNKku7gRJhNaA8ne1ftoBNJFYTmHlsrqEr7Xg-s_nARSjQyFS-N6F0k9QFV5IxRZWDGtlESR35PHuDtMIjDVrL9D1jV5uI-iC7F-kTtblhuglH7Fg5i3l0oQ-Zbvxc96CWbhs52fs8SCvRk3Q78uOUuTOdMUt6nNJM5ZC_BZm0rGU3rGutO5FZFzsfs6IufGoCto6HaBlkUK10utflZoM8gpcXZbsTwK2gG7PaSnLE1H3h-5mhhX9c0iXIQ6mg8IQElKgCKR2EmLd0Pv2cWNk2z3bAtD-SuGVGeo_vJ3BAskRqYFVHEElcDuh4RuCDO4pY91GBjwtK2sh6KOHElpCdzTAzTHd7SWWL8BducPzksEvA4DaBbcpS8L-DhBN_WIuiAfOuWdT2xp1eXMQwgKbmYK4T6UqWhQfZlJcuPcuWF__Y293OSaSc1pMOzD57QO8-uJGpNnGP-HdxuxBe2ZbTINv3ioY3PPMPy0BM_ioINc8DqZjhEtqRIYIWz5w5A4OqNDo3aKE4DGRWdU3nqplE27y4dnUtAKL79Fdmdz2qPX4sOw_DJMa-nfHtIxHMDiknFDbxA60497bjvoN9Mpo3UdObZPj0_aOMJMn5Xi5VtEISzuhcn59iabyPC64LldNlHamGRHhCvRzHUER-vCekufbgQaUrRp11OWu0YmZhxJUW1AyamtGMD9r8WgX9y7aYPcOIXsU6FqPhwNdL9e49h4D4tCmuQVssMbijETpAOt2DRESwTAH-u1IA6PzXObGF0sr_P2227RkrSydQjIIVrs6aBjkRC9-jp0bdw7KKsEKvtsrQwT1qb469MOaqZdYJbjTEObiC692c3-Aj5NRUlyzt4kVLOSIK2Nc3b9QN6ynoZZvohhSl56iPuMla2BWsKy0363kJzReAjFaipTlACWsC20Llo0lj_kNd0kIirhzStlfDxz1BGwaKvWMbSlc68qF7TSDQfa4c2AbUGJWdGDrBWBn6Wco_KA09fQ31s1WrW4-ew1T0Tc7441qAi4tYRQgcgJQ-0Ws2rMo66xjDkwXv4xVJFM2xZ4gthQM4sQHz8L2Yy0hKf5i6cN--ZMMzyGmKp97tcD9m1SLAPfev9MhUDLz2w354PfVpx8gw8x9eBCOSeaciT9EXLdKDM2er6a-knrZhmCNk0O3CyZwQ54WjPQRq43-iRm9p0cIWU1lTOJngNTUwJak3k0vxMGK50QhuzMSTztcWYRZ8qCJM_gSWpvNKH6m_apINyjQbuP1ncQRR4PE-eHFkR_FO0IF2PU9PqUF8GwFfVfpN7IM1-S-BWeEsm72iLcTj9wkN8t49tuVNC7Jgg6kDBXOfHk-VP9EZoE38Ee1WQfyew0MHp_hb-_XPDeXA8_ryJdsyDxtU2l7R1vNMPC7BS2-klHzcSqKfVChjysl96DuaOGuvR_wKkUun-ThyihCwum4gV5nTqTPu4gCYzcFnpn7eIyEbLCVGQsWhaDD5JefKl86hVNPpw0Ms2gpuu0QH7LtFdlQOAIN5QcotXYtq7343nyu9BkzleRFYIrn1mXhSZIkehBGEZUO3TuGgOlpE_1UHqn8-M88RJlA14uKxAWu8_HxPkoRkCzlGP-I9P65zCRrtjI4oJQwKDowEbQNWqHiy9uw4sK-T7pHUx5H2nTLcutETn9xL_vtKFC8vRWWaSa7zxA2CORsya5zunap972Ly8Pte57uj4epXnB33cXXwDUEn-FLHw1CX0MA0dmq23pgB7hnLXjiobEKE2wu2UxQu4r7O3lBKsmxN3dFmrR1cgyH3z1bGOqNFd26_5bk-O9zGifm9UOc0FUmjZrnb3UMORYnb8EH83_UE0wXbIF-Jc1UObe4C8EsS5tUFHBmMaVpe_4KgDHlmcneNBS5jg1Jzf_jhhCUf323l5W8xVAqMEtQO_VO6esOrcRQQv5UfxU3LKcnM3MIeEQ9Pvr0Yuntu6ZS2z2UMfKt5VQFBkoA_ZOrLnyFTquds4uL-VBaznqoBGzN_bXFVsNyPu7MNfVYw4nqOalkdpAA_1G0O6AK3Z8QVk9whqzJPhwU5IzsoudUDwK4WpzP7eruqczu9lR1eXX8IVWat35gwO3jYl-lFy_UCi0D2ltkPyJoyre_Q0etWQN3GILJcPHHhs53gdGRMnv2AqF3SuzeQfp2Iuvk8GFDlTuHZJII6UalfZmJChJQmvUqKEaRLVHxfhfXTrOFBQ1D-Fv1MLBsQM8DRqRlYKlHgl--8HIUrFUPP5X58iJMD8SMUuPAnG7OKmMH404eyl7fPFnOjv-WSYiUCDMG5ARz1GtIBol0dr87H104t6vKBhdwbeLWSyDccvj5UTkvxzvVHvuSFjeJY3jw8kzekpa6jB00ZiKYH88n3tj_i9Y-fOyAYENWy43dnkn8gQtcO0McuzzgJZQuF4UoHg-8sH3zoAB8UUUQBbMC6LXFRi5EQj2YGyLr6bWNg9XFGloysuLFviEkdhSx2ywmUATi_Ay8VMmGqt7JQjf6Rn_-HDIvPyIRR3x3OusSulWoHvN4q3LJDyequc_Nm0O3gKAaxHeMv2i1w-0lS-9WXAVjxRF76JUCkMOuSfeLJO26USPcLOtd3kxoiPdpMm9i8R6JT7mMRHMx1T_WmeWALk8SUInoga1LFEWR5F2GrN_dOvv-_0HV8nBq6nImlVXpBC7W1WLiFPyMc6Y_wSFhkFB3MDkisnPIEz7TOGIv-ttcXBwMUcaJzrH4tp_MkaYRUjI4MS4TcFbzxbCiKzZ_u2Wve62tufVvQuxT1rTLPv0Rk9cYSZS760-RfOjQ8VlRqXPDG2fxXl3aTNn2k_8eVF20hVeK6_hW_BgANoydPtaQPzuRGV8sCtj7KIKqlKh1YDh-zovfYfvtbPXwvYLQ7u94J9NymnLmjWM1cPQEMD-cLgeyHFs5xgqXNbJNwnharuhi3464BRjZ5Zq8JdzpHNNYoPo6DiI1lDPaBb5A0U41GYzlf63ldGh53o4eastDU-0KS-YvL_r1b5plXpTJA1jO2a7savRDn6jLARx6Z1gx5hXcuzZGsQu8_iYSrC8-xHacQ_SSqcxJFsEDCjy-Xl_FrpVxQfYDexf7199Z4x7alNGI1MxYzqYbprWY_gZF76wRKCoa-PBYE65Gi82FIGukiq8dkFGlkSiPjDKnAo_4OJCv9eXruF423oGDfCRV59teCgl1_1ZioLSs_NZ_dJnoTMgBgRUBW2WHYGRGptGI6ZdR16RTOV99EBjKoPukbrOEzIb_Q8igjU5hs2W2mPbnwFM5gsym8oapJ0CXWIarFCXziNSXftbu5IpipQQVo_-8gTOVMgGQCoy2CtIRJvt0aq2NTwBcuR6d3Ez16Wx6U1mFO6iFdT6wQfGw7Jq7s3v8oTSzQ4b7E0MVrIpOcs_twzqETsyWc76DSNPadgNcgNNwp_1M9xgfM1VWlGm1Ri_jjf6STnwWRoFZpUJ7bpHz_OQs8HlviCakKN-q84-xSl48755R54Xi9TBRB4jFkebGXYUhJ4iff6h8DXY3Qx9ceySPidEjWSpD4TyXDajg9Y3wpHDThtABLsfLDXq6nD5VLUCyWHLoP8bk9LEVDc6ZSXdmOX0Yq3bnLa1UjFXxC49Vh8NBpYcJH6jX31e75OM2Njm037DQXazOyWFnEwaYgL80Uvtbmx3YRZRj082sb1pWk3Wpjj_30VrdaC8Or6teaA96H8wSrnfaRHW9Gpm0tvU8kGNMERTCE8dQrWWsSDVa1PEPr46JPT9kFBYs2TM7jzWUTZuCyrSOx2CHMxcRbTCFyYWCF2Hw8DsRnzMum0iklPUCqCNifotDlYVJ8WMARJQ1bc90wfashtotFkYcykpT4RANFnEqzb4K-kvdsZ24-Sv8RzKyqj4QvpIAveHCmEMPbdoKLgxMznuy83dBVXY17nF4BbCpA9Rl5BXCG6h-wSdBgfnSRFXuvXp2THoXENcUC4YvxxgjAwJcYVoY7qphqWE1FXMqymsG-bTVmYDqCGHjAlysONTqqLGtjtEBxrPbVVa5DK194a0U-47YO5g3teLcjCuOq30HZ-l2mh-TRd4AAnk99_jr_D5Qf25LqxykBIf9qsZ2w6Muvhd_wiVBUSpAvSOcMMPFlJGReHxqP2_j_6NMZ1l1WeQQXTcknGGFZUt-mlnXMPQtGJiKw1PO5BC4fixkWpInslF83CjkwNrAv9cy1DECVrihERS1avSLCOrYiA1lFaWf4GQrvfU4k5_SWLNcJ94JPmEwc3H4T_8Q5T5OC8uaG95Su01IeJGtcJ_EyFer2zdAFU7WIXWzsl02OJpEk0uYmBJW3cX46haSOGvJ_8XGERZlMpHueQ0qebmo9X5R6G7SiWmDfksfpEWEFPaPBUnYKNi_yiATVfEyDCPdhx7ng67TWNIWujoUODgODufQRBYD-67dBjNZ1tn2tz-tjTC6CpBtEZEspy2_Xiq3EDpbWGXU4VGEuOnDAP07agCHzRCmAuf8vR4x6O-ryXTOq1M2m-0EMitZJjCVIYdMlnA-QpTeqcou9uTUwXml9tuSnTquUea0IGxhD6wuYIdhVGbvi_sL-zRL3rmZ5VJSAFkgT0rmhARYrZgd2rLlbq-1Yq0o3ZZ-1iGqNP8ll-H9Jw7nP4LvxJEBexXF9GhjWMQk7d8hKN5qbeCVW6gjAGks_9kh9W0nqqMG8EGWdLzKLYp1OeoX7PTss5xLpA8t2lp0rJuysG3AN2klle4u2bnR4X3kNcjWtM3eZGuFIa0zMALdKJu60guhV5de-WDfelB7uC0l1uHG2pLKm49_ZDSgWIvw7w1RNb5GB2pmoo1-Tz1QTVZPkGPnjePDhGCfvNtINKcidjWhmFzcVENe08MV1qJid3pZSPHQEVr38jszoEmRiOUkY0l9oKbZgu2NoF_SRvfqXwT-OBFTaq7CO0s_KACGNE8vxfvSg_TuCH0Hdm8Wp4KuLdtIbP3Xk6CP5MNCo2oxKx9T5ROIElQYwWvwI2kYW-sRxnOlAxZYW7JwsWRY2Tr-dcd5qN7BdtgjfBMvbcc98WhriMkgwY7deNA4Z_031vwWuZvK3o5h78wKYN223NghJMChCfwbosMAB-KONI96E8Wr4byOkhYzT3OejGihb3TW8YMfP33VUfh2xqeBX02g8Wm0gT5ye7NEfRWX_lV2SFFsUR9fNkPRiff2Ux-zQyvnC4Uw7QBUSN7sPmSNtFZ-dTWHKp3H5O9E0OoQ3PRnfeGJK3df8OGH3_ckRQ8wUdCztPWWG3Pvmpk2huLLiW5J1nJOmQ5zdG4dkZSxsn8zLC2wWqh2npenVO83","cfg":{"playmod":1,"playcfg":{"pct":[0,1],"instancerpt":0,"timingrpt":0,"92038":1,"115938":1,"116392":1,"116396":1,"116400":1,"151043":1800,"154225":1,"156062":1,"160561":64,"160940":800,"160966":1360,"161990":1,"162532":1,"162535":3,"162864":1,"162887":3000,"163110":1,"163382":1,"163455":1,"163679":1,"162285":1,"163290":1,"161992":1,"155748":1,"161415":16,"161406":1,"161115":1,"162461":1,"160337":1,"106596":19,"155625":1,"121637":179,"159279":1,"108674":2005,"159539":1,"151276":1,"159280":1,"151241":1,"158955":1,"120037":200,"162572":1,"160035":1,"156653":12,"160673":1,"159788":1,"159611":1,"151054":1,"159116":1,"156579":1,"162286":1,"159277":1,"159056":1,"158289":1,"158357":1,"154785":40,"158502":1,"156257":35,"160210":1,"159354":1,"161478":1,"158823":1,"162198":1,"158894":1,"151496":1,"120010":1,"156826":200,"161737":1,"159613":1,"156486":1,"160641":0.6,"151055":0.15,"151048":1,"158935":0,"116404":"53287094,53287092,53287087,53287070,53287065,53287061,53287058,53287056,53287052,53287048,53287045,53287040,53287106,53287104,53287103,53287101,53287099,53287097","123291":401,"162341":3000,"161879":"Recall,7;Filter,10;Rank,11;Bind,17;Reuse,16","159964":"4:3","118118":"1,3,4,5,6,7,8,10","121780":"op_switch","158800":"6:1,3","cimg2hidetime":10,"displayinterval":60,"pollcommtime":60,"displaymode":1,"poll":"click"}},"ctrl_config":{"app":{"acr_cfg":"{\"1\":0,\"2\":4,\"3\":1,\"4\":1,\"n\":6,\"t\":4}","nusupsak":1},"placement":{"delimit_5":999000,"dnbtime_5":999000,"lbtime_5":-10000,"minvdu_5":300000,"sptime_5":60000,"vatime_5":"0:00-23:59","vbufferAdType_5":1}},"is_encrypted":1,"dr":0}}}
+[sub_1A87C] v16 address = 0xb400006e1e6aed70
+Jump type: 0xb39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+[sub_1A87C] v16 address = 0xb400006e1e69ba50
+Jump type: 0xb3e9 → index 233
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] jump table entry = 0x6cfbef7df8
+[sub_1A87C] jump target addr = 0x6cfbebb60c
+[sub_1A87C] jump target offset = 0x2a60c
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e69ba50
+Jump type: 0xb3e9 → index 233
+[sub_1A87C] jump table entry = 0x6cfbef7df8
+[sub_1A87C] jump target addr = 0x6cfbebb60c
+[sub_1A87C] jump target offset = 0x2a60c
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e69ba50
+Jump type: 0x9319 → index 25
+[sub_1A87C] jump table entry = 0x6cfbef7778
+[sub_1A87C] jump target addr = 0x6cfbeb52d8
+[sub_1A87C] jump target offset = 0x242d8
+    第2个参数: 0xffffffffffffffff
+    第2个参数: ffffffffffffffff
+[sub_1A87C] v16 address = 0xb400006e1e6aed70
+Jump type: 0xc339 → index 57
+[sub_1A87C] jump table entry = 0x6cfbef7878
+[sub_1A87C] jump target addr = 0x6cfbeb336c
+[sub_1A87C] jump target offset = 0x2236c
+    第2个参数: 0xffffffffffffffff
+    第2个参数: ffffffffffffffff
+[sub_1A87C] v16 address = 0xb400006e1e69ca10
+Jump type: 0xf39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+    第2个参数: 0x29
+    第2个参数: 29
+[sub_1A87C] v16 address = 0xb400006e1e69ba50
+Jump type: 0xb309 → index 9
+[sub_1A87C] jump table entry = 0x6cfbef76f8
+[sub_1A87C] jump target addr = 0x6cfbeacd50
+[sub_1A87C] jump target offset = 0x1bd50
+    第2个参数: 0x79
+    第2个参数: 79
+[sub_1A87C] v16 address = 0xb400006e1e6aed70
+Jump type: 0xb13e → index 62
+[sub_1A87C] jump table entry = 0x6cfbef78a0
+[sub_1A87C] jump target addr = 0x6cfbeb1640
+[sub_1A87C] jump target offset = 0x20640
+    第2个参数: 0xf1
+    第2个参数: f1
+[sub_1A87C] v16 address = 0xb400006e1e6aed70
+Jump type: 0xb7f0 → index 240
+[sub_1A87C] jump table entry = 0x6cfbef7e30
+[sub_1A87C] jump target addr = 0x6cfbeadda4
+[sub_1A87C] jump target offset = 0x1cda4
+    第2个参数: 0x101
+    第2个参数: 101
+[sub_1A87C] v16 address = 0xb400006e1e6a60d0
+Jump type: 0xb3f0 → index 240
+[sub_1A87C] jump table entry = 0x6cfbef7e30
+[sub_1A87C] jump target addr = 0x6cfbeadda4
+[sub_1A87C] jump target offset = 0x1cda4
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6ae110
+Jump type: 0xa39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e693e90
+Jump type: 0xb3f0 → index 240
+[sub_1A87C] jump table entry = 0x6cfbef7e30
+[sub_1A87C] jump target addr = 0x6cfbeadda4
+[sub_1A87C] jump target offset = 0x1cda4
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6900b0
+Jump type: 0xb393 → index 147
+[sub_1A87C] jump table entry = 0x6cfbef7b48
+[sub_1A87C] jump target addr = 0x6cfbebd6c4
+[sub_1A87C] jump target offset = 0x2c6c4
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6900b0
+Jump type: 0xa39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6aed70
+Jump type: 0xa379 → index 121
+[sub_1A87C] jump table entry = 0x6cfbef7a78
+[sub_1A87C] jump target addr = 0x6cfbed9b10
+[sub_1A87C] jump target offset = 0x48b10
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6aed70
+Jump type: 0xb13e → index 62
+[sub_1A87C] jump table entry = 0x6cfbef78a0
+[sub_1A87C] jump target addr = 0x6cfbeb1640
+[sub_1A87C] jump target offset = 0x20640
+    第2个参数: 0x151
+    第2个参数: 151
+[sub_1A87C] v16 address = 0xb400006e1e6ae110
+Jump type: 0xb3f0 → index 240
+[sub_1A87C] jump table entry = 0x6cfbef7e30
+[sub_1A87C] jump target addr = 0x6cfbeadda4
+[sub_1A87C] jump target offset = 0x1cda4
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e69ca10
+Jump type: 0xb39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e69ca10
+Jump type: 0xb39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e69ca10
+Jump type: 0xa319 → index 25
+[sub_1A87C] jump table entry = 0x6cfbef7778
+[sub_1A87C] jump target addr = 0x6cfbeb52d8
+[sub_1A87C] jump target offset = 0x242d8
+    第2个参数: 0x29
+    第2个参数: 29
+[sub_1A87C] v16 address = 0xb400006e1e69ba50
+Jump type: 0x9319 → index 25
+[sub_1A87C] jump table entry = 0x6cfbef7778
+[sub_1A87C] jump target addr = 0x6cfbeb52d8
+[sub_1A87C] jump target offset = 0x242d8
+    第2个参数: 0x61
+    第2个参数: 61
+[sub_1A87C] v16 address = 0xb400006e1e69ca10
+Jump type: 0xa39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+    第2个参数: 0x25
+    第2个参数: 25
+[sub_1A87C] v16 address = 0xb400006e1e69ba50
+Jump type: 0xb393 → index 147
+[sub_1A87C] jump table entry = 0x6cfbef7b48
+[sub_1A87C] jump target addr = 0x6cfbebd6c4
+[sub_1A87C] jump target offset = 0x2c6c4
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[objArr] = ITEM_ADD
+[sub_1A87C] v16 address = 0xb400006e1e69ba50
+Jump type: 0xb39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6ae110
+Jump type: 0xb393 → index 147
+[sub_1A87C] jump table entry = 0x6cfbef7b48
+[sub_1A87C] jump target addr = 0x6cfbebd6c4
+[sub_1A87C] jump target offset = 0x2c6c4
+[sub_1A87C] v16 address = 0xb400006e1e6a60d0
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+Jump type: 0xb39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6ae110
+Jump type: 0xb393 → index 147
+[sub_1A87C] jump table entry = 0x6cfbef7b48
+[sub_1A87C] jump target addr = 0x6cfbebd6c4
+[sub_1A87C] jump target offset = 0x2c6c4
+Error: access violation accessing 0x8
+    at <anonymous> (frida/runtime/core.js:145)
+    at onEnter (/Users/xuxiaolin/code/nx_frida/gdt/hook_response_so.js:128)
+[sub_1A87C] v16 address = 0xb400006e1e6ae110
+Jump type: 0xa39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e69ca10
+Jump type: 0xa3a6 → index 166
+[sub_1A87C] jump table entry = 0x6cfbef7be0
+[sub_1A87C] jump target addr = 0x6cfbed8b88
+[sub_1A87C] jump target offset = 0x47b88
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6ae110
+Jump type: 0xa368 → index 104
+[sub_1A87C] jump table entry = 0x6cfbef79f0
+[sub_1A87C] jump target addr = 0x6cfbedadb8
+[sub_1A87C] jump target offset = 0x49db8
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e69ba50
+Jump type: 0xb39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6ae110
+Jump type: 0xb319 → index 25
+[sub_1A87C] jump table entry = 0x6cfbef7778
+[sub_1A87C] jump target addr = 0x6cfbeb52d8
+[sub_1A87C] jump target offset = 0x242d8
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6ae110
+Jump type: 0xa3a6 → index 166
+[sub_1A87C] jump table entry = 0x6cfbef7be0
+[sub_1A87C] jump target addr = 0x6cfbed8b88
+[sub_1A87C] jump target offset = 0x47b88
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6ae110
+Jump type: 0xb319 → index 25
+[sub_1A87C] jump table entry = 0x6cfbef7778
+[sub_1A87C] jump target addr = 0x6cfbeb52d8
+[sub_1A87C] jump target offset = 0x242d8
+    第2个参数: 0x0
+    第2个参数: 0
+[sub_1A87C] v16 address = 0xb400006e1e6ae110
+Jump type: 0xb39a → index 154
+[sub_1A87C] jump table entry = 0x6cfbef7b80
+[sub_1A87C] jump target addr = 0x6cfbedb460
+[sub_1A87C] jump target offset = 0x4a460
+    第2个参数: 0x0
+    第2个参数: 0

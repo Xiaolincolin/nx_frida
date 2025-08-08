@@ -112,18 +112,18 @@ function hook_1A87C(baseAddr) {
     Interceptor.attach(sub_1A87C, {
         onEnter(args) {
             const a2 = args[1];
-            // console.log('[sub_1A87C] v16 address =', a2);
-            // const type_ptr = Memory.readPointer(a2.add(8));
-            // const type_val = Memory.readU16(type_ptr);
-            // const index = type_val & 0xFF;
-            // console.log(`Jump type: 0x${type_val.toString(16)} → index ${index}`);
-            // // 跳转表中取出对应函数地址
-            // const entryAddr = jumpTable.add(index * 8);
-            // const targetFunc = Memory.readPointer(entryAddr);
-            //
-            // console.log(`[sub_1A87C] jump table entry = ${entryAddr}`);
-            // console.log(`[sub_1A87C] jump target addr = ${targetFunc}`);
-            // console.log(`[sub_1A87C] jump target offset = ${targetFunc.sub(baseAddr)}`);
+            console.log('[sub_1A87C] v16 address =', a2);
+            const type_ptr = Memory.readPointer(a2.add(8));
+            const type_val = Memory.readU16(type_ptr);
+            const index = type_val & 0xFF;
+            console.log(`Jump type: 0x${type_val.toString(16)} → index ${index}`);
+            // 跳转表中取出对应函数地址
+            const entryAddr = jumpTable.add(index * 8);
+            const targetFunc = Memory.readPointer(entryAddr);
+
+            console.log(`[sub_1A87C] jump table entry = ${entryAddr}`);
+            console.log(`[sub_1A87C] jump target addr = ${targetFunc}`);
+            console.log(`[sub_1A87C] jump target offset = ${targetFunc.sub(baseAddr)}`);
 
             let a2_ptr = a2.add(160).readPointer().add(8).readPointer();
             let a2_str = a2_ptr.toString(16);
