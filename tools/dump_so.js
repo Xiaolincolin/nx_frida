@@ -1,6 +1,6 @@
 function dump_so() {
     // 设置目标 so 名称
-    let so_name = "libyaqpro.3e364a2a.so";
+    let so_name = "libyaqpro.6b3ac992.so";
 
     Java.perform(function () {
         try {

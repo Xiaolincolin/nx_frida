@@ -1,0 +1,233 @@
+RegisterNatives is at  0x7534f83e18 _ZN3art12_GLOBAL__N_18CheckJNI15RegisterNativesEP7_JNIEnvP7_jclassPK15JNINativeMethodi.llvm.13036589948386079409
+RegisterNatives is at  0x7534e526d0 _ZN3art3JNIILb0EE15RegisterNativesEP7_JNIEnvP7_jclassPK15JNINativeMethodi
+RegisterNatives is at  0x753504bf50 _ZN3art3JNIILb1EE15RegisterNativesEP7_JNIEnvP7_jclassPK15JNINativeMethodi
+[RegisterNatives] method_count: 0x3
+[RegisterNatives] java_class: com.tencent.bugly.crashreport.crash.jni.NativeCrashHandler name: regist sig: (Ljava/lang/String;ZI)Ljava/lang/String; fnPtr: 0x74ab5095c8  fnOffset: 0x95c8  callee: 0x74ab50a6b8 libBugly_Native.so!JNI_OnLoad+0x1c0
+[RegisterNatives] java_class: com.tencent.bugly.crashreport.crash.jni.NativeCrashHandler name: unregist sig: ()Ljava/lang/String; fnPtr: 0x74ab509ad4  fnOffset: 0x9ad4  callee: 0x74ab50a6b8 libBugly_Native.so!JNI_OnLoad+0x1c0
+[RegisterNatives] java_class: com.tencent.bugly.crashreport.crash.jni.NativeCrashHandler name: testCrash sig: ()V fnPtr: 0x74ab509d44  fnOffset: 0x9d44  callee: 0x74ab50a6b8 libBugly_Native.so!JNI_OnLoad+0x1c0
+[RegisterNatives] method_count: 0x3
+[RegisterNatives] java_class: com.tencent.bugly.crashreport.crash.jni.NativeCrashHandler name: appendNativeLog sig: (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z fnPtr: 0x74ab509d58  fnOffset: 0x9d58  callee: 0x74ab50abfc libBugly_Native.so!JNI_OnLoad+0x704
+[RegisterNatives] java_class: com.tencent.bugly.crashreport.crash.jni.NativeCrashHandler name: getNativeLog sig: ()Ljava/lang/String; fnPtr: 0x74ab509f44  fnOffset: 0x9f44  callee: 0x74ab50abfc libBugly_Native.so!JNI_OnLoad+0x704
+[RegisterNatives] java_class: com.tencent.bugly.crashreport.crash.jni.NativeCrashHandler name: appendWholeNativeLog sig: (Ljava/lang/String;)Z fnPtr: 0x74ab509eb0  fnOffset: 0x9eb0  callee: 0x74ab50abfc libBugly_Native.so!JNI_OnLoad+0x704
+[RegisterNatives] method_count: 0x3
+[RegisterNatives] java_class: com.tencent.bugly.crashreport.crash.jni.NativeCrashHandler name: putNativeKeyValue sig: (Ljava/lang/String;Ljava/lang/String;)Z fnPtr: 0x74ab509fb0  fnOffset: 0x9fb0  callee: 0x74ab50ac20 libBugly_Native.so!JNI_OnLoad+0x728
+[RegisterNatives] java_class: com.tencent.bugly.crashreport.crash.jni.NativeCrashHandler name: getNativeKeyValueList sig: ()Ljava/lang/String; fnPtr: 0x74ab50a0b0  fnOffset: 0xa0b0  callee: 0x74ab50ac20 libBugly_Native.so!JNI_OnLoad+0x728
+[RegisterNatives] java_class: com.tencent.bugly.crashreport.crash.jni.NativeCrashHandler name: removeNativeKeyValue sig: (Ljava/lang/String;)Ljava/lang/String; fnPtr: 0x74ab50a0b8  fnOffset: 0xa0b8  callee: 0x74ab50ac20 libBugly_Native.so!JNI_OnLoad+0x728
+[RegisterNatives] method_count: 0x1
+[RegisterNatives] java_class: com.tencent.bugly.crashreport.crash.jni.NativeCrashHandler name: setNativeInfo sig: (ILjava/lang/String;)V fnPtr: 0x74ab50a0c0  fnOffset: 0xa0c0  callee: 0x74ab50ac5c libBugly_Native.so!JNI_OnLoad+0x764
+[RegisterNatives] method_count: 0x2
+[RegisterNatives] java_class: com.tencent.bugly.crashreport.crash.jni.NativeCrashHandler name: getSoCpuAbi sig: ()Ljava/lang/String; fnPtr: 0x74ab50a3fc  fnOffset: 0xa3fc  callee: 0x74ab50a784 libBugly_Native.so!JNI_OnLoad+0x28c
+[RegisterNatives] java_class: com.tencent.bugly.crashreport.crash.jni.NativeCrashHandler name: getProperties sig: (Ljava/lang/String;)Ljava/lang/String; fnPtr: 0x74ab50a448  fnOffset: 0xa448  callee: 0x74ab50a784 libBugly_Native.so!JNI_OnLoad+0x28c
+[RegisterNatives] method_count: 0xa
+[RegisterNatives] java_class: yaq.pro name: getVresult sig: (II[Ljava/lang/Object;)V fnPtr: 0x74876f0a6c  fnOffset: 0xa6c  callee: 0x74876f0da4 libyaqbasic.6b3ac992.so!0xda4
+[RegisterNatives] java_class: yaq.pro name: getobjresult sig: (II[Ljava/lang/Object;)Ljava/lang/Object; fnPtr: 0x74876f0a8c  fnOffset: 0xa8c  callee: 0x74876f0da4 libyaqbasic.6b3ac992.so!0xda4
+[RegisterNatives] java_class: yaq.pro name: getZresult sig: (II[Ljava/lang/Object;)Z fnPtr: 0x74876f0aac  fnOffset: 0xaac  callee: 0x74876f0da4 libyaqbasic.6b3ac992.so!0xda4
+[RegisterNatives] java_class: yaq.pro name: getBresult sig: (II[Ljava/lang/Object;)B fnPtr: 0x74876f0acc  fnOffset: 0xacc  callee: 0x74876f0da4 libyaqbasic.6b3ac992.so!0xda4
+[RegisterNatives] java_class: yaq.pro name: getCresult sig: (II[Ljava/lang/Object;)C fnPtr: 0x74876f0aec  fnOffset: 0xaec  callee: 0x74876f0da4 libyaqbasic.6b3ac992.so!0xda4
+[RegisterNatives] java_class: yaq.pro name: getSresult sig: (II[Ljava/lang/Object;)S fnPtr: 0x74876f0b0c  fnOffset: 0xb0c  callee: 0x74876f0da4 libyaqbasic.6b3ac992.so!0xda4
+[RegisterNatives] java_class: yaq.pro name: getIresult sig: (II[Ljava/lang/Object;)I fnPtr: 0x74876f0b2c  fnOffset: 0xb2c  callee: 0x74876f0da4 libyaqbasic.6b3ac992.so!0xda4
+[RegisterNatives] java_class: yaq.pro name: getJresult sig: (II[Ljava/lang/Object;)J fnPtr: 0x74876f0b4c  fnOffset: 0xb4c  callee: 0x74876f0da4 libyaqbasic.6b3ac992.so!0xda4
+[RegisterNatives] java_class: yaq.pro name: getFresult sig: (II[Ljava/lang/Object;)F fnPtr: 0x74876f0b6c  fnOffset: 0xb6c  callee: 0x74876f0da4 libyaqbasic.6b3ac992.so!0xda4
+[RegisterNatives] java_class: yaq.pro name: getDresult sig: (II[Ljava/lang/Object;)D fnPtr: 0x74876f0b94  fnOffset: 0xb94  callee: 0x74876f0da4 libyaqbasic.6b3ac992.so!0xda4
+[RegisterNatives] method_count: 0x1
+[RegisterNatives] java_class: com.qq.e.comm.plugin.ru name: a sig: (I[Ljava/lang/Object;)Lorg/json/JSONObject; fnPtr: 0x74876f0bbc  fnOffset: 0xbbc  callee: 0x74876f0e5c libyaqbasic.6b3ac992.so!0xe5c
+[RegisterNatives] method_count: 0x2
+[RegisterNatives] java_class: com.qq.e.comm.plugin.ky name: a sig: ([B)[B fnPtr: 0x74876f0be4  fnOffset: 0xbe4  callee: 0x74876f0e84 libyaqbasic.6b3ac992.so!JNI_OnLoad+0x254
+[RegisterNatives] java_class: com.qq.e.comm.plugin.ky name: a sig: ([BJ)[B fnPtr: 0x74876f0c08  fnOffset: 0xc08  callee: 0x74876f0e84 libyaqbasic.6b3ac992.so!JNI_OnLoad+0x254
+[RegisterNatives] method_count: 0xd
+[RegisterNatives] java_class: com.tencent.turingfd.sdk.ams.au.TNative$aa name: a90_BD4FE23C352252DC sig: (Landroid/util/SparseArray;Landroid/content/Context;Ljava/util/Map;Ljava/util/Map;I)Landroid/util/SparseArray; fnPtr: 0x74864f8984  fnOffset: 0x1f984  callee: 0x74864f88c8 libturingau.6b3ac992.so!JNI_OnLoad+0x138
+[RegisterNatives] java_class: com.tencent.turingfd.sdk.ams.au.TNative$aa name: b90_BD4FE23C352252DC sig: (Landroid/util/SparseArray;[BLjava/util/Map;I)Landroid/util/SparseArray; fnPtr: 0x74864f8ddc  fnOffset: 0x1fddc  callee: 0x74864f88c8 libturingau.6b3ac992.so!JNI_OnLoad+0x138
+[RegisterNatives] java_class: com.tencent.turingfd.sdk.ams.au.TNative$aa name: c90_BD4FE23C352252DC sig: (Landroid/util/SparseArray;Landroid/content/Context;)Landroid/util/SparseArray; fnPtr: 0x74864f9278  fnOffset: 0x20278  callee: 0x74864f88c8 libturingau.6b3ac992.so!JNI_OnLoad+0x138
+[RegisterNatives] java_class: com.tencent.turingfd.sdk.ams.au.TNative$aa name: d90_BD4FE23C352252DC sig: (Landroid/util/SparseArray;Landroid/content/Context;I)Landroid/util/SparseArray; fnPtr: 0x74864f938c  fnOffset: 0x2038c  callee: 0x74864f88c8 libturingau.6b3ac992.so!JNI_OnLoad+0x138
+[RegisterNatives] java_class: com.tencent.turingfd.sdk.ams.au.TNative$aa name: e90_BD4FE23C352252DC sig: (Landroid/util/SparseArray;Landroid/content/Context;Ljava/util/Map;I)Landroid/util/SparseArray; fnPtr: 0x74864f9688  fnOffset: 0x20688  callee: 0x74864f88c8 libturingau.6b3ac992.so!JNI_OnLoad+0x138
+[RegisterNatives] java_class: com.tencent.turingfd.sdk.ams.au.TNative$aa name: f90_BD4FE23C352252DC sig: (Landroid/util/SparseArray;[BI)Landroid/util/SparseArray; fnPtr: 0x74864f9cc8  fnOffset: 0x20cc8  callee: 0x74864f88c8 libturingau.6b3ac992.so!JNI_OnLoad+0x138
+[RegisterNatives] java_class: com.tencent.turingfd.sdk.ams.au.TNative$aa name: g90_BD4FE23C352252DC sig: (Landroid/util/SparseArray;Landroid/content/Context;Ljava/util/Map;I)Landroid/util/SparseArray; fnPtr: 0x74864f9eec  fnOffset: 0x20eec  callee: 0x74864f88c8 libturingau.6b3ac992.so!JNI_OnLoad+0x138
+[RegisterNatives] java_class: com.tencent.turingfd.sdk.ams.au.TNative$aa name: h90_BD4FE23C352252DC sig: (Landroid/util/SparseArray;Landroid/content/Context;Ljava/util/Map;I)Landroid/util/SparseArray; fnPtr: 0x74864fa16c  fnOffset: 0x2116c  callee: 0x74864f88c8 libturingau.6b3ac992.so!JNI_OnLoad+0x138
+[RegisterNatives] java_class: com.tencent.turingfd.sdk.ams.au.TNative$aa name: i90_BD4FE23C352252DC sig: (Landroid/util/SparseArray;Landroid/content/Context;Ljava/util/Map;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Landroid/util/SparseArray; fnPtr: 0x74864fa328  fnOffset: 0x21328  callee: 0x74864f88c8 libturingau.6b3ac992.so!JNI_OnLoad+0x138
+[RegisterNatives] java_class: com.tencent.turingfd.sdk.ams.au.TNative$aa name: j90_BD4FE23C352252DC sig: ()Ljava/lang/String; fnPtr: 0x74864fa64c  fnOffset: 0x2164c  callee: 0x74864f88c8 libturingau.6b3ac992.so!JNI_OnLoad+0x138
+[RegisterNatives] java_class: com.tencent.turingfd.sdk.ams.au.TNative$aa name: k90_BD4FE23C352252DC sig: ([B)[B fnPtr: 0x74864fa6dc  fnOffset: 0x216dc  callee: 0x74864f88c8 libturingau.6b3ac992.so!JNI_OnLoad+0x138
+[RegisterNatives] java_class: com.tencent.turingfd.sdk.ams.au.TNative$aa name: l90_BD4FE23C352252DC sig: (Ljava/lang/reflect/InvocationHandler;Ljava/util/concurrent/atomic/AtomicReference;Ljava/lang/ClassLoader;)V fnPtr: 0x748651b130  fnOffset: 0x42130  callee: 0x74864f88c8 libturingau.6b3ac992.so!JNI_OnLoad+0x138
+[RegisterNatives] java_class: com.tencent.turingfd.sdk.ams.au.TNative$aa name: m90_BD4FE23C352252DC sig: (Landroid/util/SparseArray;Landroid/content/Context;Ljava/util/Map;)Landroid/util/SparseArray; fnPtr: 0x74864fa8e0  fnOffset: 0x218e0  callee: 0x74864f88c8 libturingau.6b3ac992.so!JNI_OnLoad+0x138
+[RegisterNatives] method_count: 0x1
+[RegisterNatives] java_class: com.tencent.turingfd.sdk.ams.au.TNative$aa$bb name: onServiceConnected sig: (Landroid/content/ComponentName;Landroid/os/IBinder;)V fnPtr: 0x7486509e08  fnOffset: 0x30e08  callee: 0x74864f8900 libturingau.6b3ac992.so!JNI_OnLoad+0x170
+[RegisterNatives] method_count: 0xa
+[RegisterNatives] method_count: 0x1
+[RegisterNatives] java_class: com.tencent.qqlive.modules.vb.tquic.impl.TnetQuicRequest name: nativeCreateTnetQuicAdapter sig: (Lcom/tencent/qqlive/modules/vb/tquic/impl/TnetConfig;I)J fnPtr: 0x74793acc44  fnOffset: 0x138c44  callee: 0x74793ae828 libtquic_jni.so!0x13a828
+[RegisterNatives] java_class: android.view.MotionEvent name: nativeIsTouchEvent sig: (J)Z fnPtr: 0x74878199e8  fnOffset: 0x79e8  callee: 0x7487818970 libyaqpro.6b3ac992.so!0x6970
+[RegisterNatives] method_count: 0x1
+[RegisterNatives] java_class: com.tencent.qqlive.modules.vb.tquic.impl.TnetQuicRequest name: nativeSetExpid sig: (I)V fnPtr: 0x74793acca0  fnOffset: 0x138ca0  callee: 0x74793ae828 libtquic_jni.so!0x13a828
+[RegisterNatives] java_class: android.view.MotionEvent name: nativeInitialize sig: (JIIIIIIIIIFFFFJJI[Landroid/view/MotionEvent$PointerProperties;[Landroid/view/MotionEvent$PointerCoords;)J fnPtr: 0x748781b428  fnOffset: 0x9428  callee: 0x7487819964 libyaqpro.6b3ac992.so!0x7964
+[RegisterNatives] java_class: com.tencent.qqlive.modules.vb.tquic.impl.TnetQuicRequest name: nativeConnect sig: (JLjava/lang/String;Ljava/lang/String;)V fnPtr: 0x74793acca8  fnOffset: 0x138ca8  callee: 0x74793ae828 libtquic_jni.so!0x13a828
+[RegisterNatives] java_class: com.tencent.qqlive.modules.vb.tquic.impl.TnetQuicRequest name: nativeAddHeaders sig: (JLjava/lang/String;Ljava/lang/String;)V fnPtr: 0x74793acdec  fnOffset: 0x138dec  callee: 0x74793ae828 libtquic_jni.so!0x13a828
+[RegisterNatives] java_class: com.tencent.qqlive.modules.vb.tquic.impl.TnetQuicRequest name: nativeIsConnectCompleted sig: (J)Z fnPtr: 0x74793acf30  fnOffset: 0x138f30  callee: 0x74793ae828 libtquic_jni.so!0x13a828
+[RegisterNatives] java_class: com.tencent.qqlive.modules.vb.tquic.impl.TnetQuicRequest name: nativeSendRequest sig: (J[BIZ)Z fnPtr: 0x74793acf4c  fnOffset: 0x138f4c  callee: 0x74793ae828 libtquic_jni.so!0x13a828
+[RegisterNatives] java_class: com.tencent.qqlive.modules.vb.tquic.impl.TnetQuicRequest name: nativeRequestFinished sig: (J)Z fnPtr: 0x74793ad174  fnOffset: 0x139174  callee: 0x74793ae828 libtquic_jni.so!0x13a828
+[RegisterNatives] java_class: com.tencent.qqlive.modules.vb.tquic.impl.TnetQuicRequest name: nativeCancelRequest sig: (J)V fnPtr: 0x74793ad17c  fnOffset: 0x13917c  callee: 0x74793ae828 libtquic_jni.so!0x13a828
+[RegisterNatives] java_class: com.tencent.qqlive.modules.vb.tquic.impl.TnetQuicRequest name: nativeDestroy sig: (J)V fnPtr: 0x74793ad184  fnOffset: 0x139184  callee: 0x74793ae828 libtquic_jni.so!0x13a828
+[RegisterNatives] java_class: com.tencent.qqlive.modules.vb.tquic.impl.TnetQuicRequest name: nativeGetTnetStates sig: (JLcom/tencent/qqlive/modules/vb/tquic/impl/TnetStats;)V fnPtr: 0x74793ad19c  fnOffset: 0x13919c  callee: 0x74793ae828 libtquic_jni.so!0x13a828
+[RegisterNatives] method_count: 0x5f
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGConfigNewJNI sig: ()J fnPtr: 0x746fa9e720  fnOffset: 0x19720  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGConfigFreeJNI sig: (J)V fnPtr: 0x746fa9e724  fnOffset: 0x19724  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGConfigSetExperimentalFeatureEnabledJNI sig: (JIZ)V fnPtr: 0x746fa9e7c0  fnOffset: 0x197c0  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGConfigSetUseWebDefaultsJNI sig: (JZ)V fnPtr: 0x746fa9e7d8  fnOffset: 0x197d8  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGConfigSetPrintTreeFlagJNI sig: (JZ)V fnPtr: 0x746fa9e7e8  fnOffset: 0x197e8  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGConfigSetPointScaleFactorJNI sig: (JF)V fnPtr: 0x746fa9e7f8  fnOffset: 0x197f8  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGConfigSetUseLegacyStretchBehaviourJNI sig: (JZ)V fnPtr: 0x746fa9e800  fnOffset: 0x19800  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGConfigSetErrataJNI sig: (JI)V fnPtr: 0x746fa9e810  fnOffset: 0x19810  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGConfigGetErrataJNI sig: (J)I fnPtr: 0x746fa9e81c  fnOffset: 0x1981c  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGConfigSetLoggerJNI sig: (JLcom/qq/e/lib/yoga/YogaLogger;)V fnPtr: 0x746fa9e824  fnOffset: 0x19824  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeNewJNI sig: ()J fnPtr: 0x746fa9e99c  fnOffset: 0x1999c  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeNewWithConfigJNI sig: (J)J fnPtr: 0x746fa9e9c8  fnOffset: 0x199c8  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeDeallocateJNI sig: (J)V fnPtr: 0x746fa9e9f8  fnOffset: 0x199f8  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeResetJNI sig: (J)V fnPtr: 0x746fa9ea08  fnOffset: 0x19a08  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeInsertChildJNI sig: (JJI)V fnPtr: 0x746fa9ea40  fnOffset: 0x19a40  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeSwapChildJNI sig: (JJI)V fnPtr: 0x746fa9ea50  fnOffset: 0x19a50  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeSetIsReferenceBaselineJNI sig: (JZ)V fnPtr: 0x746fa9ea60  fnOffset: 0x19a60  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeIsReferenceBaselineJNI sig: (J)Z fnPtr: 0x746fa9ea70  fnOffset: 0x19a70  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeRemoveAllChildrenJNI sig: (J)V fnPtr: 0x746fa9ea8c  fnOffset: 0x19a8c  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeRemoveChildJNI sig: (JJ)V fnPtr: 0x746fa9ea94  fnOffset: 0x19a94  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeCalculateLayoutJNI sig: (JFF[J[Lcom/qq/e/lib/yoga/YogaNodeJNIBase;)V fnPtr: 0x746fa9eaa0  fnOffset: 0x19aa0  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeMarkDirtyJNI sig: (J)V fnPtr: 0x746fa9ed84  fnOffset: 0x19d84  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeMarkDirtyAndPropagateToDescendantsJNI sig: (J)V fnPtr: 0x746fa9ed8c  fnOffset: 0x19d8c  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeIsDirtyJNI sig: (J)Z fnPtr: 0x746fa9ed94  fnOffset: 0x19d94  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeCopyStyleJNI sig: (JJ)V fnPtr: 0x746fa9edb0  fnOffset: 0x19db0  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeStyleGetDirectionJNI sig: (J)I fnPtr: 0x746fa9edbc  fnOffset: 0x19dbc  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeStyleSetDirectionJNI sig: (JI)V fnPtr: 0x746fa9edc4  fnOffset: 0x19dc4  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeStyleGetFlexDirectionJNI sig: (J)I fnPtr: 0x746fa9edd0  fnOffset: 0x19dd0  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeStyleSetFlexDirectionJNI sig: (JI)V fnPtr: 0x746fa9edd8  fnOffset: 0x19dd8  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeStyleGetJustifyContentJNI sig: (J)I fnPtr: 0x746fa9ede4  fnOffset: 0x19de4  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeStyleSetJustifyContentJNI sig: (JI)V fnPtr: 0x746fa9edec  fnOffset: 0x19dec  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeStyleGetAlignItemsJNI sig: (J)I fnPtr: 0x746fa9edf8  fnOffset: 0x19df8  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeStyleSetAlignItemsJNI sig: (JI)V fnPtr: 0x746fa9ee00  fnOffset: 0x19e00  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeStyleGetAlignSelfJNI sig: (J)I fnPtr: 0x746fa9ee0c  fnOffset: 0x19e0c  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeStyleSetAlignSelfJNI sig: (JI)V fnPtr: 0x746fa9ee14  fnOffset: 0x19e14  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeStyleGetAlignContentJNI sig: (J)I fnPtr: 0x746fa9ee20  fnOffset: 0x19e20  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeStyleSetAlignContentJNI sig: (JI)V fnPtr: 0x746fa9ee28  fnOffset: 0x19e28  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeStyleGetPositionTypeJNI sig: (J)I fnPtr: 0x746fa9ee34  fnOffset: 0x19e34  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeStyleSetPositionTypeJNI sig: (JI)V fnPtr: 0x746fa9ee3c  fnOffset: 0x19e3c  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeStyleGetFlexWrapJNI sig: (J)I fnPtr: 0x746fa9ee48  fnOffset: 0x19e48  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeStyleSetFlexWrapJNI sig: (JI)V fnPtr: 0x746fa9ee50  fnOffset: 0x19e50  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeStyleGetOverflowJNI sig: (J)I fnPtr: 0x746fa9ee5c  fnOffset: 0x19e5c  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeStyleSetOverflowJNI sig: (JI)V fnPtr: 0x746fa9ee64  fnOffset: 0x19e64  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeStyleGetDisplayJNI sig: (J)I fnPtr: 0x746fa9ee70  fnOffset: 0x19e70  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeStyleSetDisplayJNI sig: (JI)V fnPtr: 0x746fa9ee78  fnOffset: 0x19e78  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeStyleGetFlexJNI sig: (J)F fnPtr: 0x746fa9ee84  fnOffset: 0x19e84  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeStyleSetFlexJNI sig: (JF)V fnPtr: 0x746fa9ee8c  fnOffset: 0x19e8c  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeStyleGetFlexGrowJNI sig: (J)F fnPtr: 0x746fa9ee94  fnOffset: 0x19e94  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeStyleSetFlexGrowJNI sig: (JF)V fnPtr: 0x746fa9ee9c  fnOffset: 0x19e9c  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeStyleGetFlexShrinkJNI sig: (J)F fnPtr: 0x746fa9eea4  fnOffset: 0x19ea4  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeStyleSetFlexShrinkJNI sig: (JF)V fnPtr: 0x746fa9eeac  fnOffset: 0x19eac  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeStyleGetFlexBasisJNI sig: (J)J fnPtr: 0x746fa9eeb4  fnOffset: 0x19eb4  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeStyleSetFlexBasisJNI sig: (JF)V fnPtr: 0x746fa9eebc  fnOffset: 0x19ebc  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeStyleSetFlexBasisPercentJNI sig: (JF)V fnPtr: 0x746fa9eec4  fnOffset: 0x19ec4  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeStyleSetFlexBasisAutoJNI sig: (J)V fnPtr: 0x746fa9eecc  fnOffset: 0x19ecc  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeStyleGetMarginJNI sig: (JI)J fnPtr: 0x746fa9eed4  fnOffset: 0x19ed4  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeStyleSetMarginJNI sig: (JIF)V fnPtr: 0x746fa9ef18  fnOffset: 0x19f18  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeStyleSetMarginPercentJNI sig: (JIF)V fnPtr: 0x746fa9ef64  fnOffset: 0x19f64  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeStyleSetMarginAutoJNI sig: (JI)V fnPtr: 0x746fa9efb0  fnOffset: 0x19fb0  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeStyleGetPaddingJNI sig: (JI)J fnPtr: 0x746fa9efec  fnOffset: 0x19fec  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeStyleSetPaddingJNI sig: (JIF)V fnPtr: 0x746fa9f030  fnOffset: 0x1a030  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeStyleSetPaddingPercentJNI sig: (JIF)V fnPtr: 0x746fa9f07c  fnOffset: 0x1a07c  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeStyleGetBorderJNI sig: (JI)F fnPtr: 0x746fa9f0c8  fnOffset: 0x1a0c8  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeStyleSetBorderJNI sig: (JIF)V fnPtr: 0x746fa9f110  fnOffset: 0x1a110  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeStyleGetPositionJNI sig: (JI)J fnPtr: 0x746fa9f15c  fnOffset: 0x1a15c  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeStyleSetPositionJNI sig: (JIF)V fnPtr: 0x746fa9f168  fnOffset: 0x1a168  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeStyleSetPositionPercentJNI sig: (JIF)V fnPtr: 0x746fa9f174  fnOffset: 0x1a174  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeStyleGetWidthJNI sig: (J)J fnPtr: 0x746fa9f180  fnOffset: 0x1a180  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeStyleSetWidthJNI sig: (JF)V fnPtr: 0x746fa9f188  fnOffset: 0x1a188  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeStyleSetWidthPercentJNI sig: (JF)V fnPtr: 0x746fa9f190  fnOffset: 0x1a190  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeStyleSetWidthAutoJNI sig: (J)V fnPtr: 0x746fa9f198  fnOffset: 0x1a198  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeStyleGetHeightJNI sig: (J)J fnPtr: 0x746fa9f1a0  fnOffset: 0x1a1a0  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeStyleSetHeightJNI sig: (JF)V fnPtr: 0x746fa9f1a8  fnOffset: 0x1a1a8  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeStyleSetHeightPercentJNI sig: (JF)V fnPtr: 0x746fa9f1b0  fnOffset: 0x1a1b0  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeStyleSetHeightAutoJNI sig: (J)V fnPtr: 0x746fa9f1b8  fnOffset: 0x1a1b8  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeStyleGetMinWidthJNI sig: (J)J fnPtr: 0x746fa9f1c0  fnOffset: 0x1a1c0  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeStyleSetMinWidthJNI sig: (JF)V fnPtr: 0x746fa9f1c8  fnOffset: 0x1a1c8  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeStyleSetMinWidthPercentJNI sig: (JF)V fnPtr: 0x746fa9f1d0  fnOffset: 0x1a1d0  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeStyleGetMinHeightJNI sig: (J)J fnPtr: 0x746fa9f1d8  fnOffset: 0x1a1d8  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeStyleSetMinHeightJNI sig: (JF)V fnPtr: 0x746fa9f1e0  fnOffset: 0x1a1e0  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeStyleSetMinHeightPercentJNI sig: (JF)V fnPtr: 0x746fa9f1e8  fnOffset: 0x1a1e8  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeStyleGetMaxWidthJNI sig: (J)J fnPtr: 0x746fa9f1f0  fnOffset: 0x1a1f0  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeStyleSetMaxWidthJNI sig: (JF)V fnPtr: 0x746fa9f1f8  fnOffset: 0x1a1f8  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeStyleSetMaxWidthPercentJNI sig: (JF)V fnPtr: 0x746fa9f200  fnOffset: 0x1a200  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeStyleGetMaxHeightJNI sig: (J)J fnPtr: 0x746fa9f208  fnOffset: 0x1a208  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeStyleSetMaxHeightJNI sig: (JF)V fnPtr: 0x746fa9f210  fnOffset: 0x1a210  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeStyleSetMaxHeightPercentJNI sig: (JF)V fnPtr: 0x746fa9f218  fnOffset: 0x1a218  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeStyleGetAspectRatioJNI sig: (J)F fnPtr: 0x746fa9f220  fnOffset: 0x1a220  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeStyleSetAspectRatioJNI sig: (JF)V fnPtr: 0x746fa9f228  fnOffset: 0x1a228  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeSetHasMeasureFuncJNI sig: (JZ)V fnPtr: 0x746fa9f230  fnOffset: 0x1a230  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeStyleGetGapJNI sig: (JI)F fnPtr: 0x746fa9f248  fnOffset: 0x1a248  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeStyleSetGapJNI sig: (JIF)V fnPtr: 0x746fa9f254  fnOffset: 0x1a254  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeSetHasBaselineFuncJNI sig: (JZ)V fnPtr: 0x746fa9f260  fnOffset: 0x1a260  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodePrintJNI sig: (J)V fnPtr: 0x746fa9f284  fnOffset: 0x1a284  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] java_class: com.qq.e.lib.yoga.YogaNative name: jni_YGNodeCloneJNI sig: (J)J fnPtr: 0x746fa9f288  fnOffset: 0x1a288  callee: 0x746faa09e0 libgdtflex.so!0x1b9e0
+[RegisterNatives] method_count: 0x1
+[RegisterNatives] java_class: com.android.gdt.qone.uin.U name: r sig: (ZIILjava/lang/String;I[Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; fnPtr: 0x746d8e9f70  fnOffset: 0x69f70  callee: 0x746d8b8c7c libgdtqone.so!0x38c7c
+[RegisterNatives] method_count: 0x1
+[RegisterNatives] java_class: com.android.gdt.qone.uin.U name: d sig: (Ljava/lang/String;)[B fnPtr: 0x746d8e9f5c  fnOffset: 0x69f5c  callee: 0x746d8b8c7c libgdtqone.so!0x38c7c
+[RegisterNatives] method_count: 0x1
+[RegisterNatives] java_class: com.android.gdt.qone.uin.U name: e sig: (Ljava/lang/String;Ljava/lang/String;)B fnPtr: 0x746d8e9f64  fnOffset: 0x69f64  callee: 0x746d8b8c7c libgdtqone.so!0x38c7c
+[RegisterNatives] method_count: 0x1
+[RegisterNatives] java_class: com.android.gdt.qone.uin.U name: n sig: (Landroid/content/Context;Ljava/lang/String;[Ljava/lang/Object;Z)V fnPtr: 0x746d8e8a14  fnOffset: 0x68a14  callee: 0x746d8b8c7c libgdtqone.so!0x38c7c
+[RegisterNatives] method_count: 0x1
+[RegisterNatives] java_class: com.android.gdt.qone.uin.U name: n2 sig: (Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Z)V fnPtr: 0x746d8e8a5c  fnOffset: 0x68a5c  callee: 0x746d8b8c7c libgdtqone.so!0x38c7c
+[RegisterNatives] method_count: 0x1
+[RegisterNatives] java_class: com.android.gdt.qone.uin.U name: m sig: (I)Ljava/lang/String; fnPtr: 0x746d8ea128  fnOffset: 0x6a128  callee: 0x746d8b8c7c libgdtqone.so!0x38c7c
+[RegisterNatives] method_count: 0x1
+[RegisterNatives] java_class: com.android.gdt.qone.uin.U name: z sig: (Landroid/content/Context;)Ljava/lang/String; fnPtr: 0x746d8e9e34  fnOffset: 0x69e34  callee: 0x746d8b8c7c libgdtqone.so!0x38c7c
+[RegisterNatives] method_count: 0x1
+[RegisterNatives] java_class: com.android.gdt.qone.uin.U name: z2 sig: (Landroid/content/Context;I)Ljava/lang/String; fnPtr: 0x746d8e9ec8  fnOffset: 0x69ec8  callee: 0x746d8b8c7c libgdtqone.so!0x38c7c
+[RegisterNatives] method_count: 0x1
+[RegisterNatives] java_class: com.android.gdt.qone.uin.U name: o sig: ()Ljava/lang/String; fnPtr: 0x746d8e9d9c  fnOffset: 0x69d9c  callee: 0x746d8b8c7c libgdtqone.so!0x38c7c
+[RegisterNatives] method_count: 0x1
+[RegisterNatives] java_class: com.android.gdt.qone.uin.U name: x sig: (Ljava/lang/String;)Ljava/lang/String; fnPtr: 0x746d8e99b4  fnOffset: 0x699b4  callee: 0x746d8b8c7c libgdtqone.so!0x38c7c
+[RegisterNatives] method_count: 0x1
+[RegisterNatives] java_class: com.android.gdt.qone.uin.U name: u sig: ()Ljava/lang/String; fnPtr: 0x746d8e984c  fnOffset: 0x6984c  callee: 0x746d8b8c7c libgdtqone.so!0x38c7c
+[RegisterNatives] method_count: 0x1
+[RegisterNatives] java_class: com.android.gdt.qone.uin.U name: a sig: (I[B[B[B)[B fnPtr: 0x746d8e8aa4  fnOffset: 0x68aa4  callee: 0x746d8b8c7c libgdtqone.so!0x38c7c
+[RegisterNatives] method_count: 0x1
+[RegisterNatives] java_class: com.android.gdt.qone.uin.U name: p sig: ()Ljava/lang/String; fnPtr: 0x746d8e9aa0  fnOffset: 0x69aa0  callee: 0x746d8b8c7c libgdtqone.so!0x38c7c
+[RegisterNatives] method_count: 0x1
+[RegisterNatives] java_class: com.android.gdt.qone.uin.U name: b sig: ()Z fnPtr: 0x746d8e9d84  fnOffset: 0x69d84  callee: 0x746d8b8c7c libgdtqone.so!0x38c7c
+[RegisterNatives] method_count: 0x1
+[RegisterNatives] java_class: com.android.gdt.qone.uin.U name: r4 sig: ([BI[BI)[B fnPtr: 0x746d8e9164  fnOffset: 0x69164  callee: 0x746d8b8c7c libgdtqone.so!0x38c7c
+[RegisterNatives] method_count: 0x1
+[RegisterNatives] java_class: com.android.gdt.qone.uin.U name: w sig: (Ljava/lang/String;)Z fnPtr: 0x746d905fec  fnOffset: 0x85fec  callee: 0x746d8b8c7c libgdtqone.so!0x38c7c
+[RegisterNatives] method_count: 0x1
+[RegisterNatives] java_class: com.android.gdt.qone.uin.U name: y sig: (Ljava/lang/String;)V fnPtr: 0x746d8ea2c4  fnOffset: 0x6a2c4  callee: 0x746d8b8c7c libgdtqone.so!0x38c7c
+[RegisterNatives] method_count: 0x1
+[RegisterNatives] java_class: com.android.gdt.qone.uin.U name: s sig: (Ljava/lang/String;)Z fnPtr: 0x746d8ea2c8  fnOffset: 0x6a2c8  callee: 0x746d8b8c7c libgdtqone.so!0x38c7c
+[RegisterNatives] method_count: 0x17
+[RegisterNatives] java_class: com.tencent.libavif.AvifDecoder name: getFormat0 sig: ([BII)I fnPtr: 0x7464aad6dc  fnOffset: 0x436dc  callee: 0x7464aad6c8 libtencent-avif.so!0x436c8
+[RegisterNatives] java_class: com.tencent.libavif.AvifDecoder name: createDecoderByteArray0 sig: ([BII)J fnPtr: 0x7464aadc40  fnOffset: 0x43c40  callee: 0x7464aad6c8 libtencent-avif.so!0x436c8
+[RegisterNatives] java_class: com.tencent.libavif.AvifDecoder name: createDecoderByteBuffer0 sig: (Ljava/nio/ByteBuffer;II)J fnPtr: 0x7464aadd70  fnOffset: 0x43d70  callee: 0x7464aad6c8 libtencent-avif.so!0x436c8
+[RegisterNatives] java_class: com.tencent.libavif.AvifDecoder name: nextImage0 sig: (J)I fnPtr: 0x7464aade80  fnOffset: 0x43e80  callee: 0x7464aad6c8 libtencent-avif.so!0x436c8
+[RegisterNatives] java_class: com.tencent.libavif.AvifDecoder name: setMaxThread0 sig: (JI)V fnPtr: 0x7464aadeb8  fnOffset: 0x43eb8  callee: 0x7464aad6c8 libtencent-avif.so!0x436c8
+[RegisterNatives] java_class: com.tencent.libavif.AvifDecoder name: nthImage0 sig: (JI)I fnPtr: 0x7464aadec4  fnOffset: 0x43ec4  callee: 0x7464aad6c8 libtencent-avif.so!0x436c8
+[RegisterNatives] java_class: com.tencent.libavif.AvifDecoder name: getImageCount0 sig: (J)I fnPtr: 0x7464aadf00  fnOffset: 0x43f00  callee: 0x7464aad6c8 libtencent-avif.so!0x436c8
+[RegisterNatives] java_class: com.tencent.libavif.AvifDecoder name: getWidth0 sig: (J)I fnPtr: 0x7464aadf38  fnOffset: 0x43f38  callee: 0x7464aad6c8 libtencent-avif.so!0x436c8
+[RegisterNatives] java_class: com.tencent.libavif.AvifDecoder name: getHeight0 sig: (J)I fnPtr: 0x7464aadf74  fnOffset: 0x43f74  callee: 0x7464aad6c8 libtencent-avif.so!0x436c8
+[RegisterNatives] java_class: com.tencent.libavif.AvifDecoder name: getDepth0 sig: (J)I fnPtr: 0x7464aadfb0  fnOffset: 0x43fb0  callee: 0x7464aad6c8 libtencent-avif.so!0x436c8
+[RegisterNatives] java_class: com.tencent.libavif.AvifDecoder name: hasAlpha0 sig: (J)Z fnPtr: 0x7464aadfec  fnOffset: 0x43fec  callee: 0x7464aad6c8 libtencent-avif.so!0x436c8
+[RegisterNatives] java_class: com.tencent.libavif.AvifDecoder name: getImageDuration0 sig: (J)J fnPtr: 0x7464aae02c  fnOffset: 0x4402c  callee: 0x7464aad6c8 libtencent-avif.so!0x436c8
+[RegisterNatives] java_class: com.tencent.libavif.AvifDecoder name: getNthImageDuration0 sig: (JI)J fnPtr: 0x7464aae078  fnOffset: 0x44078  callee: 0x7464aad6c8 libtencent-avif.so!0x436c8
+[RegisterNatives] java_class: com.tencent.libavif.AvifDecoder name: getImageIndex0 sig: (J)I fnPtr: 0x7464aae130  fnOffset: 0x44130  callee: 0x7464aad6c8 libtencent-avif.so!0x436c8
+[RegisterNatives] java_class: com.tencent.libavif.AvifDecoder name: getImageLimit0 sig: (J)I fnPtr: 0x7464aae168  fnOffset: 0x44168  callee: 0x7464aad6c8 libtencent-avif.so!0x436c8
+[RegisterNatives] java_class: com.tencent.libavif.AvifDecoder name: getImage0 sig: (J)J fnPtr: 0x7464aae1a0  fnOffset: 0x441a0  callee: 0x7464aad6c8 libtencent-avif.so!0x436c8
+[RegisterNatives] java_class: com.tencent.libavif.AvifDecoder name: scaleImage0 sig: (JII)Z fnPtr: 0x7464aae230  fnOffset: 0x44230  callee: 0x7464aad6c8 libtencent-avif.so!0x436c8
+[RegisterNatives] java_class: com.tencent.libavif.AvifDecoder name: getScaledImage0 sig: (JIIZ)J fnPtr: 0x7464aae258  fnOffset: 0x44258  callee: 0x7464aad6c8 libtencent-avif.so!0x436c8
+[RegisterNatives] java_class: com.tencent.libavif.AvifDecoder name: getCropedImage0 sig: (JIIII)J fnPtr: 0x7464aae378  fnOffset: 0x44378  callee: 0x7464aad6c8 libtencent-avif.so!0x436c8
+[RegisterNatives] java_class: com.tencent.libavif.AvifDecoder name: getRectedImage0 sig: (JIIIII)J fnPtr: 0x7464aae4ac  fnOffset: 0x444ac  callee: 0x7464aad6c8 libtencent-avif.so!0x436c8
+[RegisterNatives] java_class: com.tencent.libavif.AvifDecoder name: getDiag0 sig: (J)Ljava/lang/String; fnPtr: 0x7464aae67c  fnOffset: 0x4467c  callee: 0x7464aad6c8 libtencent-avif.so!0x436c8
+[RegisterNatives] java_class: com.tencent.libavif.AvifDecoder name: reset0 sig: (J)V fnPtr: 0x7464aae690  fnOffset: 0x44690  callee: 0x7464aad6c8 libtencent-avif.so!0x436c8
+[RegisterNatives] java_class: com.tencent.libavif.AvifDecoder name: destroy0 sig: (J)V fnPtr: 0x7464aae758  fnOffset: 0x44758  callee: 0x7464aad6c8 libtencent-avif.so!0x436c8
+[RegisterNatives] method_count: 0x9
+[RegisterNatives] java_class: com.tencent.libavif.AvifImage name: getWidth0 sig: (J)I fnPtr: 0x7464aae940  fnOffset: 0x44940  callee: 0x7464aae92c libtencent-avif.so!0x4492c
+[RegisterNatives] java_class: com.tencent.libavif.AvifImage name: getHeight0 sig: (J)I fnPtr: 0x7464aae948  fnOffset: 0x44948  callee: 0x7464aae92c libtencent-avif.so!0x4492c
+[RegisterNatives] java_class: com.tencent.libavif.AvifImage name: hasAlpha0 sig: (J)Z fnPtr: 0x7464aae950  fnOffset: 0x44950  callee: 0x7464aae92c libtencent-avif.so!0x4492c
+[RegisterNatives] java_class: com.tencent.libavif.AvifImage name: getDepth0 sig: (J)I fnPtr: 0x7464aae960  fnOffset: 0x44960  callee: 0x7464aae92c libtencent-avif.so!0x4492c
+[RegisterNatives] java_class: com.tencent.libavif.AvifImage name: getBitmap0 sig: (JLandroid/graphics/Bitmap;Z)V fnPtr: 0x7464aae968  fnOffset: 0x44968  callee: 0x7464aae92c libtencent-avif.so!0x4492c
+[RegisterNatives] java_class: com.tencent.libavif.AvifImage name: getYuvFormat0 sig: (J)I fnPtr: 0x7464aaee44  fnOffset: 0x44e44  callee: 0x7464aae92c libtencent-avif.so!0x4492c
+[RegisterNatives] java_class: com.tencent.libavif.AvifImage name: getYuvRange0 sig: (J)I fnPtr: 0x7464aaee4c  fnOffset: 0x44e4c  callee: 0x7464aae92c libtencent-avif.so!0x4492c
+[RegisterNatives] java_class: com.tencent.libavif.AvifImage name: convertToNV21Data0 sig: (J[B)I fnPtr: 0x7464aaee54  fnOffset: 0x44e54  callee: 0x7464aae92c libtencent-avif.so!0x4492c
+[RegisterNatives] java_class: com.tencent.libavif.AvifImage name: destroy0 sig: (J)V fnPtr: 0x7464aaf034  fnOffset: 0x45034  callee: 0x7464aae92c libtencent-avif.so!0x4492c
