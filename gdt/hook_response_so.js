@@ -130,7 +130,7 @@ function hook_1A87C(baseAddr) {
             console.log("    第2个参数:", a2_ptr);
             console.log("    第2个参数:", a2_str);
 
-            if (a2_str === '25') {
+            if (!a2_ptr.isNull()) {
                 Java.perform(() => {
                     const jstr = Java.cast(a2_ptr, Java.use("java.lang.Object")).toString();
                     console.log(`[objArr] = ${jstr}`);
@@ -166,6 +166,81 @@ function hook_str() {
 
 }
 
+function hook_tmp(baseAddr) {
+    Java.perform(() => {
+        const class_name = baseAddr.add(0x480E0);
+        Interceptor.attach(class_name, {
+            onEnter(args) {
+                let x0 = this.context.x0;
+                // console.log(`class_name: ${x0.readCString()}`);
+                try {
+                    const StrObject = Java.use('java/lang/String');
+                    const jsObj = Java.cast(x0, StrObject);
+                    console.log("  => return Jstgring:", jsObj.toString());
+                } catch (e) {
+
+                }
+
+            },
+            onLeave(retval) {
+            }
+        });
+    })
+}
+
+function hook_47B88(baseAddr) {
+    const class_name = baseAddr.add(0x47BAC);
+    Interceptor.attach(class_name, {
+        onEnter(args) {
+            console.log('enter class_name')
+            let x28 = this.context.x28;
+            console.log(`class_name: ${x28}`);
+            try {
+                const Cipher = Java.use('javax.crypto.Cipher');
+                const cipher = Java.cast(x28, Cipher);
+                console.log('class_name:', 'Cipher')
+                // const trace = Thread.backtrace(this.context, Backtracer.ACCURATE)
+                //     .map(addr => DebugSymbol.fromAddress(addr).toString())
+                //     .join("\n");
+                // console.log("[Call Stack]\n" + trace)
+            } catch (e) {
+
+            }
+
+        },
+        onLeave(retval) {
+        }
+    });
+
+    const method_ptr = baseAddr.add(0x48008);
+    Interceptor.attach(method_ptr, {
+        onEnter(args) {
+            console.log('enter method_ptr')
+            let x2 = this.context.x2;
+            let x3 = this.context.x3;
+            console.log(`method_ptr: ${x2.readCString()}`);
+            console.log(`method_sig: ${x3.readCString()}`);
+        },
+        onLeave(retval) {
+        }
+    });
+
+}
+
+
+function hook_52060(baseAddr) {
+    const sub_52060 = baseAddr.add(0x51B54);
+    Interceptor.attach(sub_52060, {
+        onEnter(args) {
+            console.log('enter sub_52060');
+            let a5 = args[4];
+            console.log(hexdump(a5))
+
+        },
+        onLeave(retval) {
+        }
+    });
+}
 
 function hook_main() {
     const moduleName = "libyaqpro.6b3ac992.so";  // 你的so名字改这里
@@ -177,9 +252,12 @@ function hook_main() {
     console.log("[*]", moduleName, "基址:", baseAddr);
     // hook_b570(baseAddr);
     // hook_AADC(baseAddr);
-    hook_1A87C(baseAddr);
+    // hook_1A87C(baseAddr);
     // hook_str();
     // hook_sub_B570(baseAddr);
+    // hook_tmp(baseAddr);
+    // hook_47B88(baseAddr);
+    hook_52060(baseAddr);
 }
 
 setImmediate(hook_main);
